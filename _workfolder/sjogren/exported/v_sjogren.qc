@@ -13,8 +13,8 @@ $illumposition 0 0 0
 
 $cdmaterials "models/weapons/cw2_shark/sjogren/"
 
-$attachment "1" "sjogren_root" 0 0 -0.5 rotate -90 0 0
-$attachment "2" "sjogren_root" -0.3 4.7 0 rotate 20 -180 180
+$attachment "1" "sjogren_root" 0.00 2.00 43.5 rotate -90 0 0
+$attachment "2" "sjogren_root" -0.30 1.70 8 rotate 0 -180 180
 $attachment "3" "camera" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0

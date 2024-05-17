@@ -15,7 +15,7 @@ if CLIENT then
 	SWEP.UseHands = true
 	
 	SWEP.SelectIcon = surface.GetTextureID("vgui/auto5")
-	killicon.Add( "fp_auto5", "vgui/killicons/auto5", Color(255, 120, 40, 0))
+	killicon.Add( "ha_sjogren", "vgui/killicons/auto5", Color(255, 120, 40, 0))
 	
 	SWEP.MuzzleEffect = "muzzleflash_m3"
 	SWEP.PosBasedMuz = false
@@ -26,7 +26,7 @@ if CLIENT then
 	SWEP.ShellScale = .8
 	SWEP.ShellDelay = 0
 	SWEP.ShellOffsetMul = 1
-	SWEP.ShellPosOffset = {x = 4, y = 2.25, z = -2}
+	SWEP.ShellPosOffset = {x = 0, y = 0, z = 0}
 	
 	SWEP.EffectiveRange_Orig = 75 * 39.37
 	SWEP.DamageFallOff_Orig = .48
@@ -68,7 +68,7 @@ SWEP.CanRestOnObjects = true
 
 SWEP.Attachments = {
 
-["+reload"] = {header = "Ammo", offset = {-100, -500}, atts = {"am_minibuck", "am_2buck", "am_rifledslug", "am_hpslug"}}
+--["+reload"] = {header = "Ammo", offset = {-100, -500}, atts = {"am_minibuck", "am_2buck", "am_rifledslug", "am_hpslug"}}
 
 }
 
@@ -98,10 +98,10 @@ SWEP.NormalHoldType = "rpg"
 SWEP.RunHoldType = "passive"
 SWEP.FireModes = {"semi"}
 SWEP.Base = "cw_base"
-SWEP.Category = "CW 2.0 - Khris Vol 1"
+SWEP.Category = "CW 2.0 - Shark Arsenal"
 
-SWEP.Author			= "Khris"
-SWEP.Contact		= "https://steamcommunity.com/id/khrissyk/"
+SWEP.Author			= "speedonerd"
+SWEP.Contact		= ""
 SWEP.Purpose		= ""
 SWEP.Instructions	= ""
 SWEP.NearWallEnabled = false
