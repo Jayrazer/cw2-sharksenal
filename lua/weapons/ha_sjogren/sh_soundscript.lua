@@ -2,34 +2,26 @@ SWEP.Sounds = {
 	draw = {
 		{time = 0, sound = "CW_FOLEY_MEDIUM"},
 	},
-
-	fire = {
-		{time = 3/80, sound = "FPAUTO5_BOLTBACK"},
-	},
-
-	fire2 = {
-		{time = 3/80, sound = "FPAUTO5_BOLTBACK"},
+	
+	fire_last = {
+		{time = 2/80, sound = "SJOGREN_BOLTFORWARD"},
 	},
 	
-	fire3 = {
-		{time = 3/80, sound = "FPAUTO5_BOLTBACK"},
+	reload_start = {
+		{time = 2/42, sound = "SJOGREN_DEPLOY"},
 	},
 	
-	fireiron = {
-		{time = 3/80, sound = "FPAUTO5_BOLTBACK"},
+	reload_start_empty = {
+		{time = 2/42, sound = "SJOGREN_DEPLOY"},
+		{time = 40/42, sound = "SJOGREN_INSERT_EMPTY"},
+		{time = 62/42, sound = "SJOGREN_BOLTFORWARD"},
 	},
 
 	reload_insert = {
-		{time = 5/42, sound = "FPAUTO5_INSERT"},
-	},
-
-	reloademptyinsert = {
-		{time = 6/35, sound = "FPAUTO5_BOLTBACK"},
-		{time = 11/35, sound = "FPAUTO5_BOLTFORWARD"},
-		{time = 25/32, sound = "FPAUTO5_DEPLOY"},
+		{time = 5/42, sound = "SJOGREN_INSERT"},
 	},
 	
 	reload_end = {
-		{time = 2/42, sound = "FPAUTO5_DEPLOY"},
+		{time = 2/42, sound = "SJOGREN_DEPLOY"},
 	},
 }

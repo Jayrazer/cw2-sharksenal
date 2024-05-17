@@ -106,7 +106,7 @@ SWEP.Purpose		= ""
 SWEP.Instructions	= ""
 SWEP.NearWallEnabled = false
 
-SWEP.ViewModelFOV	= 75
+SWEP.ViewModelFOV	= 60
 SWEP.AimViewModelFOV = 60
 SWEP.ZoomAmount = 5
 SWEP.FOVPerShot = .5
@@ -127,14 +127,14 @@ SWEP.Primary.Ammo			= "12 Gauge"
 
 
 SWEP.FireDelay = 60/250
-SWEP.FireSound = "FPAUTO5_FIRE"
+SWEP.FireSound = "SJOGREN_FIRE"
 SWEP.Recoil = 3
 
 SWEP.HipSpread = 0.09
 SWEP.AimSpread = 0.012
 SWEP.VelocitySensitivity = .6
 SWEP.MaxSpreadInc = 0.045
-SWEP.ClumpSpread = 0.013
+SWEP.ClumpSpread = 0.015
 SWEP.SpreadPerShot = 0.015
 SWEP.SpreadCooldown = 60/200
 SWEP.Shots = 9
@@ -153,11 +153,11 @@ SWEP.PreventQuickScoping = true
 SWEP.CrosshairParts = {left = true, right = true, upper = false, lower = true}
 
 SWEP.SnapToIdle = false
-SWEP.ReloadSpeed = 1.2
-SWEP.ReloadStartTime = 0.65
-SWEP.ReloadStartTime_Empty = 2.4
-SWEP.InsertShellTime = .75
-SWEP.ReloadFinishWait = 1.2
+SWEP.ReloadSpeed = 1.4
+SWEP.ReloadStartTime = 0.6
+SWEP.ReloadStartTime_Empty = 2.3
+SWEP.InsertShellTime = .7
+SWEP.ReloadFinishWait = 1.1
 
 function SWEP:fireAnimFunc()
 	clip = self:Clip1()
