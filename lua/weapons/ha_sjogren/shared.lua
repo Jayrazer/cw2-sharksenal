@@ -6,7 +6,7 @@ include("sh_soundscript.lua")
 
 	--SWEP.magType = "NONE"
 	
-	CustomizableWeaponry.shells:addNew("sg_brass_shell", "models/weapons/khrcw2/shells/12ga_buck.mdl", "CW_SHELL_SHOT")
+	CustomizableWeaponry.shells:addNew("sg_brass_shell", "models/weapons/cw2_shark/shells/sg_brass.mdl", "CW_SHELL_MAIN")
 
 if CLIENT then
 	SWEP.DrawCrosshair = false
@@ -23,10 +23,10 @@ if CLIENT then
 	
 	SWEP.FireMoveMod = 0
 	SWEP.Shell = "sg_brass_shell"
-	SWEP.ShellScale = .8
+	SWEP.ShellScale = 1.5
 	SWEP.ShellDelay = 0
 	SWEP.ShellOffsetMul = 1
-	SWEP.ShellPosOffset = {x = 0, y = 0, z = 0}
+	SWEP.ShellPosOffset = {x = 8, y = 0, z = 2}
 	
 	SWEP.EffectiveRange_Orig = 75 * 39.37
 	SWEP.DamageFallOff_Orig = .48
@@ -53,9 +53,11 @@ if CLIENT then
 	SWEP.ViewModelMovementScale = 1
 	SWEP.DisableSprintViewSimulation = false
 	
+	SWEP.ShellBGs = {}
+	
 	SWEP.LuaVMRecoilAxisMod = {vert = .6, hor = 1, roll = .6, forward = 2, pitch = .5}
 	SWEP.OverallMouseSens = .8
-	SWEP.CustomizationMenuScale = 0.015
+	SWEP.CustomizationMenuScale = 0.035
 	
 end
 
@@ -68,7 +70,7 @@ SWEP.CanRestOnObjects = true
 
 SWEP.Attachments = {
 
---["+reload"] = {header = "Ammo", offset = {-100, -500}, atts = {"am_minibuck", "am_2buck", "am_rifledslug", "am_hpslug"}}
+["+reload"] = {header = "Ammo", offset = {1000, -150}, atts = {"am_slugrounds", "am_flechetterounds"}}
 
 }
 
@@ -112,7 +114,7 @@ SWEP.ZoomAmount = 5
 SWEP.FOVPerShot = .5
 SWEP.ViewModelFlip	= false
 SWEP.ViewModel		= "models/weapons/cw2_shark/v_sjogren.mdl"
-SWEP.WorldModel		= "models/weapons/khrcw2/w_auto5.mdl"
+SWEP.WorldModel		= "models/weapons/cw2_shark/w_sjogren.mdl"
 
 
 SWEP.Spawnable			= true
