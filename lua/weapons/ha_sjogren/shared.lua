@@ -6,11 +6,11 @@ include("sh_soundscript.lua")
 
 	--SWEP.magType = "NONE"
 	
-	CustomizableWeaponry.shells:addNew("sfkm12ga", "models/weapons/khrcw2/shells/12ga_buck.mdl", "CW_SHELL_SHOT")
+	CustomizableWeaponry.shells:addNew("sg_brass_shell", "models/weapons/khrcw2/shells/12ga_buck.mdl", "CW_SHELL_SHOT")
 
 if CLIENT then
 	SWEP.DrawCrosshair = false
-	SWEP.PrintName = "Sjogren Inertial"
+	SWEP.PrintName = "Sjogren Shotgun"
 	SWEP.CSMuzzleFlashes = true
 	SWEP.UseHands = true
 	
@@ -22,8 +22,8 @@ if CLIENT then
 	SWEP.SightWithRail = true
 	
 	SWEP.FireMoveMod = 0
-	SWEP.Shell = "sfkm12ga"
-	SWEP.ShellScale = .625
+	SWEP.Shell = "sg_brass_shell"
+	SWEP.ShellScale = .8
 	SWEP.ShellDelay = 0
 	SWEP.ShellOffsetMul = 1
 	SWEP.ShellPosOffset = {x = 4, y = 2.25, z = -2}
@@ -31,22 +31,13 @@ if CLIENT then
 	SWEP.EffectiveRange_Orig = 75 * 39.37
 	SWEP.DamageFallOff_Orig = .48
 
-	SWEP.IronsightPos = Vector(-2.75, -6, 2.079)
+	SWEP.IronsightPos = Vector(-3.78, -7, 1)
 	SWEP.IronsightAng = Vector(0.6, 0, 0)
-	
-	SWEP.ShortDotPos = Vector(-2.76, -4, 1.125)
-	SWEP.ShortDotAng = Vector(0, 0, 0)
-	
-	SWEP.NXSPos = Vector(-2.7715, -4, 1.048)
-	SWEP.NXSAng = Vector(0, 0, 0)
-	
-	SWEP.SlugSightPos = Vector(-2.745, 0, 2.456)
-	SWEP.SlugSightAng = Vector(0, 0, -0.704)
 	
 	SWEP.SprintPos = Vector(4.44, 0, -1.211)
 	SWEP.SprintAng = Vector(-11.256, 28.141, -18.996)
 	
-	SWEP.CustomizePos = Vector(11.649, -2.814, -3.701)
+	SWEP.CustomizePos = Vector(8.649, -4.814, -3.701)
 	SWEP.CustomizeAng = Vector(13.366, 44.321, 0.703)
 	
 	SWEP.SwimPos = Vector(0.5682, -1.7045, 1.0526)
@@ -64,25 +55,7 @@ if CLIENT then
 	
 	SWEP.LuaVMRecoilAxisMod = {vert = .6, hor = 1, roll = .6, forward = 2, pitch = .5}
 	SWEP.OverallMouseSens = .8
-	SWEP.CustomizationMenuScale = 0.024
-	
-	SWEP.AttachmentModelsVM = {["md_rail"] = { type = "Model", model = "models/khrcw2/ins2pack/attachments/rails/rail1.mdl", bone = "body", rel = "", pos = Vector(0.67, -1.04, -1.601), angle = Angle(-90, 0, 180), size = Vector(1.1, 1.1, 1.1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {} },
-	["md_ins2eotech552"] = {model = "models/khrcw2/ins2pack/attachments/ins2eotech552.mdl", pos = Vector(0, -1.9, .5), angle = Angle(90, 90, 180), size = Vector(1.03, 1.03, 1.03), bone = "body"},
-	["md_ins2aimpoint"] = {model = "models/khrcw2/ins2pack/attachments/ins2aimpoint.mdl", pos = Vector(0, -1.9, .5), angle = Angle(90, 90, 180), size = Vector(1.03, 1.03, 1.03), bone = "body"},
-	["md_ins2aimpoint2x"] = {model = "models/khrcw2/ins2pack/attachments/ins2aimpoint2x.mdl", pos = Vector(0, -1.9, .5), angle = Angle(90, 90, 180), size = Vector(1.03, 1.03, 1.03), bone = "body"},
-	["md_aimpoint"] = {model = "models/wystan/attachments/aimpoint.mdl", pos = Vector(-.311, 4.475, -6.753), angle = Angle(0, 0, -90), size = Vector(1.144, 1.144, 1.144), bone = "body"},
-	["md_schmidt_shortdot"] = {model = "models/cw2/attachments/schmidt.mdl", pos = Vector(4.16, -.68, -5), angle = Angle(90, 180, 180), size = Vector(1, 1, 1), bone = "body"},
-	["md_saker"] = {model = "models/cw2/attachments/556suppressor.mdl", pos = Vector(-16.7, -.08, -2.4), angle = Angle(0, 90, 0), size = Vector(.8, .8, .8), bone = "muzzle"},
-	["md_ins2elcan"] = {model = "models/khrcw2/ins2pack/attachments/ins2elcan.mdl", pos = Vector(0, -1.9, .5), angle = Angle(90, 90, 180), size = Vector(.98, .98, .98), bone = "body"},
-	["md_bipod"] = { type = "Model", model = "models/wystan/attachments/bipod.mdl", bone = "body", rel = "", pos = Vector( .3, .768, 12.125), angle = Angle(180, 180, 90), size = Vector(1, 1, 1), color = Color(255, 255, 255, 0), surpresslightning = false, material = "", skin = 0, bodygroup = {[1] = 1}},
-	["md_anpeq15"] = {model = "models/cw2/attachments/anpeq15.mdl", bone = "body", pos = Vector(-.2, -1.8, 8.764), angle = Angle(270, 90, 0), size = Vector(0.8, 0.8, 0.8)},
-	["md_ins2wsacog"] = {model = "models/khrcw2/ins2pack/attachments/ins2wsacog.mdl", pos = Vector(0, -1.9, .5), angle = Angle(90, 90, 180), size = Vector(.9, .9, .9), bone = "body"},
-	["md_nightforce_nxs"] = { type = "Model", model = "models/cw2/attachments/l96_scope.mdl", bone = "body", rel = "", pos = Vector(-2.81, -0.921, 1), angle = Angle(90, 0, 0), size = Vector(1.2, 1.2, 1.2), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {}}}
-	
-	SWEP.AP2XAxisAlign = {right = .2, up = -.75, forward = 0}
-	SWEP.PO42PAxisAlign = {right = 0, up = 0, forward = 0}
-	SWEP.INS2AxisAlign = {right = 0, up = 0, forward = 0}
-	SWEP.NXSAlign = {right = 0, up = 0, forward = 120.25}
+	SWEP.CustomizationMenuScale = 0.015
 	
 end
 
@@ -93,26 +66,28 @@ SWEP.LuaViewmodelRecoilOverride = false
 SWEP.FullAimViewmodelRecoil = false
 SWEP.CanRestOnObjects = true
 
-SWEP.ShellBGs = {main = 2, mag = 0, mini = 1, slug = 2}
-SWEP.BarrelBGs = {main = 1, auto5 = 0, auto8 = 1, autocompact = 2}
+SWEP.Attachments = {
 
-SWEP.Attachments = {[1] = {header = "Optic", offset = {950, -300}, atts = {"md_schmidt_shortdot", "md_nightforce_nxs"}},
-[2] = {header = "Model", offset = {-150, -500}, atts = {"fp_auto8", "fp_autocompact"}, exclusions = {am_minibuck = true,}},
-["+reload"] = {header = "Ammo", offset = {-150, 275}, atts = {"am_minibuck", "am_2buck", "am_rifledslug", "am_hpslug"}}}
+["+reload"] = {header = "Ammo", offset = {-100, -500}, atts = {"am_minibuck", "am_2buck", "am_rifledslug", "am_hpslug"}}
+
+}
 
 SWEP.AttachmentExclusions = {
 	["am_minibuck"] = {"fp_auto8", "fp_autocompact"},
 }
 
-SWEP.Animations = {fire = "fireiron",
-	fire_aim = "fireiron",
-	fire_last = "fireironlast",
-	fire_last_aim = "fireironlast",
-	reload_start = "reloadstart",
-	insert = "reloadinsert",
-	reload_end = "reloademptyinsert",
-	idle = "reloadend",
-	draw = "draw"}
+SWEP.Animations = {
+	fire = "fire",
+	fire_aim = "fire",
+	fire_last = "fire_last",
+	fire_last_aim = "fire_last",
+	reload_start = "reload_start",
+	reload_start_empty = "reload_start_empty",
+	insert = "reload_insert",
+	reload_end = "reload_end",
+	idle = "reload_end",
+	draw = "draw"
+	}
 	
 
 SWEP.SpeedDec = 25
@@ -123,9 +98,9 @@ SWEP.NormalHoldType = "rpg"
 SWEP.RunHoldType = "passive"
 SWEP.FireModes = {"semi"}
 SWEP.Base = "cw_base"
-SWEP.Category = "CW 2.0 - Historic Arsenal"
+SWEP.Category = "CW 2.0 - Khris Vol 1"
 
-SWEP.Author			= "speedonerd"
+SWEP.Author			= "Khris"
 SWEP.Contact		= "https://steamcommunity.com/id/khrissyk/"
 SWEP.Purpose		= ""
 SWEP.Instructions	= ""
@@ -136,7 +111,7 @@ SWEP.AimViewModelFOV = 60
 SWEP.ZoomAmount = 5
 SWEP.FOVPerShot = .5
 SWEP.ViewModelFlip	= false
-SWEP.ViewModel		= "models/weapons/khrcw2/auto5.mdl"
+SWEP.ViewModel		= "models/weapons/cw2_shark/v_sjogren.mdl"
 SWEP.WorldModel		= "models/weapons/khrcw2/w_auto5.mdl"
 
 
@@ -144,8 +119,8 @@ SWEP.Spawnable			= true
 SWEP.AdminSpawnable		= true
 SWEP.ReloadViewBobEnabled = false
 
-SWEP.Primary.ClipSize = 4
-SWEP.Primary.DefaultClip	= 4
+SWEP.Primary.ClipSize = 5
+SWEP.Primary.DefaultClip	= 5
 SWEP.Primary.Automatic		= false
 
 SWEP.Primary.Ammo			= "12 Gauge"
@@ -172,14 +147,15 @@ SWEP.DeployTime = .7
 SWEP.HolsterTime = .3
 
 SWEP.ADSFireAnim = true
-SWEP.Chamberable = true
+SWEP.Chamberable = false
 SWEP.ShotgunReload = true
 SWEP.PreventQuickScoping = true
 SWEP.CrosshairParts = {left = true, right = true, upper = false, lower = true}
 
 SWEP.SnapToIdle = false
 SWEP.ReloadSpeed = 1.2
-SWEP.ReloadStartTime = 0.75
+SWEP.ReloadStartTime = 0.65
+SWEP.ReloadStartTime_Empty = 2.4
 SWEP.InsertShellTime = .75
 SWEP.ReloadFinishWait = 1.2
 
@@ -191,13 +167,9 @@ function SWEP:fireAnimFunc()
 	prefix = ""
 	suffix = ""
 	
-	if self.ActiveAttachments.am_minibuck then
-	rate = .9
-	end
-	
-	if self.ActiveAttachments.am_rifledslug or self.ActiveAttachments.am_hpslug then
-	rate = 1.1
-	end
+	--if self.ActiveAttachments.am_minibuck then
+	--rate = .9
+	--end
 	
 	if clip == 1 then
 		self.ReloadFinishWait = .7
@@ -233,37 +205,82 @@ function SWEP:DrawWeaponSelection(x, y, wide, tall, alpha)
 	end
 end
 
-function SWEP:IndividualThink()	
+local CT
 
-	self.EffectiveRange = 75 * 39.37
-	self.DamageFallOff = .48
+function SWEP:beginReload()
+	mag = self:Clip1()
 	
-	if self.ActiveAttachments.am_2buck then
-	self.ClumpSpread = ((self.ClumpSpread_Orig + 0.001))
+	if self.ShotgunReload then
+	
+		CT = CurTime()
+		
+		if mag == 0 then
+			local time = CT + self.ReloadStartTime_Empty / self.ReloadSpeed
+		
+			self.WasEmpty = mag == 0
+			self.ReloadDelay = time
+			self:SetNextPrimaryFire(time)
+			self:SetNextSecondaryFire(time)
+			self.GlobalDelay = time
+			self.ShotgunReloadState = 1
+			self.ForcedReloadStop = false
+		
+			self:sendWeaponAnim("reload_start_empty", self.ReloadSpeed)
+			self:SetClip1(1)
+		else
+			local time = CT + self.ReloadStartTime / self.ReloadSpeed
+		
+			self.WasEmpty = mag == 0
+			self.ReloadDelay = time
+			self:SetNextPrimaryFire(time)
+			self:SetNextSecondaryFire(time)
+			self.GlobalDelay = time
+			self.ShotgunReloadState = 1
+			self.ForcedReloadStop = false
+		
+			self:sendWeaponAnim("reload_start", self.ReloadSpeed)
+		end
+		
+	else	
+		local reloadTime = nil
+		local reloadHalt = nil
+		
+		if mag == 0 then
+			if self.Chamberable then
+				self.Primary.ClipSize = self.Primary.ClipSize_Orig
+			end
+			
+			reloadTime = self.ReloadTime_Empty
+			reloadHalt = self.ReloadHalt_Empty
+		else
+			reloadTime = self.ReloadTime
+			reloadHalt = self.ReloadHalt
+			
+			if self.Chamberable then
+				self.Primary.ClipSize = self.Primary.ClipSize_Orig + 1
+			end
+		end
+		
+		reloadTime = reloadTime / self.ReloadSpeed
+		reloadHalt = reloadHalt / self.ReloadSpeed
+		
+		self.ReloadDelay = CT + reloadTime
+		self:SetNextPrimaryFire(CT + reloadHalt)
+		self:SetNextSecondaryFire(CT + reloadHalt)
+		self.GlobalDelay = CT + reloadHalt
+				
+		if self.reloadAnimFunc then
+			self:reloadAnimFunc(mag)
+		else
+			if self.Animations.reload_empty and mag == 0 then
+				self:sendWeaponAnim("reload_empty", self.ReloadSpeed)
+			else
+				self:sendWeaponAnim("reload", self.ReloadSpeed)
+			end
+		end
 	end
 	
-	if self.ActiveAttachments.am_minibuck then
-	self.ClumpSpread = ((self.ClumpSpread_Orig + 0.001))
-	end
+	CustomizableWeaponry.callbacks.processCategory(self, "beginReload", mag == 0)
 	
-	if self.ActiveAttachments.fp_auto8 then
-	self.ClumpSpread = ((self.ClumpSpread_Orig - 0.0015))
-	end
-	
-	if self.ActiveAttachments.fp_autocompact then
-	self.ClumpSpread = ((self.ClumpSpread_Orig + 0.008))
-	end
-	
-	if self.ActiveAttachments.am_rifledslug then
-	self.EffectiveRange = ((self.EffectiveRange + 32.35 * 39.37))
-	self.DamageFallOff = ((self.DamageFallOff - .10))
-	end
-	if self.ActiveAttachments.am_minibuck or self.ActiveAttachments.am_hpslug then
-	self.DamageFallOff = ((self.DamageFallOff + .34))
-	end
-	
-	if self.ActiveAttachments.am_rifledslug or self.ActiveAttachments.am_hpslug then
-	self.ClumpSpread = nil
-	end
-
+	self.Owner:SetAnimation(PLAYER_RELOAD)
 end

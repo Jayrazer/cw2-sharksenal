@@ -19,7 +19,7 @@ SWEP.Sounds = {
 		{time = 3/80, sound = "FPAUTO5_BOLTBACK"},
 	},
 
-	reloadinsert = {
+	reload_insert = {
 		{time = 5/42, sound = "FPAUTO5_INSERT"},
 	},
 
@@ -29,7 +29,7 @@ SWEP.Sounds = {
 		{time = 25/32, sound = "FPAUTO5_DEPLOY"},
 	},
 	
-	reloadend = {
+	reload_end = {
 		{time = 2/42, sound = "FPAUTO5_DEPLOY"},
 	},
 }
