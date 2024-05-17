@@ -31,8 +31,8 @@ if CLIENT then
 	SWEP.EffectiveRange_Orig = 75 * 39.37
 	SWEP.DamageFallOff_Orig = .48
 
-	SWEP.IronsightPos = Vector(-3.78, -7, 1)
-	SWEP.IronsightAng = Vector(0.6, 0, 0)
+	SWEP.IronsightPos = Vector(-3.8, -7, 1.3)
+	SWEP.IronsightAng = Vector(0, 0, 0)
 	
 	SWEP.SprintPos = Vector(4.44, 0, -1.211)
 	SWEP.SprintAng = Vector(-11.256, 28.141, -18.996)
@@ -46,8 +46,8 @@ if CLIENT then
 	SWEP.PronePos = Vector(0, 0, -3.1579)
 	SWEP.ProneAng = Vector(-2, 22.7368, -28.9474)
 	
-	SWEP.AlternativePos = Vector(-1.301, -3, 0.3)
-	SWEP.AlternativeAng = Vector(0, 0, -4)
+	SWEP.AlternativePos = Vector(0, -2, -0.3)
+	SWEP.AlternativeAng = Vector(0, 0, -2)
 	
 	SWEP.MoveType = 1
 	SWEP.ViewModelMovementScale = 1
@@ -119,8 +119,8 @@ SWEP.Spawnable			= true
 SWEP.AdminSpawnable		= true
 SWEP.ReloadViewBobEnabled = false
 
-SWEP.Primary.ClipSize = 5
-SWEP.Primary.DefaultClip	= 5
+SWEP.Primary.ClipSize = 6
+SWEP.Primary.DefaultClip	= 12
 SWEP.Primary.Automatic		= false
 
 SWEP.Primary.Ammo			= "12 Gauge"
