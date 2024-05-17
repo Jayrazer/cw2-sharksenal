@@ -1,0 +1,12 @@
+CustomizableWeaponry:addFireSound("FPAUTO5_FIRE", "khrcw2/auto5/shot.wav", 1, 100, CHAN_STATIC)
+CustomizableWeaponry:addFireSound("FPAUTO5_FIRE2", "khrcw2/auto5/shotminivar.wav", 1, 100, CHAN_STATIC)
+CustomizableWeaponry:addFireSound("FPAUTO5_FIRESUP", "khrcw2/auto5/shotsup.wav", 1, 98, CHAN_STATIC)
+
+CustomizableWeaponry:addReloadSound("FPAUTO5_BOLTBACK", "khrcw2/auto5/boltback.wav")
+CustomizableWeaponry:addReloadSound("FPAUTO5_BOLTFORWARD", "khrcw2/auto5/boltforward.wav")
+CustomizableWeaponry:addReloadSound("FPAUTO5_INSERT", "khrcw2/auto5/shell.wav")
+CustomizableWeaponry:addReloadSound("FPAUTO5_MAGIN", "khrcw2/auto5/magin.wav")
+CustomizableWeaponry:addReloadSound("FPAUTO5_MAGIN2", "khrcw2/auto5/magin2.wav")
+CustomizableWeaponry:addReloadSound("FPAUTO5_MAGOUT", "khrcw2/auto5/magout.wav")
+CustomizableWeaponry:addReloadSound("FPAUTO5_MAGCONTACT", "khrcw2/auto5/magcontact.wav")
+CustomizableWeaponry:addReloadSound("FPAUTO5_DEPLOY", "khrcw2/auto5/deploy.wav")
