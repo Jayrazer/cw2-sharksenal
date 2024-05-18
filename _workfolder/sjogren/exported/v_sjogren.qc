@@ -172,3 +172,11 @@ $sequence "reload_end" {
 	fadeout 0.2
 	fps 30
 }
+
+$sequence "draw" {
+	"anims\draw.smd"
+	fadein 0.1
+	fadeout 0.3
+	fps 30
+}
+
