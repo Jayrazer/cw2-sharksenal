@@ -5,7 +5,7 @@ include("sh_sounds.lua")
 include("sh_soundscript.lua")
 
 	util.PrecacheModel("models/weapons/cw2_shark/v_k31.mdl")
-	util.PrecacheModel("models/weapons/khrcw2/w_mrad.mdl")
+	util.PrecacheModel("models/weapons/cw2_shark/w_k31.mdl")
 	
 	SWEP.EffectiveRange_Orig = 341.2 * 39.37
 	SWEP.DamageFallOff_Orig = .21
@@ -129,7 +129,7 @@ SWEP.ZoomAmount = 10
 SWEP.FOVPerShot = 0
 SWEP.ViewModelFlip	= false
 SWEP.ViewModel		= "models/weapons/cw2_shark/v_k31.mdl"
-SWEP.WorldModel		= "models/weapons/khrcw2/w_mrad.mdl"
+SWEP.WorldModel		= "models/weapons/cw2_shark/w_k31.mdl"
 
 SWEP.FireMoveMod = 0
 
@@ -148,21 +148,17 @@ SWEP.FireSound = "K31_FIRE"
 SWEP.Recoil = 3
  -- = .5
 
-SWEP.HipSpread = 0.068
-SWEP.AimSpread = 0.0015
+SWEP.HipSpread = 0.055
+SWEP.AimSpread = 0.001
 SWEP.GlobalDelayOnShoot = 60/70
 SWEP.VelocitySensitivity = .75
 SWEP.MaxSpreadInc = 0.03
 SWEP.SpreadPerShot = 0.01
 SWEP.SpreadCooldown = 1.525
 SWEP.Shots = 1
-if CustomizableWeaponry_khrcw2_groundcontroldmgenabled then
-SWEP.Damage = 94
-else
-SWEP.Damage = 140
-end
-SWEP.DeployTime = .6
-SWEP.HolsterTime = .3
+SWEP.Damage = 105
+SWEP.DeployTime = .7
+SWEP.HolsterTime = .4
 SWEP.BipodRecoilModifier = 0.01
 
 SWEP.ADSFireAnim = true
