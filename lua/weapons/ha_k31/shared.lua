@@ -165,16 +165,16 @@ SWEP.ADSFireAnim = true
 SWEP.Chamberable = true
 SWEP.ShotgunReload = false
 SWEP.PreventQuickScoping = false
-SWEP.BipodInstalled = true
+SWEP.BipodInstalled = false
 
 
 SWEP.Primary.Ammo			= "7.5x55mm Swiss"
 
 SWEP.ReloadSpeed = 1.1
-SWEP.ReloadTime = 2.7
-SWEP.ReloadHalt = 2.7
-SWEP.ReloadTime_Empty = 3.6
-SWEP.ReloadHalt_Empty = 3.6
+SWEP.ReloadTime = 2.9
+SWEP.ReloadHalt = 2.9
+SWEP.ReloadTime_Empty = 4
+SWEP.ReloadHalt_Empty = 4
 
 SWEP.AimBreathingEnabled = false
 SWEP.AimBreathingIntensity = 1
