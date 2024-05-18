@@ -100,7 +100,7 @@ SWEP.NormalHoldType = "rpg"
 SWEP.RunHoldType = "passive"
 SWEP.FireModes = {"semi"}
 SWEP.Base = "cw_base"
-SWEP.Category = "CW 2.0 - Shark Arsenal"
+SWEP.Category = "CW 2.0 - Sharksenal"
 
 SWEP.Author			= "speedonerd"
 SWEP.Contact		= ""
