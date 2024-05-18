@@ -139,7 +139,7 @@ SWEP.AdminSpawnable		= true
 SWEP.ReloadViewBobEnabled = false
 
 SWEP.Primary.ClipSize		= 6
-SWEP.Primary.DefaultClip	= 7
+SWEP.Primary.DefaultClip	= 12
 SWEP.Primary.Automatic		= false
 
 

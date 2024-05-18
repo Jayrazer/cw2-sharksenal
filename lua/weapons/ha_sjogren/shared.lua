@@ -226,7 +226,8 @@ function SWEP:beginReload()
 			self.GlobalDelay = time
 			self.ShotgunReloadState = 1
 			self.ForcedReloadStop = false
-		
+			
+			self:TakePrimaryAmmo(1)
 			self:sendWeaponAnim("reload_start_empty", self.ReloadSpeed)
 			self:SetClip1(1)
 		else
