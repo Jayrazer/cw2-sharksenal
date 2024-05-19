@@ -4,7 +4,7 @@ ENT.PrintName = "7.5x55mm Ammo"
 ENT.Author = "speedonerd"
 ENT.Spawnable = true
 ENT.AdminSpawnable = true 
-ENT.Category = "CW 2.0 Ammo"
+ENT.Category = "CW 2.0 Sharksenal Ammo"
 
 ENT.CaliberSpecific = true
 ENT.AmmoCapacity = 60
