@@ -63,7 +63,7 @@ if CLIENT then
 	
 	SWEP.AttachmentModelsVM = {
 	
-	["md_ins2eotech552"] = { type = "Model", model = "models/khrcw2/ins2pack/attachments/ins2eotech552.mdl", bone = "body", rel = "", pos = Vector(0, -10.351, -4.25), angle = Angle(180, -90, 0), size = Vector(1.149, 1.149, 1.149), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {} },
+	--["k31_scope"] = { type = "Model", model = "models/khrcw2/ins2pack/attachments/ins2eotech552.mdl", bone = "k31_root", rel = "", pos = Vector(0, -10.351, -4.25), angle = Angle(180, -90, 0), size = Vector(1.149, 1.149, 1.149), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {} },
 	
 	}
 	
@@ -93,7 +93,7 @@ SWEP.CanRestOnObjects = true
 
 
 SWEP.Attachments = {
-	--[3] = {header = "Sight", offset = {950, -400}, atts = {"ha_k31scope"}},
+	--[1] = {header = "Sight", offset = {950, -400}, atts = {"k31_scope"}},
 	["+reload"] = {header = "Ammo", offset = {650, 300}, atts = {"am_fp_matchammo", "am_tungstenammo"}}
 }
 
@@ -145,7 +145,7 @@ SWEP.Primary.Automatic		= false
 
 SWEP.FireDelay = 60/45
 SWEP.FireSound = "K31_FIRE"
-SWEP.Recoil = 3
+SWEP.Recoil = 2
  -- = .5
 
 SWEP.HipSpread = 0.055

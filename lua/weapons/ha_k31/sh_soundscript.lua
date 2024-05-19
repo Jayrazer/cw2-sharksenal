@@ -4,13 +4,13 @@ SWEP.Sounds = {
 	},
 	
 	fire_1 = {
-		{time = 45/80, sound = "K31_BOLTPULL"},
-		{time = 67/80, sound = "K31_BOLTPUSH"},
+		{time = 48/80, sound = "K31_BOLTPULL"},
+		{time = 70/80, sound = "K31_BOLTPUSH"},
 	},
 	
 	fire_2 = {
-		{time = 45/80, sound = "K31_BOLTPULL"},
-		{time = 67/80, sound = "K31_BOLTPUSH"},
+		{time = 48/80, sound = "K31_BOLTPULL"},
+		{time = 70/80, sound = "K31_BOLTPUSH"},
 	},
 	
 	reload = {
@@ -26,5 +26,6 @@ SWEP.Sounds = {
 		{time = 57/42, sound = "K31_MAGIN"},
 		{time = 105/42, sound = "K31_BOLTPULL"},
 		{time = 120/42, sound = "K31_BOLTPUSH"},
+		{time = 132/42, sound = "CW_FOLEY_MEDIUM"},
 	},
 }
