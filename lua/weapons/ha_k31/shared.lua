@@ -14,7 +14,7 @@ include("sh_soundscript.lua")
 
 if CLIENT then
 	SWEP.DrawCrosshair = false
-	SWEP.PrintName = "Swiss K-31"
+	SWEP.PrintName = "K31"
 	SWEP.CSMuzzleFlashes = true
 	SWEP.UseHands = true
 	
@@ -51,7 +51,7 @@ if CLIENT then
 	SWEP.PronePos = Vector(0, 0, -3.1579)
 	SWEP.ProneAng = Vector(-2, 22.7368, -28.9474)
 	
-	SWEP.ScopePos = Vector(-1.99, -10, 1.23)
+	SWEP.ScopePos = Vector(-3.75, -5, 0.45)
 	SWEP.ScopeAng = Vector(0.4, 0, 0)
 	
 	SWEP.MoveType = 1
@@ -63,7 +63,7 @@ if CLIENT then
 	
 	SWEP.AttachmentModelsVM = {
 	
-	["k31_scope"] = { type = "Model", model = "models/weapons/khrcw2/att/1895_scope.mdl", bone = "k31_root", rel = "", pos = Vector(5.35, 1.35, -8), angle = Angle(90, -90, 0), size = Vector(1.149, 1.149, 1.149), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {} },
+	["k31_scope"] = { type = "Model", model = "models/weapons/cw2_shark/attachments/k31_scope.mdl", bone = "k31_root", rel = "", pos = Vector(0, -4.15, 6.3), angle = Angle(90, -90, 0), size = Vector(1.149, 1.149, 1.149), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {} },
 	
 	}
 	
@@ -81,8 +81,7 @@ if CLIENT then
 }
 end
 
-SWEP.SightBGs = {main = 1, mbus = 0, none = 1}
-SWEP.BipodBGs = {main = 2, up = 0, down = 1}
+SWEP.SightBGs = {main = 1, off = 0, none = 1}
 
 SWEP.MuzzleVelocity = 850
 
@@ -93,8 +92,8 @@ SWEP.CanRestOnObjects = true
 
 
 SWEP.Attachments = {
-	[1] = {header = "Optic", offset = {950, -400}, atts = {"k31_scope"}},
-	["+reload"] = {header = "Ammo", offset = {650, 300}, atts = {"am_fp_matchammo", "am_tungstenammo"}}
+	[1] = {header = "Optic", offset = {850, -350}, atts = {"k31_scope"}},
+	["+reload"] = {header = "Ammo", offset = {650, 400}, atts = {"am_fp_matchammo", "am_tungstenammo"}}
 }
 
 SWEP.Animations = {

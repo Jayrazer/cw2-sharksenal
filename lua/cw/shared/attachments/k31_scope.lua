@@ -1,7 +1,7 @@
 local att = {}
 att.name = "k31_scope"
-att.displayName = "K-31 Sniper Scope"
-att.displayNameShort = "K-31 Scope"
+att.displayName = "K31 Sniper Scope"
+att.displayNameShort = "K31 Scope"
 att.aimPos = {"ScopePos", "ScopeAng"}
 att.FOVModifier = 20
 att.isSight = true
@@ -14,13 +14,14 @@ if CLIENT then
 	[2] = {t = "Narrow scope reduces awareness and close-range effectiveness.", c = CustomizableWeaponry.textColors.NEGATIVE}}
 
 	local old, x, y, ang
-	local reticle = surface.GetTextureID("models/khrcw2/1895/1895scope")
+	local reticle = surface.GetTextureID("reticles/k31_cross")
 	
 	att.zoomTextures = {[1] = {tex = reticle, offset = {0, 1}}}
 	
 	att.telescopicsFOVRange = {
 		12,
-		9,
+		10,
+		8,
 		6
 	}
 	

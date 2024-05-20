@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"reticles\cross_reticle"
+	"$translucent" 	"1"
+}
