@@ -33,9 +33,6 @@ if CLIENT then
 	SWEP.ShellOffsetMul = 1
 	SWEP.ShellPosOffset = {x = 4, y = 0, z = 0}
 	
-	--SWEP.IronsightPos = Vector(-2.721, -6, 1.08)
-	--SWEP.IronsightAng = Vector(-0.151, -0.051, 2)
-	
 	SWEP.IronsightPos = Vector(-3.75, -8, 1.65)
 	SWEP.IronsightAng = Vector(0.4, 0, 0)
 	
@@ -54,6 +51,9 @@ if CLIENT then
 	SWEP.PronePos = Vector(0, 0, -3.1579)
 	SWEP.ProneAng = Vector(-2, 22.7368, -28.9474)
 	
+	SWEP.ScopePos = Vector(-1.99, -10, 1.23)
+	SWEP.ScopeAng = Vector(0.4, 0, 0)
+	
 	SWEP.MoveType = 1
 	SWEP.ViewModelMovementScale = 1
 	SWEP.DisableSprintViewSimulation = false
@@ -63,7 +63,7 @@ if CLIENT then
 	
 	SWEP.AttachmentModelsVM = {
 	
-	--["k31_scope"] = { type = "Model", model = "models/khrcw2/ins2pack/attachments/ins2eotech552.mdl", bone = "k31_root", rel = "", pos = Vector(0, -10.351, -4.25), angle = Angle(180, -90, 0), size = Vector(1.149, 1.149, 1.149), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {} },
+	["k31_scope"] = { type = "Model", model = "models/weapons/khrcw2/att/1895_scope.mdl", bone = "k31_root", rel = "", pos = Vector(5.35, 1.35, -8), angle = Angle(90, -90, 0), size = Vector(1.149, 1.149, 1.149), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {} },
 	
 	}
 	
@@ -93,12 +93,12 @@ SWEP.CanRestOnObjects = true
 
 
 SWEP.Attachments = {
-	--[1] = {header = "Sight", offset = {950, -400}, atts = {"k31_scope"}},
+	[1] = {header = "Optic", offset = {950, -400}, atts = {"k31_scope"}},
 	["+reload"] = {header = "Ammo", offset = {650, 300}, atts = {"am_fp_matchammo", "am_tungstenammo"}}
 }
 
 SWEP.Animations = {
-	fire = {"fire_1"},
+	fire = "fire_1",
 	fire_aim = "fire_2",
 	reload = "reload",
 	reload_empty = "reload_empty",

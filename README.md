@@ -20,6 +20,7 @@
 ## Shotguns:
 - Ithaca Model 37 Stakeout (Rising Storm 2)
 - Sjogren (Battlefield 1)
+- Neostead 2000
 
 ## Machine Guns:
 - CETME Ameli (Black Ops: Cold War)
