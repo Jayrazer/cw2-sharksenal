@@ -4,12 +4,10 @@ AddCSLuaFile("sh_soundscript.lua")
 include("sh_sounds.lua")
 include("sh_soundscript.lua")
 
-		SWEP.magType = "pistolMag"
+	SWEP.magType = "pistolMag"
 		
-		SWEP.EffectiveRange_Orig = 127 * 39.37
-		SWEP.DamageFallOff_Orig = .30
-		
-		CustomizableWeaponry.shells:addNew("sfkm45", "models/weapons/khrcw2/shells/45shell.mdl", "CW_SHELL_SMALL")
+	SWEP.EffectiveRange_Orig = 127 * 39.37
+	SWEP.DamageFallOff_Orig = .30
 
 if CLIENT then
 	SWEP.DrawCrosshair = false
@@ -17,14 +15,14 @@ if CLIENT then
 	SWEP.CSMuzzleFlashes = true
 	SWEP.UseHands = true
 	
-	SWEP.SelectIcon = surface.GetTextureID("vgui/series70")
-	killicon.Add( "fp_series70", "vgui/killicons/series70", Color(255, 120, 40, 0))
+	SWEP.SelectIcon = surface.GetTextureID("vgui/cz75")
+	killicon.Add( "ha_cz75", "vgui/killicons/cz75", Color(255, 120, 40, 0))
 	
 	SWEP.MuzzleEffect = "muzzleflash_smg"
 	SWEP.PosBasedMuz = false
 	SWEP.SightWithRail = true
 	
-	SWEP.Shell = "sfkm45"
+	SWEP.Shell = "smallshell"
 	SWEP.ShellScale = .7
 	SWEP.ShellDelay = 0
 	SWEP.ShellOffsetMul = 1
@@ -36,8 +34,8 @@ if CLIENT then
 	SWEP.IronsightPos = Vector(-2.57, 2, 1.71)
 	SWEP.IronsightAng = Vector(0, -0.05, 3.5)
 	
-	SWEP.AutoPos = Vector(-2.57, 2, 1.71)
-	SWEP.AutoAng = Vector(0, -0.05, 3.5)
+	SWEP.AutoPos = Vector(-2.56, 2, 1.71)
+	SWEP.AutoAng = Vector(0, -0.06, 3.5)
 	
 	SWEP.SprintPos = Vector(3.25, -12.9318, -8.5227)
 	SWEP.SprintAng = Vector(59.3182, -2.0455, 3)
@@ -85,7 +83,7 @@ SWEP.Attachments = {
 --[4] = {header = "Finish", offset = {0, 400}, atts = {"fp_altfinish"}},
 --[3] = {header = "Style", offset = {700, 150}, atts = {"fp_onehand"}},
 [2] = {header = "Receiver", offset = {100, -500}, atts = {"cz75_auto"}},
-["+reload"] = {header = "Ammo", offset = {-650, 300}, atts = {"am_fp_matchammo", "am_fp_lowvelammo", "am_pluspammo"}}
+["+reload"] = {header = "Ammo", offset = {-650, 300}, atts = {"am_magnum", "am_matchgrade"}}
 }
 
 SWEP.Animations = {
@@ -188,7 +186,7 @@ function SWEP:IndividualThink()
 	end
 	
 	if self.ActiveAttachments.cz75_auto then
-	self.FireDelay = 60/900
+	self.FireDelay = 60/1000
 	end
 	
 end

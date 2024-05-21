@@ -1,6 +1,6 @@
 local att = {}
 att.name = "cz75_auto"
-att.displayName = "CZ 75 Auto Frame"
+att.displayName = "CZ 75 Automatic"
 att.displayNameShort = "AUTO"
 att.aimPos = {"AutoPos", "AutoAng"}
 att.SpeedDec = 20
@@ -14,9 +14,11 @@ SpreadPerShotMult = -0.15,
 FireDelayMult = -.45}
 
 if CLIENT then
-	att.displayIcon = surface.GetTextureID("atts/bigstick")
-	att.description = {[1] = {t = "Machine pistol conversion", c = CustomizableWeaponry.textColors.VPOSITIVE},
-	[2] = {t = "+ Extended 26rnd magazine", c = CustomizableWeaponry.textColors.COSMETIC}}
+	att.displayIcon = surface.GetTextureID("atts/cz75_auto")
+	att.description = {
+	[1] = {t = "+ Machine pistol model", c = CustomizableWeaponry.textColors.COSMETIC},
+	[2] = {t = "+ Increased rate of fire", c = CustomizableWeaponry.textColors.COSMETIC},
+	[3] = {t = "+ Extended 26rnd magazine", c = CustomizableWeaponry.textColors.COSMETIC}}
 end
 
 function att:attachFunc()
