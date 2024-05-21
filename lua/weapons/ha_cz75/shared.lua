@@ -25,10 +25,10 @@ if CLIENT then
 	SWEP.SightWithRail = true
 	
 	SWEP.Shell = "sfkm45"
-	SWEP.ShellScale = .39
+	SWEP.ShellScale = .7
 	SWEP.ShellDelay = 0
 	SWEP.ShellOffsetMul = 1
-	SWEP.ShellPosOffset = {x = 6, y = -1, z = -3}
+	SWEP.ShellPosOffset = {x = 3, y = 0, z = 0}
 	SWEP.ForeGripOffsetCycle_Draw = 0
 	SWEP.ForeGripOffsetCycle_Reload = .85
 	SWEP.ForeGripOffsetCycle_Reload_Empty = .8
@@ -138,7 +138,7 @@ SWEP.Chamberable			= true
 
 SWEP.Primary.Ammo			= "9x19mm"
 
-SWEP.FireDelay = 60/650
+SWEP.FireDelay = 60/500
 SWEP.FireSound = "CZ75_FIRE"
 SWEP.FireSoundSuppressed = "FPSERIES70_FIRESUP"
 SWEP.Recoil = 1
