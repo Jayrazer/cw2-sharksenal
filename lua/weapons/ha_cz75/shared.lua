@@ -130,7 +130,7 @@ SWEP.AdminSpawnable		= true
 SWEP.ReloadViewBobEnabled = false
 
 SWEP.Primary.ClipSize		= 16
-SWEP.Primary.DefaultClip	= 16
+SWEP.Primary.DefaultClip	= 32
 SWEP.Primary.Automatic		= false
 SWEP.Chamberable			= true
 
@@ -141,18 +141,14 @@ SWEP.FireSound = "CZ75_FIRE"
 SWEP.FireSoundSuppressed = "FPSERIES70_FIRESUP"
 SWEP.Recoil = 1
 
-SWEP.HipSpread = 0.06
+SWEP.HipSpread = 0.04
 SWEP.AimSpread = 0.01
 SWEP.VelocitySensitivity = 0.3
 SWEP.MaxSpreadInc = 0.045
 SWEP.SpreadPerShot = 0.004
 SWEP.SpreadCooldown = 0.2
 SWEP.Shots = 1
-if CustomizableWeaponry_khrcw2_groundcontroldmgenabled then
-SWEP.Damage = 25
-else
-SWEP.Damage = 50
-end
+SWEP.Damage = 20
 SWEP.DeployTime = .1
 SWEP.HolsterTime = .1
 
