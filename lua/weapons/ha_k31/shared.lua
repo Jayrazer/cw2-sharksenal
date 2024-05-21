@@ -54,7 +54,7 @@ if CLIENT then
 	SWEP.ScopePos = Vector(-3.75, -5, 0.45)
 	SWEP.ScopeAng = Vector(0.4, 0, 0)
 	
-	SWEP.EoTechPos = Vector(-3.79, -12, -0.15)
+	SWEP.EoTechPos = Vector(-3.79, -13.5, -0.13)
 	SWEP.EoTechAng = Vector(0.4, 0, 0)
 	
 	SWEP.ShortDotPos = Vector(-3.75, -12, -0.05)
@@ -100,7 +100,7 @@ SWEP.CanRestOnObjects = true
 
 
 SWEP.Attachments = {
-	[1] = {header = "Optic", offset = {1200, -250}, atts = {"md_eotech", "md_schmidt_shortdot", "k31_scope"}},
+	[1] = {header = "Optic", offset = {1200, -250}, atts = {"k31_scope"}},
 	["+reload"] = {header = "Ammo", offset = {650, 500}, atts = {"am_magnum", "am_matchgrade"}}
 }
 
