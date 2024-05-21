@@ -13,6 +13,11 @@ SWEP.Sounds = {
 		{time = 70/80, sound = "K31_BOLTPUSH"},
 	},
 	
+	fire_aim = {
+		{time = 48/80, sound = "K31_BOLTPULL"},
+		{time = 70/80, sound = "K31_BOLTPUSH"},
+	},
+	
 	reload = {
 		{time = 2/42, sound = "CW_FOLEY_MEDIUM"},
 		{time = 16/42, sound = "K31_MAGOUT"},

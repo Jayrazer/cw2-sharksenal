@@ -1,7 +1,7 @@
 local att = {}
 att.name = "k31_scope"
 att.displayName = "K31 Sniper Scope"
-att.displayNameShort = "K31 Scope"
+att.displayNameShort = "Sniper"
 att.aimPos = {"ScopePos", "ScopeAng"}
 att.FOVModifier = 20
 att.isSight = true
@@ -9,9 +9,11 @@ att.isSight = true
 att.statModifiers = {OverallMouseSensMult = -0.2}
 
 if CLIENT then
-	att.displayIcon = surface.GetTextureID("atts/1895scope")
-	att.description = {[1] = {t = "Provides 6-12x magnification.", c = CustomizableWeaponry.textColors.POSITIVE},
-	[2] = {t = "Narrow scope reduces awareness and close-range effectiveness.", c = CustomizableWeaponry.textColors.NEGATIVE}}
+	att.displayIcon = surface.GetTextureID("atts/k31_scope")
+	att.description = {
+	[1] = {t = "Long-range sniper optic", c = CustomizableWeaponry.textColors.POSITIVE},
+	[2] = {t = "+ 6 - 12x magnification", c = CustomizableWeaponry.textColors.COSMETIC}
+	}
 
 	local old, x, y, ang
 	local reticle = surface.GetTextureID("reticles/k31_cross")

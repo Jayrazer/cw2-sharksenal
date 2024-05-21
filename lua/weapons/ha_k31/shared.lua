@@ -54,6 +54,12 @@ if CLIENT then
 	SWEP.ScopePos = Vector(-3.75, -5, 0.45)
 	SWEP.ScopeAng = Vector(0.4, 0, 0)
 	
+	SWEP.EoTechPos = Vector(-3.79, -12, -0.15)
+	SWEP.EoTechAng = Vector(0.4, 0, 0)
+	
+	SWEP.ShortDotPos = Vector(-3.75, -12, -0.05)
+	SWEP.ShortDotAng = Vector(0.4, 0, 0)
+	
 	SWEP.MoveType = 1
 	SWEP.ViewModelMovementScale = 1
 	SWEP.DisableSprintViewSimulation = false
@@ -64,6 +70,8 @@ if CLIENT then
 	SWEP.AttachmentModelsVM = {
 	
 	["k31_scope"] = { type = "Model", model = "models/weapons/cw2_shark/attachments/k31_scope.mdl", bone = "k31_root", rel = "", pos = Vector(0, -4.15, 6.3), angle = Angle(90, -90, 0), size = Vector(1.149, 1.149, 1.149), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {} },
+	["md_eotech"] = { type = "Model", model = "models/wystan/attachments/2otech557sight.mdl", bone = "k31_root", rel = "", pos = Vector(0.3, 8.6, -5), angle = Angle(90, 0, -90), size = Vector(1.149, 1.149, 1.149), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {} },
+	["md_schmidt_shortdot"] = { type = "Model", model = "models/cw2/attachments/schmidt.mdl", bone = "k31_root", rel = "", pos = Vector(-0.36, 2.8, 0.85), angle = Angle(90, 0, -90), size = Vector(1.149, 1.149, 1.149), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {} },
 	
 	}
 	
@@ -92,13 +100,13 @@ SWEP.CanRestOnObjects = true
 
 
 SWEP.Attachments = {
-	[1] = {header = "Optic", offset = {850, -350}, atts = {"k31_scope"}},
-	["+reload"] = {header = "Ammo", offset = {650, 400}, atts = {"am_fp_matchammo", "am_tungstenammo"}}
+	[1] = {header = "Optic", offset = {1200, -250}, atts = {"md_eotech", "md_schmidt_shortdot", "k31_scope"}},
+	["+reload"] = {header = "Ammo", offset = {650, 500}, atts = {"am_magnum", "am_matchgrade"}}
 }
 
 SWEP.Animations = {
-	fire = "fire_1",
-	fire_aim = "fire_2",
+	fire = {"fire_1", "fire_2"},
+	fire_aim = "fire_aim",
 	reload = "reload",
 	reload_empty = "reload_empty",
 	idle = "idle",
