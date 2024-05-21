@@ -2,28 +2,30 @@
 
 
 ## Pistols:
-- CZ 75 (https://sketchfab.com/3d-models/cz-75-classic-and-modern-editions-60e9d1a73be84cdbb20a4f606aea3a67)
-- S&W Model 29 (https://gamebanana.com/mods/171140)
+- CZ 75 (speedonerd)
+- S&W Model 29 
 
 ## SMGs:
-- MP 34 (Squad 44)
-- P90
-- MP5A2 (early model) (Insurgency: Sandstorm)
+- MP 34
+- P90 (milspecy)
+- MP5A2 (early model) (milspecy)
+- STEN Mk II (reshed)
 
 ## Rifles:
-- Swiss K31 (World of Guns: Disassembly)
-- Bofors Ak 5c (Battlefield 4)
-- CETME Model C (Black Ops Cold War)
-- AKM (https://sketchfab.com/3d-models/akm-811e71f590cd49668f78247122dc8d56)
-- Ruger 10/22 Carbine (https://sketchfab.com/3d-models/ruger-1022-carbine-d0ae8773fd9644dd9f30cfb565b7bf75)
+- Swiss K31 (speedonerd)
+- Bofors Ak 5c (milspecy)
+- CETME Model C
+- AKM
+- Ruger 10/22 Carbine
 
 ## Shotguns:
-- Ithaca Model 37 Stakeout (Rising Storm 2)
-- Sjogren (Battlefield 1)
+- Ithaca Model 37 Stakeout
+- Sjogren (speedonerd)
 - Neostead 2000
 
 ## Machine Guns:
-- CETME Ameli (Black Ops: Cold War)
+- CETME Ameli (milspecy)
 
 ## Launchers:
 - RPG-7
+- Carl Gustaf M3
