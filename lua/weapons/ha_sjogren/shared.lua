@@ -128,7 +128,7 @@ SWEP.Primary.Automatic		= false
 SWEP.Primary.Ammo			= "12 Gauge"
 
 
-SWEP.FireDelay = 60/250
+SWEP.FireDelay = 60/200
 SWEP.FireSound = "SJOGREN_FIRE"
 SWEP.Recoil = 3
 
@@ -158,7 +158,7 @@ SWEP.SnapToIdle = false
 SWEP.ReloadSpeed = 1.4
 SWEP.ReloadStartTime = 0.6
 SWEP.ReloadStartTime_Empty = 2.3
-SWEP.InsertShellTime = .7
+SWEP.InsertShellTime = 0.9
 SWEP.ReloadFinishWait = 1.1
 
 function SWEP:fireAnimFunc()
