@@ -80,9 +80,9 @@ SWEP.AttachmentExclusions = {
 
 SWEP.Animations = {
 	fire = "fire",
-	fire_aim = "fire",
+	fire_aim = "fire_aim",
 	fire_last = "fire_last",
-	fire_last_aim = "fire_last",
+	fire_last_aim = "fire_last_aim",
 	reload_start = "reload_start",
 	reload_start_empty = "reload_start_empty",
 	insert = "reload_insert",
