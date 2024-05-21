@@ -33,11 +33,11 @@ if CLIENT then
 	SWEP.ForeGripOffsetCycle_Reload = .85
 	SWEP.ForeGripOffsetCycle_Reload_Empty = .8
 
-	SWEP.IronsightPos = Vector(-2.55, 2, 1.72)
-	SWEP.IronsightAng = Vector(0.71, -0.05, 3)
+	SWEP.IronsightPos = Vector(-2.57, 2, 1.71)
+	SWEP.IronsightAng = Vector(0, -0.05, 3.5)
 	
-	SWEP.AutoPos = Vector(-1.305, 2.75, 1.15)
-	SWEP.AutoAng = Vector(0, 0, 0)
+	SWEP.AutoPos = Vector(-2.57, 2, 1.71)
+	SWEP.AutoAng = Vector(0, -0.05, 3.5)
 	
 	SWEP.SprintPos = Vector(3.25, -12.9318, -8.5227)
 	SWEP.SprintAng = Vector(59.3182, -2.0455, 3)
@@ -84,8 +84,8 @@ SWEP.Attachments = {
 --[1] = {header = "Muzzle", offset = {-700, -250}, atts = {"md_cobram2"}},
 --[4] = {header = "Finish", offset = {0, 400}, atts = {"fp_altfinish"}},
 --[3] = {header = "Style", offset = {700, 150}, atts = {"fp_onehand"}},
---[2] = {header = "Mods", offset = {100, -500}, atts = {"fp_doublestack", "fp_bigstick", "fp_9mm", "fp_50cal1911"}},
---["+reload"] = {header = "Ammo", offset = {-650, 300}, atts = {"am_fp_matchammo", "am_fp_lowvelammo", "am_pluspammo"}}
+[2] = {header = "Receiver", offset = {100, -500}, atts = {"cz75_auto"}},
+["+reload"] = {header = "Ammo", offset = {-650, 300}, atts = {"am_fp_matchammo", "am_fp_lowvelammo", "am_pluspammo"}}
 }
 
 SWEP.Animations = {
@@ -186,6 +186,11 @@ function SWEP:IndividualThink()
 	self.EffectiveRange = ((self.EffectiveRange + 25 * 39.37))
 	self.DamageFallOff = ((self.DamageFallOff - .045))
 	end
+	
+	if self.ActiveAttachments.cz75_auto then
+	self.FireDelay = 60/900
+	end
+	
 end
 
 function SWEP:fireAnimFunc()

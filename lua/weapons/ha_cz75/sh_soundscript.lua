@@ -33,4 +33,17 @@ SWEP.Sounds = {
 		{time = 58/31.5, sound = "CZ75_SLIDERELEASE"},
 	},
 	
+	reload_auto = {
+		{time = 2/31.5, sound = "CZ75_MAGOUT"},
+		{time = 32/31.5, sound = "CZ75_MAGIN"},
+		{time = 31/30, sound = "CW_FOLEY_MEDIUM"},
+	},
+
+	reload_empty_auto = {
+		{time = 4/31.5, sound = "CZ75_MAGOUT"},
+		{time = 32/31.5, sound = "CZ75_MAGIN"},
+		{time = 54/31.5, sound = "CZ75_SLIDEBACK"},
+		{time = 58/31.5, sound = "CZ75_SLIDERELEASE"},
+	},
+	
 }
