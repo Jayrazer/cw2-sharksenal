@@ -31,11 +31,11 @@ if CLIENT then
 	SWEP.ForeGripOffsetCycle_Reload = .85
 	SWEP.ForeGripOffsetCycle_Reload_Empty = .8
 
-	SWEP.IronsightPos = Vector(-2.57, 2, 1.71)
-	SWEP.IronsightAng = Vector(0, -0.05, 3.5)
+	SWEP.IronsightPos = Vector(-2.55, 2, 1.71)
+	SWEP.IronsightAng = Vector(0, -0, 3.5)
 	
-	SWEP.AutoPos = Vector(-2.56, 2, 1.71)
-	SWEP.AutoAng = Vector(0, -0.06, 3.5)
+	SWEP.AutoPos = Vector(-2.55, 2, 1.71)
+	SWEP.AutoAng = Vector(0, -0, 3.5)
 	
 	SWEP.SprintPos = Vector(3.25, -12.9318, -8.5227)
 	SWEP.SprintAng = Vector(59.3182, -2.0455, 3)
@@ -148,7 +148,7 @@ SWEP.MaxSpreadInc = 0.045
 SWEP.SpreadPerShot = 0.004
 SWEP.SpreadCooldown = 0.2
 SWEP.Shots = 1
-SWEP.Damage = 20
+SWEP.Damage = 18
 SWEP.DeployTime = .1
 SWEP.HolsterTime = .1
 
@@ -157,11 +157,11 @@ SWEP.ShootWhileProne = true
 SWEP.HolsterOnLadder = true
 SWEP.SprintingEnabled = true
 
-SWEP.ReloadSpeed = 1
+SWEP.ReloadSpeed = 1.1
 SWEP.ReloadTime = 1.5
-SWEP.ReloadHalt = 1.8
+SWEP.ReloadHalt = 1.7
 SWEP.ReloadTime_Empty = 1.9
-SWEP.ReloadHalt_Empty = 3
+SWEP.ReloadHalt_Empty = 2.8
 
 function SWEP:IndividualThink()
 	self.EffectiveRange = 127 * 39.37

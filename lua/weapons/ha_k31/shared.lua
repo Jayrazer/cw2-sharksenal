@@ -106,7 +106,7 @@ SWEP.Attachments = {
 
 SWEP.Animations = {
 	fire = {"fire_1", "fire_2"},
-	fire_aim = "fire_aim",
+	fire_aim = "fire_1",
 	reload = "reload",
 	reload_empty = "reload_empty",
 	idle = "idle",

@@ -9,7 +9,7 @@ att.isSight = true
 att.withoutRail = true
 
 att.statModifiers = {RecoilMult = .1,
-ReloadSpeedMult = -0.1,
+ReloadSpeedMult = -0.05,
 SpreadPerShotMult = -0.15,
 FireDelayMult = -.45}
 
