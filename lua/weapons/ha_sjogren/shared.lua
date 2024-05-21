@@ -158,6 +158,7 @@ SWEP.SnapToIdle = false
 SWEP.ReloadSpeed = 1.4
 SWEP.ReloadStartTime = 0.6
 SWEP.ReloadStartTime_Empty = 2.3
+SWEP.ReloadFinishTime = 0.8
 SWEP.InsertShellTime = 0.9
 SWEP.ReloadFinishWait = 1.1
 
