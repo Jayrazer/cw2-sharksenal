@@ -258,7 +258,7 @@ SWEP.HolsterTime = 0.2
 
 SWEP.ADSFireAnim = true
 SWEP.Chamberable = true
-SWEP.BipodInstalled = true
+SWEP.BipodInstalled = false
 
 --SWEP.RecoilToSpread = 0.25
 
