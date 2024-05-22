@@ -157,11 +157,11 @@ SWEP.ShootWhileProne = true
 SWEP.HolsterOnLadder = true
 SWEP.SprintingEnabled = true
 
-SWEP.ReloadSpeed = 1.1
-SWEP.ReloadTime = 1.5
+SWEP.ReloadSpeed = 1
+SWEP.ReloadTime = 1.3
 SWEP.ReloadHalt = 1.7
-SWEP.ReloadTime_Empty = 1.9
-SWEP.ReloadHalt_Empty = 2.8
+SWEP.ReloadTime_Empty = 1.8
+SWEP.ReloadHalt_Empty = 2.4
 
 function SWEP:IndividualThink()
 	self.EffectiveRange = 127 * 39.37
