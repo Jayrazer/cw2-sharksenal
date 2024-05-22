@@ -16,8 +16,16 @@ SWEP.Sounds = {
 		{time = 2/80, sound = "CZ75_SLIDEBACK"},
 	},
 	
-	firelast = {
-		{time = 7/80, sound = "CZ75_SLIDEBACK"},
+	fire_aim = {
+		{time = 2/80, sound = "CZ75_SLIDEBACK"},
+	},
+	
+	fire_last = {
+		{time = 2/80, sound = "CZ75_SLIDEBACK"},
+	},
+	
+	fire_last_aim = {
+		{time = 2/80, sound = "CZ75_SLIDEBACK"},
 	},
 	
 	reload = {
@@ -28,9 +36,9 @@ SWEP.Sounds = {
 
 	reload_empty = {
 		{time = 4/31.5, sound = "CZ75_MAGOUT"},
-		{time = 32/31.5, sound = "CZ75_MAGIN"},
-		{time = 54/31.5, sound = "CZ75_SLIDEBACK"},
-		{time = 58/31.5, sound = "CZ75_SLIDERELEASE"},
+		{time = 31/31.5, sound = "CZ75_MAGIN"},
+		{time = 51/31.5, sound = "CZ75_SLIDEBACK"},
+		{time = 54/31.5, sound = "CZ75_SLIDERELEASE"},
 		{time = 65/31, sound = "CW_FOLEY_MEDIUM"},
 	},
 	
@@ -43,8 +51,8 @@ SWEP.Sounds = {
 	reload_empty_auto = {
 		{time = 4/31.5, sound = "CZ75_MAGOUT"},
 		{time = 32/31.5, sound = "CZ75_MAGIN"},
-		{time = 54/31.5, sound = "CZ75_SLIDEBACK"},
-		{time = 58/31.5, sound = "CZ75_SLIDERELEASE"},
+		{time = 51/31.5, sound = "CZ75_SLIDEBACK"},
+		{time = 54/31.5, sound = "CZ75_SLIDERELEASE"},
 		{time = 65/31, sound = "CW_FOLEY_MEDIUM"},
 	},
 	

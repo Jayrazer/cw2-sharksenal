@@ -116,8 +116,8 @@ SWEP.Purpose		= ""
 SWEP.Instructions	= ""
 SWEP.NearWallEnabled = false
 
-SWEP.ViewModelFOV	= 72
-SWEP.AimViewModelFOV = 65
+SWEP.ViewModelFOV	= 75
+SWEP.AimViewModelFOV = 70
 SWEP.ZoomAmount = 10
 SWEP.ViewModelFlip	= false
 SWEP.ViewModel		= "models/weapons/cw2_shark/v_cz75.mdl"
