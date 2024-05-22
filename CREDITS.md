@@ -11,6 +11,16 @@ Scope and optic rail by Treyarch (Black Ops Cold War)
 Originally compiled by Stained Soldier
 Animated by speedonerd
 
+## Ak 5C
+Assets by DICE (Battlefield 4)
+Originally compiled by 
+Animated by Milspecy
+
+## AKM
+Assets by Frimeninet
+Originally compiled by Casper
+Animated by speedonerd
+
 ## Sjogren
 Assets by DICE (Battlefield 1)
 Originally compiled by Moon
