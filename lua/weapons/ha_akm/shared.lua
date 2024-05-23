@@ -66,7 +66,7 @@ if CLIENT then
 	
 	SWEP.AttachmentModelsVM = {
 	
-	["md_pbs1"] = {model = "models/cw2/attachments/pbs1.mdl", pos = Vector(-0.25, -1.05, 27.8), angle = Angle(0, -180, 90), size = Vector(1, 1, 1), bone = "akm_root"},
+	["md_pbs1"] = {model = "models/cw2/attachments/pbs1.mdl", pos = Vector(-0.25, -0.95, 28), angle = Angle(0, -180, 90), size = Vector(1.1, 1.1, 1.1), bone = "akm_root"},
 	["md_pso1"] = {model = "models/cw2/attachments/pso.mdl", pos = Vector(-0.11, -0.2, -0.8), angle = Angle(0, -177, 90), size = Vector(1, 1, 1), bone = "akm_root"},
 	["md_kobra"] = {type = "Model", model = "models/cw2/attachments/kobra.mdl", pos = Vector(0.32, 1, 3.2), angle = Angle(0, -180, 90), size = Vector(0.9, 0.9, 0.9), bone = "akm_root"},
 	
