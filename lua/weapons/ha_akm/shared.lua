@@ -17,7 +17,6 @@ if CLIENT then
 	SWEP.CSMuzzleFlashes = true
 	SWEP.UseHands = true
 	
-	
 	SWEP.SelectIcon = surface.GetTextureID("vgui/sg510")
 	killicon.Add( "fp_sg510", "vgui/killicons/sg510", Color(255, 120, 40, 0))
 	
@@ -26,7 +25,6 @@ if CLIENT then
 	SWEP.SnapToGrip = true
 	SWEP.SightWithRail = true
 	
-	SWEP.Shell = "sfkm308"
 	SWEP.ShellScale = .45
 	SWEP.ShellDelay = 0
 	SWEP.ShellOffsetMul = 1
@@ -38,41 +36,11 @@ if CLIENT then
 	SWEP.IronsightPos = Vector(-3.06, -5, 1.1)
 	SWEP.IronsightAng = Vector(-0.3, -0.05, 3.5)
 	
-	SWEP.AARAUPos = Vector(-2.986, -2, 0.082)
-	SWEP.AARAUAng = Vector(0, 0, 0)
+	SWEP.KobraPos = Vector(-3.04, -5, -0.55)
+	SWEP.KobraAng = Vector(1, 0, 3.5)
 	
-	SWEP.EoTechPos = Vector(-2.985, -4, -.15)
-	SWEP.EoTechAng = Vector(0, 0, 0)
-	
-	SWEP.MK3Pos = Vector(-2.985, -4, -.15)
-	SWEP.MK3Ang = Vector(0, 0, 0)
-	
-	SWEP.PRISMPos = Vector(-2.985, -4, -.15)
-	SWEP.PRISMAng = Vector(0, 0, 0)
-	
-	SWEP.HAMRPos = Vector(-2.985, -4, -.15)
-	SWEP.HAMRAng = Vector(0, 0, 0)
-	
-	SWEP.AimpointPos = Vector(-2.985, -4, -.065)
-	SWEP.AimpointAng = Vector(0, 0, 0)
-	
-	SWEP.Aimpoint2xPos = Vector(-2.985, -2, -.095)
-	SWEP.Aimpoint2xAng = Vector(0, 0, 0)
-	
-	SWEP.ElcanPos = Vector(-2.985, -2, -.15)
-	SWEP.ElcanAng = Vector(0, 0, 0)
-	
-	SWEP.ShortDotPos = Vector(-2.985, -2, -.15)
-	SWEP.ShortDotAng = Vector(0, 0, 0)
-	
-	SWEP.AimPointPos = Vector(-2.985, -2, -.15)
-	SWEP.AimPointAng = Vector(0, 0, 0)
-	
-	SWEP.NXSPos = Vector(-2.985, -2, -.15)
-	SWEP.NXSAng = Vector(-.88, .8, 0)
-	
-	SWEP.ACOGPos = Vector(-2.985, -2, -.15)
-	SWEP.ACOGAng = Vector(0, 0, 0)
+	SWEP.PSOPos = Vector(-2.95, -4, 0)
+	SWEP.PSOAng = Vector(0, 0, 0)
 	
 	SWEP.SprintPos = Vector(4.67, 0.201, -5.1)
 	SWEP.SprintAng = Vector(-8.443, 37.99, -23.216)
@@ -96,66 +64,15 @@ if CLIENT then
 	SWEP.OverallMouseSens = .85
 	SWEP.CustomizationMenuScale = 0.024
 	
-		SWEP.ForegripOverridePos = {
-		["bipod"] = {
-			weakOverride = true,
-			["ValveBiped.Bip01_L_Clavicle"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(5, 0, 20) },
-			["bipodl"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(14.444, -34.445, 72.222) },
-			["bipodr"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(-14.445, 34.444, 72.222) }
-		},
-		["none"] = {
-			weakOverride = true,
-			["ValveBiped.Bip01_L_Clavicle"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(0, 0, 0) },
-			["bipodl"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(0, 0, 0) },
-			["bipodr"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(0, 0, 0) }
-		}
-	}
-	
 	SWEP.AttachmentModelsVM = {
-	["mgmp_pe57_hvystock"] = {model = "models/mgmp/pe57/woodstock.mdl", pos = Vector(0, 13.48, 3.38), angle = Angle(0, 90, 180), size = Vector(1, 1, 1), bone = "mount"},
-	["mgmp_sigscope"] = {model = "models/mgmp/pe57/scope.mdl", pos = Vector(0, 13.48, 3.38), angle = Angle(0, 90, 180), size = Vector(1, 1, 1), bone = "mount"},
-	["mgmp_pe57_hvygrip"] = {model = "models/mgmp/pe57/woodpgrip.mdl", pos = Vector(0, 13.48, 3.38), angle = Angle(0, 90, 180), size = Vector(1, 1, 1), bone = "mount"},
-	["md_rail"] = {model = "models/mgmp/pe57/lowrail.mdl", pos = Vector(0, 13.82, 3.4), angle = Angle(0, 90, 180), size = Vector(1, 1, 1), bone = "mount"},
-	["md_saker"] = {model = "models/weapons/khrcw2/att/sr25saker.mdl", pos = Vector(-15, 0, -2.4), angle = Angle(0, 90, 0), size = Vector(.8, .8, .8), bone = "muzzle"},
-	["md_foregrip"] = {model = "models/wystan/attachments/foregrip1.mdl", pos = Vector(-.525, 11, 3.6), angle = Angle(0, 0, 180), size = Vector(.8, .8, .8), bone = "grip"},
-	["md_ins2eotech552"] = {model = "models/khrcw2/ins2pack/attachments/ins2eotech552.mdl", pos = Vector(0.02, 0, -0.325), angle = Angle(180, -90, 0), size = Vector(1, 1, 1), bone = "mount"},
-	["md_ins2aimpoint"] = {model = "models/khrcw2/ins2pack/attachments/ins2aimpoint.mdl", pos = Vector(0.02, 0, -0.3425), angle = Angle(180, -90, 0), size = Vector(.925, .925, .925), bone = "mount"},
-	["md_ins2aimpoint2x"] = {model = "models/khrcw2/ins2pack/attachments/ins2aimpoint2x.mdl", pos = Vector(0.02, 0, -0.3725), angle = Angle(180, -90, 0), size = Vector(.925, .925, .925), bone = "mount"},
-	["md_ins2elcan"] = {model = "models/khrcw2/ins2pack/attachments/ins2elcan.mdl", pos = Vector(0.02, 0, -0.325), angle = Angle(180, -90, 0), size = Vector(1, 1, 1), bone = "mount"},
-	["md_ins2wsacog"] = {model = "models/khrcw2/ins2pack/attachments/ins2wsacog.mdl", pos = Vector(0.02, 0, -0.325), angle = Angle(180, -90, 0), size = Vector(1, 1, 1), bone = "mount"},
-	["md_prizm3x"] = {model = "models/weapons/khrcw2/att/prism3x_scope.mdl", pos = Vector(-21.275, -2, -1.04), angle = Angle(0, 0, 90), size = Vector(.925, .925, .925), bone = "mount"},
-	["md_sr25hamr"] = {model = "models/weapons/khrcw2/att/hamr_scope.mdl", pos = Vector(-22.7, -2.52, 3.420), angle = Angle(0, 0, 180), size = Vector(1, 1, 1), bone = "mount"},
+	
+	["md_pbs1"] = {model = "models/cw2/attachments/pbs1.mdl", pos = Vector(-0.25, -1.05, 27.8), angle = Angle(0, -180, 90), size = Vector(1, 1, 1), bone = "akm_root"},
+	["md_pso1"] = {model = "models/cw2/attachments/pso.mdl", pos = Vector(-0.11, -0.2, -0.8), angle = Angle(0, -177, 90), size = Vector(1, 1, 1), bone = "akm_root"},
+	["md_kobra"] = {type = "Model", model = "models/cw2/attachments/kobra.mdl", pos = Vector(0.32, 1, 3.2), angle = Angle(0, -180, 90), size = Vector(0.9, 0.9, 0.9), bone = "akm_root"},
+	
 	}
-	
-	SWEP.AttachmentPosDependency = {
-		["md_saker"] = {
-			["mgmp_pe57_carbinebarrel"] = Vector(-20, 0, -2.4),
-			["mgmp_pe57_shortbarrel"] = Vector(-28, 0, -2.44),
-		},
-		--["md_saker"] = {
-		--	["mgmp_pe57_shortbarrel"] = Vector(-29.5, -0.02, -3.025),
-		--},
-	}
-	
-	SWEP.AttachmentDependencies = {
-	["mgmp_pe57_hvyhgrip"] = {"mgmp_pe57_carbinebarrel"}
-	}
-	
-	
-	SWEP.RTAlign = {right = .17, up = 0, forward = 0}
-	SWEP.AP2XAxisAlign = {right = .2, up = -.75, forward = 0}
-	SWEP.PO42PAxisAlign = {right = 0, up = 0, forward = 0}
-	SWEP.INS2AxisAlign = {right = 0, up = 0, forward = 0}
-	SWEP.NXSAlign = {right = 0, up = 0, forward = 120.25}
-	SWEP.LuaVMRecoilAxisMod = {vert = .3, hor = 0, roll = .35, forward = .8, pitch = -.15}
-end
 
-SWEP.StockBGs = {main = 1, on = 0, off = 1}
-SWEP.PGripBGs = {main = 2, on = 0, off = 1}
-SWEP.GripBGs = {main = 3, pe57 = 0, five10 = 1, amt = 2, off = 3}
-SWEP.BarrelBGs = {main = 4, long = 0, med = 1, short = 2}
-SWEP.MagBGs = {main = 5, sg510 = 0, akm = 1}
-SWEP.BipodBGs = {main = 6, on = 0, off = 1}
+end
 
 SWEP.MuzzleVelocity = 820
 
@@ -164,20 +81,16 @@ SWEP.LuaViewmodelRecoilOverride = true
 SWEP.FullAimViewmodelRecoil = false
 SWEP.CanRestOnObjects = true
 
-
 SWEP.Attachments = {
---[3] = {header = "Optic", offset = {1150, -350}, atts = {"md_ins2eotech552", "md_ins2aimpoint", "md_ins2aimpoint2x","mgmp_sigscope"}}, --"md_ins2eotech552","md_ins2aimpoint","md_ins2aimpoint2x","md_ins2elcan","md_ins2po424p","md_ins2wsacog", "md_ins2m40tac"
---[4] = {header = "Mod.", offset = {-300, 350}, atts = {"fp_sg510finn"}},
---[1] = {header = "Muzzle", offset = {-350, -250}, atts = {"md_saker"}},
---["+attack2"] = {header = "Stock", offset = {1700, 300}, atts = {"mgmp_pe57_hvystock","mgmp_pe57_nostock"}},
---[2] = {header = "Barrel", offset = {300, -400}, atts = {"mgmp_pe57_carbinebarrel","mgmp_pe57_shortbarrel"}},
---[5] = {header = "Grip", offset = {1100, 650}, atts = {"mgmp_pe57_hvygrip"}},
---["+use"] = {header = "Perk", offset = {550, 150}, atts = {"mgmp_perk_quickreload"}},
---["+reload"] = {header = "Ammo", offset = {750, 250}, atts = {"am_fp_matchammo", "am_tungstenammo", "am_fp_lowvelammo", "am_pluspammo"}}
+
+	[1] = {header = "Muzzle", offset = {-350, -250}, atts = {"md_pbs1"}},
+	[2] = {header = "Sight", offset = {1150, -350}, atts = {"md_kobra", "md_pso1"}},
+	["+reload"] = {header = "Ammo", offset = {750, 250}, atts = {"am_magnum", "am_matchgrade"}}
+
 }
 	
 
-		SWEP.ForeGripHoldPos = {
+SWEP.ForeGripHoldPos = {
 	["ValveBiped.Bip01_L_Finger41"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(0, -21.112, 0) },
 	["ValveBiped.Bip01_L_Finger21"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(0, -32.223, 0) },
 	["ValveBiped.Bip01_L_Finger11"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(0, -34.445, 0) },
