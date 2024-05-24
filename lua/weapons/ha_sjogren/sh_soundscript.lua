@@ -14,7 +14,7 @@ SWEP.Sounds = {
 	reload_start_empty = {
 		{time = 2/42, sound = "SJOGREN_DEPLOY"},
 		{time = 40/42, sound = "SJOGREN_INSERT_EMPTY"},
-		{time = 65/42, sound = "SJOGREN_BOLTFORWARD"},
+		{time = 72/42, sound = "SJOGREN_BOLTFORWARD"},
 	},
 
 	reload_insert = {

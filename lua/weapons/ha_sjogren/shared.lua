@@ -153,7 +153,7 @@ SWEP.CrosshairParts = {left = true, right = true, upper = false, lower = true}
 SWEP.SnapToIdle = false
 SWEP.ReloadSpeed = 1.4
 SWEP.ReloadStartTime = 0.6
-SWEP.ReloadStartTime_Empty = 2.5
+SWEP.ReloadStartTime_Empty = 2.7
 SWEP.ReloadFinishTime = 0.8
 SWEP.InsertShellTime = 0.9
 SWEP.ReloadFinishWait = 1.1
