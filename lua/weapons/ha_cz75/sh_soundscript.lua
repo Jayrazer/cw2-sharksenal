@@ -21,11 +21,11 @@ SWEP.Sounds = {
 	},
 	
 	fire_last = {
-		{time = 2/80, sound = "CZ75_SLIDEBACK"},
+		{time = 2/80, sound = "CZ75_SLIDERELEASE"},
 	},
 	
 	fire_last_aim = {
-		{time = 2/80, sound = "CZ75_SLIDEBACK"},
+		{time = 2/80, sound = "CZ75_SLIDERELEASE"},
 	},
 	
 	reload = {
