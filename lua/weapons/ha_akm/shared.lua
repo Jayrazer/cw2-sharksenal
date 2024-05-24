@@ -42,7 +42,7 @@ if CLIENT then
 	SWEP.PSOPos = Vector(-3.03, -2.6, -0.15)
 	SWEP.PSOAng = Vector(0, 0, 0)
 	
-	SWEP.SprintPos = Vector(4.67, 0.201, -5.1)
+	SWEP.SprintPos = Vector(4.2, -2.5, -4)
 	SWEP.SprintAng = Vector(-8.443, 37.99, -23.216)
 	
 	SWEP.CustomizePos = Vector(8.843, -1.407, -3.619)
