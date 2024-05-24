@@ -133,7 +133,7 @@ SWEP.ViewModelFOV	= 62
 SWEP.AimViewModelFOV = 60
 SWEP.ViewModelFlip	= false
 SWEP.ViewModel		= "models/weapons/cw2_shark/v_akm.mdl"
-SWEP.WorldModel		= "models/weapons/khrcw2/w_pe57.mdl"
+SWEP.WorldModel		= "models/weapons/cw2_shark/w_akm.mdl"
 
 
 
