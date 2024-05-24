@@ -178,10 +178,10 @@ SWEP.BipodInstalled = false
 SWEP.Primary.Ammo			= "7.5x55mm Swiss"
 
 SWEP.ReloadSpeed = 1.1
-SWEP.ReloadTime = 2.9
-SWEP.ReloadHalt = 2.9
-SWEP.ReloadTime_Empty = 4
-SWEP.ReloadHalt_Empty = 4
+SWEP.ReloadTime = 2
+SWEP.ReloadHalt = 2.8
+SWEP.ReloadTime_Empty = 2
+SWEP.ReloadHalt_Empty = 3.9
 
 SWEP.AimBreathingEnabled = false
 SWEP.AimBreathingIntensity = 1

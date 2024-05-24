@@ -29,8 +29,8 @@ SWEP.Sounds = {
 		{time = 2/42, sound = "CW_FOLEY_MEDIUM"},
 		{time = 16/42, sound = "K31_MAGOUT"},
 		{time = 57/42, sound = "K31_MAGIN"},
-		{time = 105/42, sound = "K31_BOLTPULL"},
-		{time = 120/42, sound = "K31_BOLTPUSH"},
-		{time = 132/42, sound = "CW_FOLEY_MEDIUM"},
+		{time = 110/42, sound = "K31_BOLTPULL"},
+		{time = 125/42, sound = "K31_BOLTPUSH"},
+		{time = 140/42, sound = "CW_FOLEY_MEDIUM"},
 	},
 }
