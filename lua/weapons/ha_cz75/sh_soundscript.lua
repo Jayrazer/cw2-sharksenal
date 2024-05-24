@@ -29,31 +29,31 @@ SWEP.Sounds = {
 	},
 	
 	reload = {
-		{time = 2/31.5, sound = "CZ75_MAGOUT"},
-		{time = 30/31.5, sound = "CZ75_MAGIN"},
+		{time = 1/31.5, sound = "CZ75_MAGOUT"},
+		{time = 35/31.5, sound = "CZ75_MAGIN"},
 		{time = 38/30, sound = "CW_FOLEY_MEDIUM"},
 	},
 
 	reload_empty = {
-		{time = 4/31.5, sound = "CZ75_MAGOUT"},
-		{time = 31/31.5, sound = "CZ75_MAGIN"},
-		{time = 51/31.5, sound = "CZ75_SLIDEBACK"},
-		{time = 54/31.5, sound = "CZ75_SLIDERELEASE"},
-		{time = 65/31, sound = "CW_FOLEY_MEDIUM"},
+		{time = 3/31.5, sound = "CZ75_MAGOUT"},
+		{time = 34/31.5, sound = "CZ75_MAGIN"},
+		{time = 61/31.5, sound = "CZ75_SLIDEBACK"},
+		{time = 64/31.5, sound = "CZ75_SLIDERELEASE"},
+		{time = 70/31, sound = "CW_FOLEY_MEDIUM"},
 	},
 	
 	reload_auto = {
-		{time = 2/31.5, sound = "CZ75_MAGOUT"},
-		{time = 30/31.5, sound = "CZ75_MAGIN"},
+		{time = 1/31.5, sound = "CZ75_MAGOUT"},
+		{time = 35/31.5, sound = "CZ75_MAGIN"},
 		{time = 38/30, sound = "CW_FOLEY_MEDIUM"},
 	},
 
 	reload_empty_auto = {
-		{time = 4/31.5, sound = "CZ75_MAGOUT"},
-		{time = 32/31.5, sound = "CZ75_MAGIN"},
-		{time = 51/31.5, sound = "CZ75_SLIDEBACK"},
-		{time = 54/31.5, sound = "CZ75_SLIDERELEASE"},
-		{time = 65/31, sound = "CW_FOLEY_MEDIUM"},
+		{time = 3/31.5, sound = "CZ75_MAGOUT"},
+		{time = 34/31.5, sound = "CZ75_MAGIN"},
+		{time = 61/31.5, sound = "CZ75_SLIDEBACK"},
+		{time = 64/31.5, sound = "CZ75_SLIDERELEASE"},
+		{time = 70/31, sound = "CW_FOLEY_MEDIUM"},
 	},
 	
 }

@@ -23,10 +23,10 @@ if CLIENT then
 	SWEP.SightWithRail = true
 	
 	SWEP.Shell = "smallshell"
-	SWEP.ShellScale = .7
+	SWEP.ShellScale = .5
 	SWEP.ShellDelay = 0
 	SWEP.ShellOffsetMul = 1
-	SWEP.ShellPosOffset = {x = 3, y = 0, z = 0}
+	SWEP.ShellPosOffset = {x = 0, y = 0, z = 0}
 	SWEP.ForeGripOffsetCycle_Draw = 0
 	SWEP.ForeGripOffsetCycle_Reload = .85
 	SWEP.ForeGripOffsetCycle_Reload_Empty = .8
@@ -157,11 +157,11 @@ SWEP.ShootWhileProne = true
 SWEP.HolsterOnLadder = true
 SWEP.SprintingEnabled = true
 
-SWEP.ReloadSpeed = 1
-SWEP.ReloadTime = 1.3
-SWEP.ReloadHalt = 1.7
-SWEP.ReloadTime_Empty = 1.8
-SWEP.ReloadHalt_Empty = 2.4
+SWEP.ReloadSpeed = 1.3
+SWEP.ReloadTime = 1.4
+SWEP.ReloadHalt = 1.8
+SWEP.ReloadTime_Empty = 1.4
+SWEP.ReloadHalt_Empty = 2.75
 
 function SWEP:IndividualThink()
 	self.EffectiveRange = 127 * 39.37
