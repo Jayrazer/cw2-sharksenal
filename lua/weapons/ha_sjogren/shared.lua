@@ -140,11 +140,7 @@ SWEP.ClumpSpread = 0.015
 SWEP.SpreadPerShot = 0.015
 SWEP.SpreadCooldown = 60/200
 SWEP.Shots = 9
-if CustomizableWeaponry_khrcw2_groundcontroldmgenabled then
-SWEP.Damage = 13
-else
-SWEP.Damage = 20
-end
+SWEP.Damage = 18
 SWEP.DeployTime = .7
 SWEP.HolsterTime = .3
 
@@ -157,7 +153,7 @@ SWEP.CrosshairParts = {left = true, right = true, upper = false, lower = true}
 SWEP.SnapToIdle = false
 SWEP.ReloadSpeed = 1.4
 SWEP.ReloadStartTime = 0.6
-SWEP.ReloadStartTime_Empty = 2.3
+SWEP.ReloadStartTime_Empty = 2.5
 SWEP.ReloadFinishTime = 0.8
 SWEP.InsertShellTime = 0.9
 SWEP.ReloadFinishWait = 1.1
