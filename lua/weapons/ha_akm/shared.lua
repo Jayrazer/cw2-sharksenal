@@ -153,7 +153,7 @@ SWEP.Primary.Ammo			= "7.62x39MM"
 
 SWEP.FireMoveMod = 0
 SWEP.FireDelay = 60/600
-SWEP.FireSound = "MGMPSTGW57_FIRENEW"
+SWEP.FireSound = "AKM_FIRE"
 SWEP.FireSoundSuppressed = "MGMPSTGW57_FIRE2"
 SWEP.Recoil = 1.75
 SWEP.FOVPerShot = .45

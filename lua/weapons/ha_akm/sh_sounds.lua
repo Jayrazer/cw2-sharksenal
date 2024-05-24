@@ -1,5 +1,5 @@
 
-CustomizableWeaponry:addFireSound("MGMPSTGW57_FIRE2", "mgmp/stgw57/m1a_fire_silenced_close1.wav", 1, 95, CHAN_STATIC)
+CustomizableWeaponry:addFireSound("AKM_FIRE", "^weapons/cw2_shark/akm/ak_firenew.wav", 1, 95, CHAN_STATIC)
 CustomizableWeaponry:addFireSound("MGMPSTGW57_FIRE4", {
 	"mgmp/stgw57/AKMSIL-1.wav",
 	"mgmp/stgw57/AKMSIL-2.wav",
