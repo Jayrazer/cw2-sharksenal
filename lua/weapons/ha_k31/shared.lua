@@ -51,7 +51,7 @@ if CLIENT then
 	SWEP.PronePos = Vector(0, 0, -3.1579)
 	SWEP.ProneAng = Vector(-2, 22.7368, -28.9474)
 	
-	SWEP.ScopePos = Vector(-3.75, -5, 0.45)
+	SWEP.ScopePos = Vector(-3.75, -6, 0.45)
 	SWEP.ScopeAng = Vector(0.4, 0, 0)
 	
 	SWEP.EoTechPos = Vector(-3.79, -13.5, -0.13)
