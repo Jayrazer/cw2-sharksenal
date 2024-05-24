@@ -39,7 +39,7 @@ if CLIENT then
 	SWEP.KobraPos = Vector(-3.04, -5, -0.55)
 	SWEP.KobraAng = Vector(1, 0, 3.5)
 	
-	SWEP.PSOPos = Vector(-2.95, -4, 0)
+	SWEP.PSOPos = Vector(-3.03, -2.6, -0.15)
 	SWEP.PSOAng = Vector(0, 0, 0)
 	
 	SWEP.SprintPos = Vector(4.67, 0.201, -5.1)
@@ -67,7 +67,7 @@ if CLIENT then
 	SWEP.AttachmentModelsVM = {
 	
 	["md_pbs1"] = {model = "models/cw2/attachments/pbs1.mdl", pos = Vector(-0.25, -0.95, 28), angle = Angle(0, -180, 90), size = Vector(1.1, 1.1, 1.1), bone = "akm_root"},
-	["md_pso1"] = {model = "models/cw2/attachments/pso.mdl", pos = Vector(-0.11, -0.2, -0.8), angle = Angle(0, -177, 90), size = Vector(1, 1, 1), bone = "akm_root"},
+	["md_pso1"] = {model = "models/cw2/attachments/pso.mdl", pos = Vector(-0.12, -0.3, -3.2), angle = Angle(0, -176, 90), size = Vector(1, 1, 1), bone = "akm_root"},
 	["md_kobra"] = {type = "Model", model = "models/cw2/attachments/kobra.mdl", pos = Vector(0.32, 1, 3.2), angle = Angle(0, -180, 90), size = Vector(0.9, 0.9, 0.9), bone = "akm_root"},
 	
 	}
@@ -84,8 +84,8 @@ SWEP.CanRestOnObjects = true
 SWEP.Attachments = {
 
 	[1] = {header = "Muzzle", offset = {-350, -250}, atts = {"md_pbs1"}},
-	[2] = {header = "Sight", offset = {1150, -350}, atts = {"md_kobra", "md_pso1"}},
-	["+reload"] = {header = "Ammo", offset = {750, 250}, atts = {"am_magnum", "am_matchgrade"}}
+	[2] = {header = "Sight", offset = {1000, -250}, atts = {"md_kobra", "md_pso1"}},
+	["+reload"] = {header = "Ammo", offset = {650, 320}, atts = {"am_magnum", "am_matchgrade"}}
 
 }
 	
@@ -154,7 +154,7 @@ SWEP.Primary.Ammo			= "7.62x39MM"
 SWEP.FireMoveMod = 0
 SWEP.FireDelay = 60/600
 SWEP.FireSound = "AKM_FIRE"
-SWEP.FireSoundSuppressed = "MGMPSTGW57_FIRE2"
+SWEP.FireSoundSuppressed = "AKM_FIRE_SUPP"
 SWEP.Recoil = 1.75
 SWEP.FOVPerShot = .45
 
