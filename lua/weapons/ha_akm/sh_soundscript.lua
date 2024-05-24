@@ -5,15 +5,15 @@ SWEP.Sounds = {
 	},
 	
 	fire_1 = {
-		{time = 0/80, sound = "AKM_BOLTBACK2"},
+		{time = 1/80, sound = "AKM_BOLTFORWARD"},
 	},
 	
 	fire_2 = {
-		{time = 0/80, sound = "AKM_BOLTBACK2"},
+		{time = 1/80, sound = "AKM_BOLTFORWARD"},
 	},
 	
 	fire_aim = {
-		{time = 0/80, sound = "AKM_BOLTBACK2"},
+		{time = 1/80, sound = "AKM_BOLTFORWARD"},
 	},
 	
 	reload = {
@@ -36,7 +36,6 @@ SWEP.Sounds = {
 	{time = 0.9, sound = "CW_FOLEY_MEDIUM"},
 	{time = 1.72, sound = "AKM_MAGREL"},
 	{time = 1.75, sound = "AKM_MAGIN"},
-	{time = 2.5, sound = "CW_FOLEY_MEDIUM"},
 	{time = 3, sound = "AKM_BOLTBACK1"},
 	{time = 3.25, sound = "AKM_BOLTFORWARD"},
 	
