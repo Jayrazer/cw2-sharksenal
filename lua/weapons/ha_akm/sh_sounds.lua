@@ -1,5 +1,10 @@
 
-CustomizableWeaponry:addFireSound("AKM_FIRE", "^weapons/cw2_shark/akm/ak_firenew.wav", 1, 100, CHAN_STATIC)
+CustomizableWeaponry:addFireSound("AKM_FIRE", {
+"weapons/cw2_shark/akm/fire11.wav",
+"weapons/cw2_shark/akm/fire12.wav",
+"weapons/cw2_shark/akm/fire13.wav",
+"weapons/cw2_shark/akm/fire14.wav",
+}, 1, 100, CHAN_STATIC)
 CustomizableWeaponry:addFireSound("AKM_FIRE_SUPP", "weapons/cw2_shark/akm/ak_fire_supp.wav", 1, 100, CHAN_STATIC)
 
 

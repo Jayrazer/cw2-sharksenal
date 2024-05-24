@@ -5,15 +5,15 @@ SWEP.Sounds = {
 	},
 	
 	fire_1 = {
-		{time = 1/80, sound = "AKM_BOLTFORWARD"},
+		{time = 0.01, sound = "AKM_BOLTFORWARD"},
 	},
 	
 	fire_2 = {
-		{time = 1/80, sound = "AKM_BOLTFORWARD"},
+		{time = 0.01, sound = "AKM_BOLTFORWARD"},
 	},
 	
 	fire_aim = {
-		{time = 1/80, sound = "AKM_BOLTFORWARD"},
+		{time = 0.01, sound = "AKM_BOLTFORWARD"},
 	},
 	
 	reload = {
