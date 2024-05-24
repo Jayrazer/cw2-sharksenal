@@ -17,8 +17,8 @@ if CLIENT then
 	SWEP.CSMuzzleFlashes = true
 	SWEP.UseHands = true
 	
-	SWEP.SelectIcon = surface.GetTextureID("vgui/sg510")
-	killicon.Add( "fp_sg510", "vgui/killicons/sg510", Color(255, 120, 40, 0))
+	SWEP.SelectIcon = surface.GetTextureID("vgui/akm")
+	killicon.Add( "ha_akm", "vgui/killicons/akm", Color(255, 120, 40, 0))
 	
 	SWEP.MuzzleEffect = "muzzleflash_ak47"
 	SWEP.PosBasedMuz = false
