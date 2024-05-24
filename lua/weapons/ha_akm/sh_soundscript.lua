@@ -5,15 +5,15 @@ SWEP.Sounds = {
 	},
 	
 	fire_1 = {
-		{time = 7/80, sound = "FPXM177_FIRE_MECH"},
+		{time = 7/80, sound = "MGMPSTGW57_BOLTBACK2"},
 	},
 	
 	fire_2 = {
-		{time = 7/80, sound = "FPXM177_FIRE_MECH"},
+		{time = 7/80, sound = "MGMPSTGW57_BOLTBACK2"},
 	},
 	
 	fire_aim = {
-		{time = 7/80, sound = "FPXM177_FIRE_MECH"},
+		{time = 7/80, sound = "MGMPSTGW57_BOLTBACK2"},
 	},
 	
 	reload = {{time = 0.1, sound = "MGMPSTGW57_FOLEY1"},
