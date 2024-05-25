@@ -33,13 +33,13 @@ if CLIENT then
 	SWEP.ForeGripOffsetCycle_Reload = 1
 	SWEP.ForeGripOffsetCycle_Reload_Empty = 1
 	
-	SWEP.IronsightPos = Vector(-3.06, -5, 1.1)
-	SWEP.IronsightAng = Vector(-0.3, -0.05, 3.5)
+	SWEP.IronsightPos = Vector(-2.98, -5, 0.69)
+	SWEP.IronsightAng = Vector(0.12, -0.05, 3.5)
 	
-	SWEP.KobraPos = Vector(-3.04, -5, -0.55)
-	SWEP.KobraAng = Vector(1, 0, 3.5)
+	SWEP.KobraPos = Vector(-2.92, -5, -0.6)
+	SWEP.KobraAng = Vector(1, 0, 4)
 	
-	SWEP.PSOPos = Vector(-3.03, -1.2, -0.15)
+	SWEP.PSOPos = Vector(-2.83, 0.6, -0.03)
 	SWEP.PSOAng = Vector(0, 0, 0)
 	
 	SWEP.SprintPos = Vector(4.2, -2.5, -4)
@@ -66,9 +66,9 @@ if CLIENT then
 	
 	SWEP.AttachmentModelsVM = {
 	
-	["md_pbs1"] = {model = "models/cw2/attachments/pbs1.mdl", pos = Vector(-0.25, -0.95, 28), angle = Angle(0, -180, 90), size = Vector(1.1, 1.1, 1.1), bone = "akm_root"},
-	["md_pso1"] = {model = "models/cw2/attachments/pso.mdl", pos = Vector(-0.12, -0.3, -3.2), angle = Angle(0, -176, 90), size = Vector(1, 1, 1), bone = "akm_root"},
-	["md_kobra"] = {type = "Model", model = "models/cw2/attachments/kobra.mdl", pos = Vector(0.32, 1, 3.2), angle = Angle(0, -180, 90), size = Vector(0.9, 0.9, 0.9), bone = "akm_root"},
+	["md_pbs1"] = {model = "models/cw2/attachments/pbs1.mdl", pos = Vector(-0.25, -1.1, 28.7), angle = Angle(0, -180, 90), size = Vector(1.1, 1.1, 1.1), bone = "akm_root"},
+	["md_pso1"] = {model = "models/cw2/attachments/pso.mdl", pos = Vector(0.1, -0.2, -5.2), angle = Angle(0, -176, 90), size = Vector(1, 1, 1), bone = "akm_root"},
+	["md_kobra"] = {type = "Model", model = "models/cw2/attachments/kobra.mdl", pos = Vector(0.45, 0.9, 1.6), angle = Angle(0, -180, 90), size = Vector(0.9, 0.9, 0.9), bone = "akm_root"},
 	
 	}
 
@@ -85,7 +85,7 @@ SWEP.Attachments = {
 
 	[1] = {header = "Muzzle", offset = {-350, -250}, atts = {"md_pbs1"}},
 	[2] = {header = "Sight", offset = {1000, -250}, atts = {"md_kobra", "md_pso1"}},
-	["+reload"] = {header = "Ammo", offset = {650, 320}, atts = {"am_magnum", "am_matchgrade"}}
+	["+reload"] = {header = "Ammo", offset = {650, 450}, atts = {"am_magnum", "am_matchgrade"}}
 
 }
 	
@@ -175,7 +175,7 @@ SWEP.BipodInstalled = false
 
 --SWEP.RecoilToSpread = 0.25
 
-SWEP.ReloadSpeed = 1.1
+SWEP.ReloadSpeed = 1.13
 SWEP.ReloadTime = 1.8
 SWEP.ReloadHalt = 3.3
 SWEP.ReloadTime_Empty = 2.1
