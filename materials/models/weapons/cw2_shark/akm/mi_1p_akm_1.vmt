@@ -14,10 +14,10 @@
 
 //Phong
 	"$Phong"				    "1"
-	"$PhongBoost"               "5" 	//< Change as needed
+	"$PhongBoost"               "1" 	//< Change as needed
 //	"$PhongExponent"            "15" 	//< $PhongExponent overrides $PhongExponentTexture !!!
 	"$PhongFresnelRanges"	    "[0.3 1 4]"
-	"$PhongAlbedoTint"          "1"
+	"$PhongAlbedoTint"          "0"
 	"$PhongDisableHalfLambert"  "1"
 	"$NormalmapAlphaPhongMask"  "1"
 
