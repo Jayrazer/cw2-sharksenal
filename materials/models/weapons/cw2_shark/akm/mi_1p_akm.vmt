@@ -13,11 +13,11 @@
 	"$LightWarpTexture"         "models/weapons/cw2_shark/akm/clothes_wrp2"		//< Change as needed
 
 //Phong
-	"$Phong"				    "0"
-	"$PhongBoost"               "0.2" 	//< Change as needed
+	"$Phong"				    "1"
+	"$PhongBoost"               "0.4" 	//< Change as needed
 //	"$PhongExponent"            "15" 	//< $PhongExponent overrides $PhongExponentTexture !!!
-	"$PhongFresnelRanges"	    "[0.3 1 4]"
-	"$PhongAlbedoTint"          "1"
+	"$PhongFresnelRanges"	    "[0.3 1 3]"
+	"$PhongAlbedoTint"          "0"
 	"$PhongDisableHalfLambert"  "1"
 	"$NormalmapAlphaPhongMask"  "1"
 
@@ -27,13 +27,13 @@
 
 //Other
 	"$Model"                    "1"
-	"$HalfLambert" 			    "0"
+	"$HalfLambert" 			    "1"
 	"$NoDecal" 				    "0"
 	"$AmbientOcclusion" 	    "1"
 	"$NoCull" 				    "1"
 	"$SurfaceProp" 			    "metal"
 //	"$BlendTintByBaseAlpha"     "1"
-//	"$Color2"					"{ 0 0 0 }"	//< RGB colors
+//	"$Color2"					"{ 2 2 2 }"	//< RGB colors
 	"$CloakPassEnabled" 		"1" 	//< For SFM and TF2
 //	"$CloakColorTint" 			"[0.4 0.5 1]" // BLU
 //	"$CloakColorTint" 			"[1 0.5 0.4]" // RED
