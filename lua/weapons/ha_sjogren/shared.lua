@@ -37,7 +37,7 @@ if CLIENT then
 	SWEP.SprintPos = Vector(4.44, 0, -1.211)
 	SWEP.SprintAng = Vector(-11.256, 28.141, -18.996)
 	
-	SWEP.CustomizePos = Vector(8.649, -4.814, -3.701)
+	SWEP.CustomizePos = Vector(9.649, -6.814, -2.701)
 	SWEP.CustomizeAng = Vector(13.366, 44.321, 0.703)
 	
 	SWEP.SwimPos = Vector(0.5682, -1.7045, 1.0526)
@@ -151,11 +151,11 @@ SWEP.PreventQuickScoping = true
 SWEP.CrosshairParts = {left = true, right = true, upper = false, lower = true}
 
 SWEP.SnapToIdle = false
-SWEP.ReloadSpeed = 1.4
+SWEP.ReloadSpeed = 1.3
 SWEP.ReloadStartTime = 0.6
 SWEP.ReloadStartTime_Empty = 2.7
 SWEP.ReloadFinishTime = 0.8
-SWEP.InsertShellTime = 0.9
+SWEP.InsertShellTime = 1
 SWEP.ReloadFinishWait = 1.1
 
 function SWEP:fireAnimFunc()

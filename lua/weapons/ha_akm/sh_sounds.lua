@@ -15,6 +15,6 @@ CustomizableWeaponry:addReloadSound("AKM_MAGREL", "weapons/cw2_shark/akm/safety.
 CustomizableWeaponry:addReloadSound("AKM_MAGOUT", "weapons/cw2_shark/akm/magout.wav")
 CustomizableWeaponry:addReloadSound("AKM_MAGIN", "weapons/cw2_shark/akm/magin.wav")
 CustomizableWeaponry:addReloadSound("AKM_BOLTBACK1", "weapons/cw2_shark/akm/boltpull.wav")
-CustomizableWeaponry:addReloadSound("AKM_BOLTBACK2", "weapons/cw2_shark/akm/boltpull.wav")
+CustomizableWeaponry:addReloadSound("AKM_BOLTBACK2", "weapons/cw2_shark/akm/ak_firemech.wav")
 CustomizableWeaponry:addReloadSound("AKM_BOLTFORWARD", "weapons/cw2_shark/akm/boltrel.wav")
 

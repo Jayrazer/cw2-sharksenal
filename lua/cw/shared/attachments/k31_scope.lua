@@ -137,7 +137,7 @@ function att:attachFunc()
 	self.AimViewModelFOV = 55
 	self.BlurOnAim = true
 	self.ZoomTextures = att.zoomTextures
-	self.AimBreathingEnabled = false
+	self.AimBreathingEnabled = true
 end
 
 function att:detachFunc()

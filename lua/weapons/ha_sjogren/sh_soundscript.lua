@@ -3,8 +3,22 @@ SWEP.Sounds = {
 		{time = 0, sound = "CW_FOLEY_MEDIUM"},
 	},
 	
+	fire = {
+		{time = 0.01, sound = "SJOGREN_BOLTBACK"},
+		{time = 0.15, sound = "SJOGREN_BOLTBACK"},
+	},	
+	
+	fire_aim = {
+		{time = 0.01, sound = "SJOGREN_BOLTBACK"},
+		{time = 0.15, sound = "SJOGREN_BOLTBACK"},
+	},	
+	
 	fire_last = {
-		{time = 2/80, sound = "SJOGREN_BOLTFORWARD"},
+		{time = 0.02, sound = "SJOGREN_BOLTBACK"},
+	},
+	
+	fire_last_aim = {
+		{time = 0.02, sound = "SJOGREN_BOLTBACK"},
 	},
 	
 	reload_start = {

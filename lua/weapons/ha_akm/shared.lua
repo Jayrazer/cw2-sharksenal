@@ -39,13 +39,13 @@ if CLIENT then
 	SWEP.KobraPos = Vector(-3.04, -5, -0.55)
 	SWEP.KobraAng = Vector(1, 0, 3.5)
 	
-	SWEP.PSOPos = Vector(-3.03, -2.6, -0.15)
+	SWEP.PSOPos = Vector(-3.03, -1.2, -0.15)
 	SWEP.PSOAng = Vector(0, 0, 0)
 	
 	SWEP.SprintPos = Vector(4.2, -2.5, -4)
 	SWEP.SprintAng = Vector(-8.443, 37.99, -23.216)
 	
-	SWEP.CustomizePos = Vector(8.843, -1.407, -3.619)
+	SWEP.CustomizePos = Vector(8.843, -2.707, -2.619)
 	SWEP.CustomizeAng = Vector(17.587, 41.507, 3.517)
 	
 	SWEP.AlternativePos = Vector(-1.2, 0.5, -0.2)
@@ -175,7 +175,7 @@ SWEP.BipodInstalled = false
 
 --SWEP.RecoilToSpread = 0.25
 
-SWEP.ReloadSpeed = 1.3
+SWEP.ReloadSpeed = 1.1
 SWEP.ReloadTime = 1.8
 SWEP.ReloadHalt = 3.3
 SWEP.ReloadTime_Empty = 2.1

@@ -157,7 +157,7 @@ SWEP.ShootWhileProne = true
 SWEP.HolsterOnLadder = true
 SWEP.SprintingEnabled = true
 
-SWEP.ReloadSpeed = 1.3
+SWEP.ReloadSpeed = 1.05
 SWEP.ReloadTime = 1.4
 SWEP.ReloadHalt = 1.8
 SWEP.ReloadTime_Empty = 1.4
