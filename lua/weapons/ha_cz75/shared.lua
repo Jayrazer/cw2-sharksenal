@@ -31,10 +31,10 @@ if CLIENT then
 	SWEP.ForeGripOffsetCycle_Reload = .85
 	SWEP.ForeGripOffsetCycle_Reload_Empty = .8
 
-	SWEP.IronsightPos = Vector(-2.55, 2, 1.71)
+	SWEP.IronsightPos = Vector(-2.55, 2, 1.8)
 	SWEP.IronsightAng = Vector(0, -0, 3.5)
 	
-	SWEP.AutoPos = Vector(-2.55, 2, 1.71)
+	SWEP.AutoPos = Vector(-2.55, 2, 1.8)
 	SWEP.AutoAng = Vector(0, -0, 3.5)
 	
 	SWEP.SprintPos = Vector(3.25, -12.9318, -8.5227)
@@ -57,15 +57,9 @@ if CLIENT then
 	SWEP.CustomizationMenuScale = 0.013
 	
 	SWEP.AttachmentModelsVM = {
-	["md_insight_x2"] = { type = "Model", model = "models/cw2/attachments/pistollaser.mdl", bone = "body", rel = "", pos = Vector(0, -2, -0.9), angle = Angle(180, 90, 0), size = Vector(0.135, 0.135, 0.135), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {} },
-	["md_cobram2"] = { type = "Model", model = "models/cw2/attachments/cobra_m2.mdl", bone = "barrel", rel = "", pos = Vector(-7.79, -0.784, -0.731), angle = Angle(0, 0, 0), size = Vector(1.05, 1.05, 1.05), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {} }
-}
-
-SWEP.AttachmentPosDependency = {
-		["md_cobram2"] = {
-			["fp_bigstick"] = Vector(-9.25, -0.784, -0.711),
-		},
+		["md_saker"] = {type = "Model", model = "models/cw2/attachments/556suppressor.mdl", bone = "cz75_root", pos = Vector(0.02, -4, -4.15), angle = Angle(180, 0, 90), size = Vector(0.65, 0.65, 0.65)},
 	}
+
 end
 
 SWEP.FrameBGs = {main = 1, semi = 0, auto = 1}
@@ -79,7 +73,7 @@ SWEP.FullAimViewmodelRecoil = false
 SWEP.FOVPerShot = 0
 
 SWEP.Attachments = {
---[1] = {header = "Muzzle", offset = {-700, -250}, atts = {"md_cobram2"}},
+[1] = {header = "Muzzle", offset = {-700, -250}, atts = {"md_saker"}},
 --[4] = {header = "Finish", offset = {0, 400}, atts = {"fp_altfinish"}},
 --[3] = {header = "Style", offset = {700, 150}, atts = {"fp_onehand"}},
 [2] = {header = "Receiver", offset = {100, -500}, atts = {"cz75_auto"}},
@@ -157,7 +151,7 @@ SWEP.ShootWhileProne = true
 SWEP.HolsterOnLadder = true
 SWEP.SprintingEnabled = true
 
-SWEP.ReloadSpeed = 1.05
+SWEP.ReloadSpeed = 1.07
 SWEP.ReloadTime = 1.4
 SWEP.ReloadHalt = 1.8
 SWEP.ReloadTime_Empty = 1.4
