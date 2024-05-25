@@ -108,10 +108,10 @@ SWEP.Purpose		= ""
 SWEP.Instructions	= ""
 SWEP.NearWallEnabled = false
 
-SWEP.ViewModelFOV	= 60
+SWEP.ViewModelFOV	= 63
 SWEP.AimViewModelFOV = 60
 SWEP.ZoomAmount = 5
-SWEP.FOVPerShot = .5
+SWEP.FOVPerShot = .7
 SWEP.ViewModelFlip	= false
 SWEP.ViewModel		= "models/weapons/cw2_shark/v_sjogren.mdl"
 SWEP.WorldModel		= "models/weapons/cw2_shark/w_sjogren.mdl"
