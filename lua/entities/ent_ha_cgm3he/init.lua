@@ -19,7 +19,7 @@ function ENT:Initialize()
 	end
 	
 	self:GetPhysicsObject():SetBuoyancyRatio(0)
-	self.ArmTime = CurTime() + 0.15
+	self.ArmTime = CurTime() + 0.05
 	
 	spd = physenv.GetPerformanceSettings()
     spd.MaxVelocity = 10000
