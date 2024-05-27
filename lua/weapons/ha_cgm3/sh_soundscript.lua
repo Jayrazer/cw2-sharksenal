@@ -1,4 +1,8 @@
 SWEP.Sounds = {
+
+	draw = {
+		{time = 0/31, sound = "CW_FOLEY_MEDIUM"},
+	},
 	
 	reload = {
 		{time = 0.1, sound = "CGM3_ROTATE"},
