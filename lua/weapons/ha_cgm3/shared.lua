@@ -106,11 +106,11 @@ SWEP.ZoomAmount = 20
 SWEP.ViewModelFlip	= false
 SWEP.UseHands 		= true
 SWEP.ViewModel		= "models/weapons/cw2_shark/v_cgm3.mdl"
-SWEP.WorldModel		= "models/khrcw2/w_ins2rpg7.mdl"
+SWEP.WorldModel		= "models/weapons/cw2_shark/w_cgm3.mdl"
 
 SWEP.DrawTraditionalWorldModel = false
-SWEP.WM = "models/khrcw2/w_ins2rpg7.mdl"
-SWEP.WMPos = Vector(-1.05, 7.35, 2)
+SWEP.WM = "models/weapons/cw2_shark/w_cgm3.mdl"
+SWEP.WMPos = Vector(-1, 0, 1.2)
 SWEP.WMAng = Vector(-10, 0, 180)
 
 SWEP.Spawnable			= true
