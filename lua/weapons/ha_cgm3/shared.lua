@@ -11,8 +11,8 @@ if CLIENT then
 	SWEP.PrintName = "Carl Gustaf M3"
 	SWEP.CSMuzzleFlashes = true
 	
-	SWEP.SelectIcon = surface.GetTextureID("vgui/inventory/weapon_rpg7")
-	killicon.Add( "doi_ins2_rpg7", "vgui/inventory/weapon_rpg7", Color(255, 80, 0, 0))
+	SWEP.SelectIcon = surface.GetTextureID("vgui/cgm3")
+	killicon.Add( "ha_cgm3", "vgui/killicons/cgm3", Color(255, 80, 0, 0))
 	
 	SWEP.MuzzleEffect = "muzzleflash_ak74"
 	SWEP.PosBasedMuz = true
