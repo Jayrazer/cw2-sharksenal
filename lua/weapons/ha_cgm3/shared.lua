@@ -144,9 +144,9 @@ SWEP.RecoilToSpread = 1.25
 
 SWEP.ReloadSpeed = 1.1
 SWEP.ReloadTime = 4.65
-SWEP.ReloadHalt = 4.65
+SWEP.ReloadHalt = 7.8
 SWEP.ReloadTime_Empty = 4.65
-SWEP.ReloadHalt_Empty = 4.65
+SWEP.ReloadHalt_Empty = 7.8
 
 if CLIENT then
 	function SWEP:IndividualInitialize()
