@@ -2,8 +2,8 @@ AddCSLuaFile("cl_init.lua")
 AddCSLuaFile("shared.lua")
 include("shared.lua")
 
-ENT.BlastDamage = 250
-ENT.BlastRadius = 496
+ENT.BlastDamage = 180
+ENT.BlastRadius = 200
 
 function ENT:Initialize()
 	self:SetModel("models/Items/AR2_Grenade.mdl") 
@@ -19,10 +19,10 @@ function ENT:Initialize()
 	end
 	
 	self:GetPhysicsObject():SetBuoyancyRatio(0)
-	self.ArmTime = CurTime() + 0.15
+	self.ArmTime = CurTime() + 0.1
 	
 	spd = physenv.GetPerformanceSettings()
-    spd.MaxVelocity = 10000
+    spd.MaxVelocity = 15000
 	
     physenv.SetPerformanceSettings(spd)
 end

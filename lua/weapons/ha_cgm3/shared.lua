@@ -71,7 +71,7 @@ SWEP.CanRestOnObjects = false
 SWEP.Attachments = {
 
 	--[1] = {header = "Finish", offset = {700, 350}, atts = {"ins2_atow_newfinish"}},
-	--["+reload"] = {header = "Projectile", offset = {-415, 100}, atts = {"ins2_atow_hvrocket", "ins2_atow_herocket", "ins2_atow_hvatrocket", "ins2_atow_dudrocket"}}
+	["+reload"] = {header = "Projectile", offset = {-415, 100}, atts = {"ha_cgm3_smoke", "ha_cgm3_uhv"}}
 	
 	}
 
@@ -383,7 +383,7 @@ function SWEP:PrimaryAttack()
 		if self:isAiming() then offset = forward * 35 + eyeAng:Right() * 0.5 - eyeAng:Up() * 2.5
 		end
 	
-	if SERVER and not self.ActiveAttachments.ha_cgm3_smoke then
+	if SERVER and not self.ActiveAttachments.ha_cgm3_smoke and not self.ActiveAttachments.ha_cgm3_uhv then
 		missile = ents.Create("ent_ha_cgm3he")
 		missile:SetPos(pos + offset)
 		missile:SetAngles(eyeAng)
@@ -393,12 +393,12 @@ function SWEP:PrimaryAttack()
 		local phys = missile:GetPhysicsObject()
 		
 		if IsValid(phys) then
-			phys:SetVelocity(forward * 7500)
+			phys:SetVelocity(forward * 8000)
 		end
 end
 		
 	if SERVER and self.ActiveAttachments.ha_cgm3_smoke then
-		missile = ents.Create("cw_40mm_smoke")
+		missile = ents.Create("ent_ha_cgm3smk")
 		missile:SetPos(pos + offset)
 		missile:SetAngles(eyeAng)
 		missile:Spawn()
@@ -407,7 +407,21 @@ end
 		local phys = missile:GetPhysicsObject()
 		
 		if IsValid(phys) then
-			phys:SetVelocity(forward * 7500)
+			phys:SetVelocity(forward * 3500)
+		end
+end
+
+	if SERVER and self.ActiveAttachments.ha_cgm3_uhv then
+		missile = ents.Create("ent_ha_cgm3uhv")
+		missile:SetPos(pos + offset)
+		missile:SetAngles(eyeAng)
+		missile:Spawn()
+		missile:Activate()
+		missile:SetOwner(self.Owner)
+		local phys = missile:GetPhysicsObject()
+		
+		if IsValid(phys) then
+			phys:SetVelocity(forward * 12000)
 		end
 end
 	
