@@ -80,7 +80,8 @@ SWEP.Animations = {
 	fire_aim = {"fire"},
 	reload = "reload",
 	idle = "idle",
-	draw = "draw"
+	draw = "draw",
+	holster = "holster"
 }
 	
 
@@ -99,8 +100,8 @@ SWEP.Contact		= ""
 SWEP.Purpose		= ""
 SWEP.Instructions	= ""
 
-SWEP.ViewModelFOV	= 62
-SWEP.AimViewModelFOV = 62
+SWEP.ViewModelFOV	= 65
+SWEP.AimViewModelFOV = 65
 SWEP.ZoomAmount = 20
 SWEP.ViewModelFlip	= false
 SWEP.UseHands 		= true
@@ -122,8 +123,8 @@ SWEP.Chamberable			= false
 SWEP.Primary.Ammo			= "RPG_Round"
 
 SWEP.FireDelay = 60/915
-SWEP.FireSound = "INS2RPG7_FIRE"
-SWEP.Recoil = 1
+SWEP.FireSound = "CGM3_FIRE"
+SWEP.Recoil = 0.1
 SWEP.FOVPerShot = 20
 
 SWEP.HipSpread = 0.05
@@ -383,30 +384,30 @@ function SWEP:PrimaryAttack()
 		end
 	
 	if SERVER and not self.ActiveAttachments.ha_cgm3_smoke then
-		nade = ents.Create("ent_ha_cgm3he")
-		nade:SetPos(pos + offset)
-		nade:SetAngles(eyeAng)
-		nade:Spawn()
-		nade:Activate()
-		nade:SetOwner(self.Owner)
-		local phys = nade:GetPhysicsObject()
+		missile = ents.Create("ent_ha_cgm3he")
+		missile:SetPos(pos + offset)
+		missile:SetAngles(eyeAng)
+		missile:Spawn()
+		missile:Activate()
+		missile:SetOwner(self.Owner)
+		local phys = missile:GetPhysicsObject()
 		
 		if IsValid(phys) then
-			phys:SetVelocity(forward * 6000)
+			phys:SetVelocity(forward * 7500)
 		end
 end
 		
 	if SERVER and self.ActiveAttachments.ha_cgm3_smoke then
-		nade = ents.Create("cw_40mm_smoke")
-		nade:SetPos(pos + offset)
-		nade:SetAngles(eyeAng)
-		nade:Spawn()
-		nade:Activate()
-		nade:SetOwner(self.Owner)
-		local phys = nade:GetPhysicsObject()
+		missile = ents.Create("cw_40mm_smoke")
+		missile:SetPos(pos + offset)
+		missile:SetAngles(eyeAng)
+		missile:Spawn()
+		missile:Activate()
+		missile:SetOwner(self.Owner)
+		local phys = missile:GetPhysicsObject()
 		
 		if IsValid(phys) then
-			phys:SetVelocity(forward * 6000)
+			phys:SetVelocity(forward * 7500)
 		end
 end
 	
