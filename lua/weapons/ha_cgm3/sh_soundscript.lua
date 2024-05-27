@@ -12,7 +12,7 @@ SWEP.Sounds = {
 		{time = 2.6, sound = "CGM3_RAISE"},
 		{time = 3.9, sound = "CGM3_SHELLIN"},
 		--{time = 4.9, sound = "CGM3_BREECHCLOSE"},
-		{time = 5.05, sound = "CGM3_BREECHCLOSE2"},
+		{time = 5.12, sound = "CGM3_BREECHCLOSE2"},
 		{time = 6, sound = "CGM3_RAISE"},
 	}
 }
