@@ -3,7 +3,7 @@ AddCSLuaFile("shared.lua")
 include("shared.lua")
 
 ENT.BlastDamage = 320
-ENT.BlastRadius = 150
+ENT.BlastRadius = 200
 
 function ENT:Initialize()
 	self:SetModel("models/Items/AR2_Grenade.mdl") 
