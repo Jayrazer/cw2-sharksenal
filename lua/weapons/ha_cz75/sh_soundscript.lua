@@ -37,9 +37,8 @@ SWEP.Sounds = {
 	reload_empty = {
 		{time = 3/31.5, sound = "CZ75_MAGOUT"},
 		{time = 34/31.5, sound = "CZ75_MAGIN"},
-		{time = 61/31.5, sound = "CZ75_SLIDEBACK"},
-		{time = 64/31.5, sound = "CZ75_SLIDERELEASE"},
-		{time = 70/31, sound = "CW_FOLEY_MEDIUM"},
+		{time = 50/31.5, sound = "CZ75_SLIDERELEASE"},
+		{time = 60/31, sound = "CW_FOLEY_MEDIUM"},
 	},
 	
 	reload_auto = {
@@ -51,9 +50,9 @@ SWEP.Sounds = {
 	reload_empty_auto = {
 		{time = 3/31.5, sound = "CZ75_MAGOUT"},
 		{time = 34/31.5, sound = "CZ75_MAGIN"},
-		{time = 61/31.5, sound = "CZ75_SLIDEBACK"},
-		{time = 64/31.5, sound = "CZ75_SLIDERELEASE"},
-		{time = 70/31, sound = "CW_FOLEY_MEDIUM"},
+		{time = 56/31.5, sound = "CZ75_SLIDEBACK"},
+		{time = 58/31.5, sound = "CZ75_SLIDERELEASE"},
+		{time = 65/31, sound = "CW_FOLEY_MEDIUM"},
 	},
 	
 }

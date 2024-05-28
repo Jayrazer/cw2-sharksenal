@@ -7,16 +7,21 @@ att.aimPos = {"AutoPos", "AutoAng"}
 att.isSight = true
 att.withoutRail = true
 
-att.statModifiers = {RecoilMult = .1,
-ReloadSpeedMult = -0.05,
-SpreadPerShotMult = 0.1,
-FireDelayMult = -.45}
+att.statModifiers = {
+
+	RecoilMult = .1,
+	ReloadSpeedMult = -0.05,
+	SpreadPerShotMult = 0.1,
+	FireDelayMult = -.45
+
+	
+}
 
 if CLIENT then
 	att.displayIcon = surface.GetTextureID("atts/cz75_auto")
 	att.description = {
-	[1] = {t = "+ Machine pistol model", c = CustomizableWeaponry.textColors.COSMETIC},
-	[2] = {t = "+ Extended 26rnd magazine", c = CustomizableWeaponry.textColors.COSMETIC}}
+	[1] = {t = "Machine pistol model", c = CustomizableWeaponry.textColors.COSMETIC},
+	[2] = {t = "Extended 26rnd magazine", c = CustomizableWeaponry.textColors.COSMETIC}}
 end
 
 function att:attachFunc()
@@ -27,6 +32,11 @@ function att:attachFunc()
 	self:CycleFiremodes() 
 	self:CycleFiremodes() 
 	self.Automatic = true
+	
+	self.ReloadTime = 1.25
+	self.ReloadHalt = 1.9
+	self.ReloadTime_Empty = 1.25
+	self.ReloadHalt_Empty = 2.5
 	
 	self.Primary.ClipSize = 26
 	self.Primary.ClipSize_Orig = 26
@@ -54,6 +64,11 @@ function att:detachFunc()
 	self:CycleFiremodes() 
 	self:CycleFiremodes() 
 	self.Automatic = false
+	
+	self.ReloadTime = 1.2
+	self.ReloadHalt = 1.8
+	self.ReloadTime_Empty = 1.3
+	self.ReloadHalt_Empty = 2.3
 	
 	self.Primary.ClipSize = self.Primary.ClipSize_ORIG_REAL
 	self.Primary.ClipSize_Orig = self.Primary.ClipSize_ORIG_REAL
