@@ -19,7 +19,7 @@ function ENT:Think()
 		part:SetDieTime(1)
 		part:SetRoll(math.random(0, 360))
 		part:SetRollDelta(0.01)
-		part:SetColor(160, 160, 160)
+		part:SetColor(120, 130, 120)
 		part:SetLighting(false)
 		part:SetVelocity(VectorRand() * 25)
 	//	self.ParticleDelay = CurTime() + 0.01

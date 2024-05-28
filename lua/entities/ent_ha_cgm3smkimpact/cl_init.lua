@@ -4,7 +4,7 @@ ENT.SmokeFadeTime = 2
 ENT.SmokeFadeInTime = 1
 ENT.SmokeIntensity = 0
 ENT.SmokeStartDistance = 400
-ENT.SmokeMaxIntensityDistance = 250
+ENT.SmokeMaxIntensityDistance = 256
 
 function ENT:Initialize()
 	self.InitTime = self:GetCreationTime()
@@ -68,6 +68,7 @@ function ENT:Think()
 	if not ply.CW_SmokeScreenIntensity or overallIntensity > ply.CW_SmokeScreenIntensity then
 		ply.CW_SmokeScreenIntensity = overallIntensity
 	end
+	
 end 
 
 net.Receive("CW_SMOKESCREEN", function(a, b)

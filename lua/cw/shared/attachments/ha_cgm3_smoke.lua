@@ -7,8 +7,9 @@ att.SpeedDec = 4
 if CLIENT then
 	att.displayIcon = surface.GetTextureID("atts/rpg7hvat")
 	att.description = {
-	[1] = {t = "Low-velocity smokescreen rounds.", c = CustomizableWeaponry.textColors.COSMETIC},
-	[2] = {t = "Direct impact is still lethal.", c = CustomizableWeaponry.textColors.COSMETIC}}
+	[1] = {t = "Low-velocity rounds that deploy a smokescreen to obscure enemy vision", c = CustomizableWeaponry.textColors.COSMETIC},
+	[2] = {t = "Direct impact is still lethal at close range", c = CustomizableWeaponry.textColors.COSMETIC},
+}
 	
 end
 

@@ -5,4 +5,4 @@ ENT.Author = "Spy"
 ENT.Spawnable = false
 ENT.AdminSpawnable = false 
 
-ENT.SmokeDuration = 16
+ENT.SmokeDuration = 18
