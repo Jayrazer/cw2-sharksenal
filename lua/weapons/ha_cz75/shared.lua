@@ -92,8 +92,6 @@ SWEP.Animations = {
 	draw = "draw"
 }
 	
-SWEP.ReloadViewBobEnabled = true
-	
 SWEP.SpeedDec = 5
 
 SWEP.Slot = 1
@@ -122,6 +120,9 @@ SWEP.WorldModel		= "models/weapons/cw2_shark/w_cz75.mdl"
 SWEP.Spawnable			= true
 SWEP.AdminSpawnable		= true
 SWEP.ReloadViewBobEnabled = false
+SWEP.RVBPitchMod = 0.25
+SWEP.RVBYawMod = 0.25
+SWEP.RVBRollMod = 0.5
 
 SWEP.Primary.ClipSize		= 16
 SWEP.Primary.DefaultClip	= 32

@@ -151,7 +151,7 @@ SWEP.PreventQuickScoping = true
 SWEP.CrosshairParts = {left = true, right = true, upper = false, lower = true}
 
 SWEP.SnapToIdle = false
-SWEP.ReloadSpeed = 1.3
+SWEP.ReloadSpeed = 1.35
 SWEP.ReloadStartTime = 0.6
 SWEP.ReloadStartTime_Empty = 2.7
 SWEP.ReloadFinishTime = 0.8

@@ -37,7 +37,7 @@ if CLIENT then
 	SWEP.ProneAng = Vector(-10, 42.7368, -50.9474)
 	
 	SWEP.MoveType = 0
-	SWEP.ViewModelMovementScale = 1.2
+	SWEP.ViewModelMovementScale = 1
 	SWEP.OverallMouseSens = .65
 	SWEP.DisableSprintViewSimulation = false
 	
@@ -114,6 +114,7 @@ SWEP.WMAng = Vector(-10, 0, 180)
 
 SWEP.Spawnable			= true
 SWEP.AdminSpawnable		= true
+SWEP.ReloadViewBobEnabled = false
 
 SWEP.Primary.ClipSize		= 1
 SWEP.Primary.DefaultClip	= 1

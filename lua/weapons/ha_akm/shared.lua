@@ -141,8 +141,8 @@ SWEP.WorldModel		= "models/weapons/cw2_shark/w_akm.mdl"
 SWEP.Spawnable			= true
 SWEP.AdminSpawnable		= true
 SWEP.ReloadViewBobEnabled = false
-SWEP.RVBPitchMod = 1
-SWEP.RVBYawMod = 1
+SWEP.RVBPitchMod = 1.5
+SWEP.RVBYawMod = 1.5
 SWEP.RVBRollMod = 1
 
 SWEP.Primary.ClipSize		= 30

@@ -58,7 +58,7 @@ function ENT:PhysicsCollide(data, physobj)
 		-- Fire tracers so we can damage choppers and gunships.
 		self:FireBullets({
             Attacker = attacker,
-            Damage = 180,
+            Damage = 320,
             Tracer = 0,
             Src = self:GetPos(),
             Dir = self:GetForward(),
