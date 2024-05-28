@@ -70,8 +70,7 @@ SWEP.CanRestOnObjects = false
 
 SWEP.Attachments = {
 
-	--[1] = {header = "Finish", offset = {700, 350}, atts = {"ins2_atow_newfinish"}},
-	["+reload"] = {header = "Projectile", offset = {-415, 100}, atts = {"ha_cgm3_smoke", "ha_cgm3_uhv"}}
+	["+reload"] = {header = "Projectile", offset = {-300, 400}, atts = {"ha_cgm3_heat", "ha_cgm3_uhv", "ha_cgm3_smoke"}}
 	
 	}
 
@@ -142,7 +141,7 @@ SWEP.ADSFireAnim = true
 
 SWEP.RecoilToSpread = 1.25
 
-SWEP.ReloadSpeed = 1.1
+SWEP.ReloadSpeed = 1.3
 SWEP.ReloadTime = 4.65
 SWEP.ReloadHalt = 7.8
 SWEP.ReloadTime_Empty = 4.65
@@ -383,7 +382,7 @@ function SWEP:PrimaryAttack()
 		if self:isAiming() then offset = forward * 35 + eyeAng:Right() * 0.5 - eyeAng:Up() * 2.5
 		end
 	
-	if SERVER and not self.ActiveAttachments.ha_cgm3_smoke and not self.ActiveAttachments.ha_cgm3_uhv then
+	if SERVER and not self.ActiveAttachments.ha_cgm3_smoke and not self.ActiveAttachments.ha_cgm3_uhv and not self.ActiveAttachments.ha_cgm3_heat then
 		missile = ents.Create("ent_ha_cgm3he")
 		missile:SetPos(pos + offset)
 		missile:SetAngles(eyeAng)
@@ -422,6 +421,20 @@ end
 		
 		if IsValid(phys) then
 			phys:SetVelocity(forward * 12000)
+		end
+end
+
+	if SERVER and self.ActiveAttachments.ha_cgm3_heat then
+		missile = ents.Create("ent_ha_cgm3heat")
+		missile:SetPos(pos + offset)
+		missile:SetAngles(eyeAng)
+		missile:Spawn()
+		missile:Activate()
+		missile:SetOwner(self.Owner)
+		local phys = missile:GetPhysicsObject()
+		
+		if IsValid(phys) then
+			phys:SetVelocity(forward * 7500)
 		end
 end
 	

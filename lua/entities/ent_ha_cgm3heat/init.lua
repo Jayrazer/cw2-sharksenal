@@ -2,8 +2,8 @@ AddCSLuaFile("cl_init.lua")
 AddCSLuaFile("shared.lua")
 include("shared.lua")
 
-ENT.BlastDamage = 320
-ENT.BlastRadius = 150
+ENT.BlastDamage = 230
+ENT.BlastRadius = 315
 
 function ENT:Initialize()
 	self:SetModel("models/Items/AR2_Grenade.mdl") 
@@ -22,7 +22,7 @@ function ENT:Initialize()
 	self.ArmTime = CurTime() + 0.05
 	
 	spd = physenv.GetPerformanceSettings()
-    spd.MaxVelocity = 15000
+    spd.MaxVelocity = 10000
 	
     physenv.SetPerformanceSettings(spd)
 end
@@ -50,15 +50,15 @@ function ENT:PhysicsCollide(data, physobj)
 	end
 	
 	if CurTime() > self.ArmTime then
-		
+	
 		local attacker = self.Attacker or self:GetOwner()
 	
 		util.BlastDamage(self, self:GetOwner(), self:GetPos(), self.BlastRadius, self.BlastDamage)
 		
-		-- Fire tracers so we can damage choppers and gunships.
+		-- Fire tracers so we can damage choppers.
 		self:FireBullets({
             Attacker = attacker,
-            Damage = 180,
+            Damage = 230,
             Tracer = 0,
             Src = self:GetPos(),
             Dir = self:GetForward(),
@@ -66,8 +66,8 @@ function ENT:PhysicsCollide(data, physobj)
             Distance = 96,
             IgnoreEntity = self,
             Callback = function(atk, btr, dmginfo)
-                dmginfo:SetDamageType(DMG_AIRBOAT + DMG_BLAST) -- Combine choppers and gunships are hardcoded to only take Airboat damage, so deal airboat damage.
-                dmginfo:SetDamageForce(self:GetForward() * 5000) // -- LVS vehicles use this to calculate armor penetration
+                dmginfo:SetDamageType(DMG_AIRBOAT + DMG_BLAST) -- Combine choppers are hardcoded to only take Airboat damage, so deal airboat damage.
+                dmginfo:SetDamageForce(self:GetForward() * 25000) // -- LVS vehicles use this to calculate armor penetration
             end,
         })
 		

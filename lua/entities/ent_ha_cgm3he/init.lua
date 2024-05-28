@@ -3,7 +3,7 @@ AddCSLuaFile("shared.lua")
 include("shared.lua")
 
 ENT.BlastDamage = 250
-ENT.BlastRadius = 496
+ENT.BlastRadius = 325
 
 function ENT:Initialize()
 	self:SetModel("models/Items/AR2_Grenade.mdl") 
@@ -67,7 +67,7 @@ function ENT:PhysicsCollide(data, physobj)
             IgnoreEntity = self,
             Callback = function(atk, btr, dmginfo)
                 dmginfo:SetDamageType(DMG_AIRBOAT + DMG_BLAST) -- Combine choppers are hardcoded to only take Airboat damage, so deal airboat damage.
-                dmginfo:SetDamageForce(self:GetForward() * 18000) // -- LVS vehicles use this to calculate armor penetration
+                dmginfo:SetDamageForce(self:GetForward() * 8000) // -- LVS vehicles use this to calculate armor penetration
             end,
         })
 		
