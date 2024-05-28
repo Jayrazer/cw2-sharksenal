@@ -82,7 +82,7 @@ SWEP.Attachments = {
 
 SWEP.Animations = {
 
-	fire = {"fire_1", "fire_2", "fire_3"},
+	fire = {"fire_1", "fire_2"},
 	fire_aim = "fire_aim",
 	fire_last = "fire_last",
 	fire_last_aim = "fire_last_aim",
