@@ -48,7 +48,7 @@ SWEP.Sounds = {
 	{time = 2.07, sound = "MP34_MAGIN"},
 	{time = 2.8, sound = "CW_FOLEY_MEDIUM"},
 	{time = 3.5, sound = "MP34_BOLTBACK1"},
-	{time = 3.55, sound = "MP34_MAGREL"},
+	{time = 3.7, sound = "MP34_BOLTFORWARD"},
 	
 	},
 }
