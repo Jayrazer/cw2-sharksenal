@@ -34,7 +34,7 @@ if CLIENT then
 	SWEP.IronsightPos = Vector(-2.56, 2, 2.06)
 	SWEP.IronsightAng = Vector(0, -0, 3.5)
 	
-	SWEP.AutoPos = Vector(-2.55, 2, 1.8)
+	SWEP.AutoPos = Vector(-2.56, 2, 2.06)
 	SWEP.AutoAng = Vector(0, -0, 3.5)
 	
 	SWEP.SprintPos = Vector(3.25, -12.9318, -8.5227)
@@ -57,7 +57,7 @@ if CLIENT then
 	SWEP.CustomizationMenuScale = 0.013
 	
 	SWEP.AttachmentModelsVM = {
-		["md_saker"] = {type = "Model", model = "models/cw2/attachments/556suppressor.mdl", bone = "cz75_barrel", pos = Vector(-0.03, -2.65, -6.8), angle = Angle(180, 0, 90), size = Vector(0.65, 0.65, 0.65)},
+		["md_saker"] = {type = "Model", model = "models/cw2/attachments/556suppressor.mdl", bone = "cz75_barrel", pos = Vector(-0.038, -2.43, -7.2), angle = Angle(180, 0, 90), size = Vector(0.65, 0.65, 0.65)},
 	}
 
 end

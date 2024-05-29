@@ -74,6 +74,8 @@ if CLIENT then
 
 end
 
+SWEP.MagBGs = {main = 1, regular = 0, ext = 1}
+
 SWEP.MuzzleVelocity = 820
 
 SWEP.LuaViewmodelRecoil = true
@@ -83,9 +85,10 @@ SWEP.CanRestOnObjects = true
 
 SWEP.Attachments = {
 
-	[1] = {header = "Muzzle", offset = {-350, -250}, atts = {"md_pbs1"}},
+	[1] = {header = "Muzzle", offset = {-250, -250}, atts = {"md_pbs1"}},
 	[2] = {header = "Sight", offset = {1000, -250}, atts = {"md_kobra", "md_pso1"}},
-	["+reload"] = {header = "Ammo", offset = {650, 450}, atts = {"am_magnum", "am_matchgrade"}}
+	--[3] = {header = "Magazine", offset = {0, 350}, atts = {"ha_akm_extmag"}},
+	["+reload"] = {header = "Ammo", offset = {700, 450}, atts = {"am_magnum", "am_matchgrade"}}
 
 }
 	
