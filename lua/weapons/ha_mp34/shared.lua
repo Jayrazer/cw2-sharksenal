@@ -34,7 +34,7 @@ if CLIENT then
 	SWEP.ForeGripOffsetCycle_Reload = 1
 	SWEP.ForeGripOffsetCycle_Reload_Empty = 1
 	
-	SWEP.IronsightPos = Vector(-4.78, -5, 2.9)
+	SWEP.IronsightPos = Vector(-4.77, -5, 2.9)
 	SWEP.IronsightAng = Vector(-0.5, -0.9, 5.5)
 	
 	SWEP.SprintPos = Vector(4.2, -2.5, -4)
@@ -82,8 +82,8 @@ SWEP.Attachments = {
 
 	--[1] = {header = "Muzzle", offset = {-250, -250}, atts = {"md_pbs1"}},
 	--[2] = {header = "Sight", offset = {1000, -250}, atts = {"md_kobra", "md_pso1"}},
-	[1] = {header = "Magazine", offset = {-150, 350}, atts = {"ha_mp34_extmag"}},
-	["+reload"] = {header = "Ammo", offset = {700, 450}, atts = {"am_magnum", "am_matchgrade"}}
+	[1] = {header = "Magazine", offset = {550, -350}, atts = {"ha_mp34_extmag"}},
+	["+reload"] = {header = "Ammo", offset = {-100, 450}, atts = {"am_magnum", "am_matchgrade"}}
 
 }
 
@@ -132,8 +132,8 @@ SWEP.RVBPitchMod = 1.5
 SWEP.RVBYawMod = 1.5
 SWEP.RVBRollMod = 1
 
-SWEP.Primary.ClipSize		= 24
-SWEP.Primary.DefaultClip	= 48
+SWEP.Primary.ClipSize		= 20
+SWEP.Primary.DefaultClip	= 40
 SWEP.Primary.Automatic		= true
 
 SWEP.Primary.Ammo			= "9x23mm Steyr"
@@ -162,7 +162,7 @@ SWEP.BipodInstalled = false
 
 --SWEP.RecoilToSpread = 0.25
 
-SWEP.ReloadSpeed = 1.3
+SWEP.ReloadSpeed = 1.35
 SWEP.ReloadTime = 2.5
 SWEP.ReloadHalt = 3.4
 SWEP.ReloadTime_Empty = 2.6
