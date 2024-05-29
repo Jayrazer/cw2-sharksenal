@@ -57,7 +57,7 @@ if CLIENT then
 	SWEP.CustomizationMenuScale = 0.013
 	
 	SWEP.AttachmentModelsVM = {
-		["md_saker"] = {type = "Model", model = "models/cw2/attachments/556suppressor.mdl", bone = "cz75_root", pos = Vector(0.02, -4, -4.15), angle = Angle(180, 0, 90), size = Vector(0.65, 0.65, 0.65)},
+		["md_saker"] = {type = "Model", model = "models/cw2/attachments/556suppressor.mdl", bone = "cz75_barrel", pos = Vector(-0.03, -2.65, -6.8), angle = Angle(180, 0, 90), size = Vector(0.65, 0.65, 0.65)},
 	}
 
 end
@@ -74,8 +74,6 @@ SWEP.FOVPerShot = 0
 
 SWEP.Attachments = {
 [1] = {header = "Muzzle", offset = {-700, -250}, atts = {"md_saker"}},
---[4] = {header = "Finish", offset = {0, 400}, atts = {"fp_altfinish"}},
---[3] = {header = "Style", offset = {700, 150}, atts = {"fp_onehand"}},
 [2] = {header = "Receiver", offset = {100, -500}, atts = {"cz75_auto"}},
 ["+reload"] = {header = "Ammo", offset = {-650, 300}, atts = {"am_magnum", "am_matchgrade"}}
 }

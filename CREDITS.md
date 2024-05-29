@@ -26,3 +26,8 @@ Assets by DICE (Battlefield 1)
 Originally compiled by Moon
 Animated by speedonerd
 
+## Carl Gustaf M3
+Assets by New World Interactive (Insugency: Sandstorm)
+Originally compiled by Zeraphy
+Animated by speedonerd
+

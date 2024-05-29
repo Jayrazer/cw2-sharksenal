@@ -98,6 +98,7 @@ SWEP.Author			= "speedonerd"
 SWEP.Contact		= ""
 SWEP.Purpose		= ""
 SWEP.Instructions	= ""
+SWEP.NearWallEnabled = true
 
 SWEP.ViewModelFOV	= 65
 SWEP.AimViewModelFOV = 65
@@ -142,7 +143,7 @@ SWEP.ADSFireAnim = true
 
 SWEP.RecoilToSpread = 1.25
 
-SWEP.ReloadSpeed = 1.3
+SWEP.ReloadSpeed = 1.35
 SWEP.ReloadTime = 4.65
 SWEP.ReloadHalt = 7.8
 SWEP.ReloadTime_Empty = 4.65
@@ -393,7 +394,7 @@ function SWEP:PrimaryAttack()
 		local phys = missile:GetPhysicsObject()
 		
 		if IsValid(phys) then
-			phys:SetVelocity(forward * 8000)
+			phys:SetVelocity(forward * 7000)
 		end
 end
 		
@@ -421,7 +422,7 @@ end
 		local phys = missile:GetPhysicsObject()
 		
 		if IsValid(phys) then
-			phys:SetVelocity(forward * 12000)
+			phys:SetVelocity(forward * 10000)
 		end
 end
 
@@ -435,7 +436,7 @@ end
 		local phys = missile:GetPhysicsObject()
 		
 		if IsValid(phys) then
-			phys:SetVelocity(forward * 7500)
+			phys:SetVelocity(forward * 6000)
 		end
 end
 	

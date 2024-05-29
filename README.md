@@ -21,11 +21,9 @@
 ## Shotguns:
 - Ithaca Model 37 Stakeout
 - Sjogren (speedonerd)
-- Neostead 2000
 
 ## Machine Guns:
 - CETME Ameli (milspecy)
 
 ## Launchers:
-- RPG-7
-- Carl Gustaf M3
+- Carl Gustaf M3 (speedonerd)
