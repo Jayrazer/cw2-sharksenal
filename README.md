@@ -2,28 +2,28 @@
 
 
 ## Pistols:
-- CZ 75 (speedonerd)
+- CZ 75 (speedonerd) (done)
 - S&W Model 29 
 
 ## SMGs:
-- MP 34
+- MP 34 (speedonerd)
 - P90 (milspecy)
 - MP5A2 (early model) (milspecy)
 - STEN Mk II (reshed)
 
 ## Rifles:
-- Swiss K31 (speedonerd)
+- Swiss K31 (speedonerd) (done)
 - Bofors Ak 5c (milspecy)
-- CETME Model C
-- AKM
-- Ruger 10/22 Carbine
+- CETME Model C (speedonerd)
+- AKM (speedonerd) (done)
+- Ruger 10/22 Carbine (speedonerd)
 
 ## Shotguns:
-- Ithaca Model 37 Stakeout
-- Sjogren (speedonerd)
+- Ithaca Model 37 Stakeout (milspecy)
+- Sjogren (speedonerd) (done)
 
 ## Machine Guns:
 - CETME Ameli (milspecy)
 
 ## Launchers:
-- Carl Gustaf M3 (speedonerd)
+- Carl Gustaf M3 (speedonerd) (done)
