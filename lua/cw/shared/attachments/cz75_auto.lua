@@ -21,7 +21,7 @@ if CLIENT then
 	att.displayIcon = surface.GetTextureID("atts/cz75_auto")
 	att.description = {
 	[1] = {t = "Machine pistol model", c = CustomizableWeaponry.textColors.COSMETIC},
-	[2] = {t = "Extended 26rnd magazine", c = CustomizableWeaponry.textColors.COSMETIC}}
+	[2] = {t = "Extended 26 round magazine", c = CustomizableWeaponry.textColors.POSITIVE}}
 end
 
 function att:attachFunc()

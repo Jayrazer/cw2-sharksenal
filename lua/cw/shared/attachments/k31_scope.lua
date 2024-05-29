@@ -1,7 +1,7 @@
 local att = {}
 att.name = "k31_scope"
-att.displayName = "K31 Sniper Scope"
-att.displayNameShort = "Sniper"
+att.displayName = "K31 Scope"
+att.displayNameShort = "SNIPER"
 att.aimPos = {"ScopePos", "ScopeAng"}
 att.FOVModifier = 20
 att.isSight = true
@@ -12,7 +12,7 @@ if CLIENT then
 	att.displayIcon = surface.GetTextureID("atts/k31_scope")
 	att.description = {
 	[1] = {t = "Long-range sniper optic", c = CustomizableWeaponry.textColors.POSITIVE},
-	[2] = {t = "+ 6 - 12x magnification", c = CustomizableWeaponry.textColors.COSMETIC}
+	[2] = {t = "6 - 12x magnification", c = CustomizableWeaponry.textColors.COSMETIC}
 	}
 
 	local old, x, y, ang

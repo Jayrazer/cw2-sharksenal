@@ -30,8 +30,8 @@ if CLIENT then
 	SWEP.AlternativePos = Vector(-.15, 0, -.225)
 	SWEP.AlternativeAng = Vector(0, 0, 0)
 	
-	SWEP.SwimPos = Vector(6.3158, -17.8947, 0)
-	SWEP.SwimAng = Vector(79.5789, 0, 11.3684)
+	SWEP.SwimPos = Vector(-2.3158, -1, -6)
+	SWEP.SwimAng = Vector(-45.5789, 0, 11.3684)
 	
 	SWEP.PronePos = Vector(0, 0, -5.1579)
 	SWEP.ProneAng = Vector(-10, 42.7368, -50.9474)
