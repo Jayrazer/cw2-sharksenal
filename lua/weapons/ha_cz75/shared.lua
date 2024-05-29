@@ -106,7 +106,7 @@ SWEP.Purpose		= ""
 SWEP.Instructions	= ""
 SWEP.NearWallEnabled = false
 
-SWEP.ViewModelFOV	= 75
+SWEP.ViewModelFOV	= 70
 SWEP.AimViewModelFOV = 70
 SWEP.ZoomAmount = 10
 SWEP.ViewModelFlip	= false
