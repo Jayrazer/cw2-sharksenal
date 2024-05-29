@@ -155,7 +155,7 @@ SWEP.FireMoveMod = 0
 SWEP.FireDelay = 60/600
 SWEP.FireSound = "AKM_FIRE"
 SWEP.FireSoundSuppressed = "AKM_FIRE_SUPP"
-SWEP.Recoil = 1.75
+SWEP.Recoil = 1.35
 SWEP.FOVPerShot = .45
 
 SWEP.HipSpread = 0.04

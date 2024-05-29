@@ -31,7 +31,7 @@ if CLIENT then
 	SWEP.ForeGripOffsetCycle_Reload = .85
 	SWEP.ForeGripOffsetCycle_Reload_Empty = .8
 
-	SWEP.IronsightPos = Vector(-2.55, 2, 1.8)
+	SWEP.IronsightPos = Vector(-2.56, 2, 2.06)
 	SWEP.IronsightAng = Vector(0, -0, 3.5)
 	
 	SWEP.AutoPos = Vector(-2.55, 2, 1.8)
@@ -141,7 +141,7 @@ SWEP.MaxSpreadInc = 0.045
 SWEP.SpreadPerShot = 0.004
 SWEP.SpreadCooldown = 0.2
 SWEP.Shots = 1
-SWEP.Damage = 18
+SWEP.Damage = 24
 SWEP.DeployTime = .1
 SWEP.HolsterTime = .1
 
