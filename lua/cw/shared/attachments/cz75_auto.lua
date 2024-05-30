@@ -26,6 +26,7 @@ end
 
 function att:attachFunc()
 	self.FOVPerShot = 0.4
+	self:unloadWeapon()
 	self:setBodygroup(self.FrameBGs.main, self.FrameBGs.auto)
 	self:CycleFiremodes() 
 	self.FireModes = {"semi", "safe", "auto"}
