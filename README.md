@@ -14,9 +14,9 @@
 ## Rifles:
 - Swiss K31 (speedonerd) (done)
 - Bofors Ak 5c (milspecy)
-- CETME Model C (speedonerd)
+- CETME Model C
 - AKM (speedonerd) (done)
-- Ruger 10/22 Carbine (speedonerd)
+- Ruger 10/22 Carbine
 
 ## Shotguns:
 - Ithaca Model 37 Stakeout (milspecy)
