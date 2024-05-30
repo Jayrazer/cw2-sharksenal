@@ -5,7 +5,7 @@ att.displayNameShort = "HEAT"
 att.SpeedDec = 4
 
 if CLIENT then
-	att.displayIcon = surface.GetTextureID("atts/rpg7hvat")
+	att.displayIcon = surface.GetTextureID("atts/cgm3_heat")
 	att.description = {
 	[1] = {t = "Armor-piercing rounds with a powerful impact", c = CustomizableWeaponry.textColors.COSMETIC},
 	[2] = {t = "Increased armor penetration against LVS vehicles", c = CustomizableWeaponry.textColors.POSITIVE},

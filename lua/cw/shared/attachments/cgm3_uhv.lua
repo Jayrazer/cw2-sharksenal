@@ -5,7 +5,7 @@ att.displayNameShort = "HV"
 att.SpeedDec = 4
 
 if CLIENT then
-	att.displayIcon = surface.GetTextureID("atts/rpg7hvat")
+	att.displayIcon = surface.GetTextureID("atts/cgm3_hv")
 	att.description = {
 	[1] = {t = "High velocity rounds with fast travel time", c = CustomizableWeaponry.textColors.COSMETIC},
 	[2] = {t = "Significantly higher blast damage", c = CustomizableWeaponry.textColors.POSITIVE},
