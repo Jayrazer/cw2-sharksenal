@@ -8,7 +8,7 @@ att.statModifiers = {ReloadSpeedMult = -0.075,
 OverallMouseSensMult = -0.1}
 
 if CLIENT then
-	att.displayIcon = surface.GetTextureID("atts/rpkmag")
+	att.displayIcon = surface.GetTextureID("atts/mp34_extmag")
 	att.description = {[1] = {t = "Extended 32 round magazine.", c = CustomizableWeaponry.textColors.POSITIVE}}
 end
 

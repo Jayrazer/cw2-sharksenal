@@ -8,16 +8,19 @@ att.statModifiers = {
 }
 
 if CLIENT then
-	att.displayIcon = surface.GetTextureID("atts/cz75_auto")
+	att.displayIcon = surface.GetTextureID("atts/k31_sgload")
 	att.description = {
 	[1] = {t = "Reload individual rounds one at a time", c = CustomizableWeaponry.textColors.COSMETIC},
-	[2] = {t = "Variable reload time", c = CustomizableWeaponry.textColors.NEGATIVE}}
+	[2] = {t = "Variable reload time", c = CustomizableWeaponry.textColors.NEGATIVE},
+	[3] = {t = "Cannot chamber extra round", c = CustomizableWeaponry.textColors.NEGATIVE}
+	}
 end
 
 function att:attachFunc()
 
 	self.Chamberable = false
 	self.ShotgunReload = true
+	self.Primary.ClipSize = 6
 	self:unloadWeapon()
 	
 	self.Animations = {
@@ -38,6 +41,7 @@ function att:detachFunc()
 
 	self.Chamberable = true
 	self.ShotgunReload = false
+	self.Primary.ClipSize = 6
 	
 	self.Animations = {
 	fire = {"fire_1", "fire_2"},
