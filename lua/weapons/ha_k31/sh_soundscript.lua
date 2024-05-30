@@ -18,6 +18,18 @@ SWEP.Sounds = {
 		{time = 70/80, sound = "K31_BOLTPUSH"},
 	},
 	
+	reload_start = {
+		{time = 0.2, sound = "K31_BOLTPULL"},
+	},
+	
+	reload_insert = {
+		{time = 0.1, sound = "K31_ROUNDIN"},	
+	},
+	
+	reload_end = {
+		{time = 0.2, sound = "K31_BOLTPUSH"},
+	},
+	
 	reload = {
 		{time = 2/42, sound = "CW_FOLEY_MEDIUM"},
 		{time = 16/42, sound = "K31_MAGOUT"},

@@ -101,15 +101,19 @@ SWEP.CanRestOnObjects = true
 
 SWEP.Attachments = {
 	[1] = {header = "Optic", offset = {1200, -250}, atts = {"k31_scope"}},
+	["+attack"] = {header = "Reload", offset = {-150, 150}, atts = {"k31_sgload"}},
 	["+reload"] = {header = "Ammo", offset = {650, 500}, atts = {"am_magnum", "am_matchgrade"}}
 }
 
 SWEP.Animations = {
 	fire = {"fire_1", "fire_2"},
-	fire_aim = "fire_1",
+	fire_aim = "fire_aim",
 	reload = "reload",
 	reload_empty = "reload_empty",
-	idle = "idle",
+	reload_start = "reload_start",
+	insert = "reload_insert",
+	reload_end = "reload_end",
+	idle = "reload_end",
 	draw = "draw"
 }
 	
@@ -177,7 +181,11 @@ SWEP.BipodInstalled = false
 
 SWEP.Primary.Ammo			= "7.5x55mm Swiss"
 
-SWEP.ReloadSpeed = 1
+SWEP.ReloadSpeed = 1.1
+SWEP.ReloadStartTime = 0.9
+SWEP.ReloadFinishTime = 1.1
+SWEP.InsertShellTime = 0.9
+SWEP.ReloadFinishWait = 1.1
 SWEP.ReloadTime = 2
 SWEP.ReloadHalt = 2.8
 SWEP.ReloadTime_Empty = 2
