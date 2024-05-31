@@ -62,6 +62,7 @@ if CLIENT then
 end
 
 SWEP.GripBGs = {main = 1, wood = 0, rubber = 1}
+SWEP.BarrelBGs = {main = 2, medium = 0, short = 1, long = 2}
 
 SWEP.MuzzleVelocity = 250
 
@@ -72,8 +73,8 @@ SWEP.FullAimViewmodelRecoil = false
 SWEP.FOVPerShot = 0
 
 SWEP.Attachments = {
-[1] = {header = "Grips", offset = {900, -250}, atts = {"wildey_rubbergrip"}},
---[2] = {header = "Receiver", offset = {100, -500}, atts = {"cz75_auto"}},
+[2] = {header = "Grips", offset = {900, -250}, atts = {"wildey_rubbergrip"}},
+[1] = {header = "Barrel", offset = {-100, -450}, atts = {"wildey_longbarrel", "wildey_shortbarrel"}},
 ["+reload"] = {header = "Ammo", offset = {-450, 200}, atts = {"am_magnum", "am_matchgrade"}}
 }
 
