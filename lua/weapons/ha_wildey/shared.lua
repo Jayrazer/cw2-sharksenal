@@ -80,7 +80,7 @@ SWEP.Attachments = {
 
 SWEP.Animations = {
 
-	fire = {"fire_1"},
+	fire = {"fire_1", "fire_2"},
 	fire_aim = "fire_aim",
 	fire_last = "fire_last",
 	fire_last_aim = "fire_last_aim",
@@ -151,11 +151,11 @@ SWEP.ShootWhileProne = true
 SWEP.HolsterOnLadder = true
 SWEP.SprintingEnabled = true
 
-SWEP.ReloadSpeed = 1.15
-SWEP.ReloadTime = 2.2
-SWEP.ReloadHalt = 2.7
-SWEP.ReloadTime_Empty = 2.2
-SWEP.ReloadHalt_Empty = 3
+SWEP.ReloadSpeed = 1.1
+SWEP.ReloadTime = 1.85
+SWEP.ReloadHalt = 2.4
+SWEP.ReloadTime_Empty = 1.85
+SWEP.ReloadHalt_Empty = 2.65
 
 function SWEP:IndividualThink()
 	self.EffectiveRange = 127 * 39.37
