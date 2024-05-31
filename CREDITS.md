@@ -5,6 +5,11 @@ Assets by Arby26 and Rafael De Jongh
 Originally compiled by YanKy700
 Animated by speedonerd
 
+## Wildey Hunter
+Assets by Capcom (Resident Evil: Village)
+Originally compiled by 8siandude
+Animated by speedonerd
+
 ## MP 34
 Assets by Offworld Industries and Mercury Arts (Squad 44, a.k.a. Post Scriptum)
 Originally compiled by Moon & Stained Soldier

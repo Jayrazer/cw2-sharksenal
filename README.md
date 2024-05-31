@@ -3,10 +3,10 @@
 
 ## Pistols:
 - CZ 75 (speedonerd) (done)
-- S&W Model 29 
+- Wildey Hunter (speedonerd) 
 
 ## SMGs:
-- MP 34 (speedonerd)
+- MP 34 (speedonerd) (done)
 - P90 (milspecy)
 - MP5A2 (early model) (milspecy)
 - STEN Mk II (reshed)
