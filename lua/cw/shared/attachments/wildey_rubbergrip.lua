@@ -8,10 +8,9 @@ att.isSight = true
 att.withoutRail = true
 
 att.statModifiers = {
-	RecoilMult = -0.1,
+	RecoilMult = -0.05,
 	ReloadSpeedMult = -0.05,
-	SpreadPerShotMult = -0.1,
-	OverallMouseSensMult = -0.15
+	OverallMouseSensMult = -0.075
 	}
 
 if CLIENT then
