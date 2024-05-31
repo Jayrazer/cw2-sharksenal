@@ -9,7 +9,7 @@ att.withoutRail = true
 
 att.statModifiers = {
 	RecoilMult = -0.05,
-	ReloadSpeedMult = -0.05,
+	ReloadSpeedMult = -0.025,
 	OverallMouseSensMult = -0.075
 	}
 
