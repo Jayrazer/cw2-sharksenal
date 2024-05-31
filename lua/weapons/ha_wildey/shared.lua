@@ -129,10 +129,11 @@ SWEP.Chamberable			= true
 
 SWEP.Primary.Ammo			= ".475 Wildey Magnum"
 
-SWEP.FireDelay = 60/250
+SWEP.FireDelay = 60/275
 SWEP.FireSound = "WILDEY_FIRE"
 SWEP.FireSoundSuppressed = "FPSERIES70_FIRESUP"
-SWEP.Recoil = 2
+SWEP.Recoil = 3
+SWEP.FOVPerShot = 1
 
 SWEP.HipSpread = 0.05
 SWEP.AimSpread = 0.015
