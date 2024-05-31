@@ -1,5 +1,9 @@
 # cw2-sharksenal
 
+## Melee:
+- Crowbar
+- Bowie Knife
+
 ## Pistols:
 - CZ 75 (speedonerd) (done)
 - Wildey Hunter (speedonerd) 
