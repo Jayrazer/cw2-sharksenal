@@ -17,8 +17,8 @@ if CLIENT then
 	SWEP.CSMuzzleFlashes = true
 	SWEP.UseHands = true
 	
-	SWEP.SelectIcon = surface.GetTextureID("vgui/cz75")
-	killicon.Add( "ha_cz75", "vgui/killicons/cz75", Color(255, 120, 40, 0))
+	SWEP.SelectIcon = surface.GetTextureID("vgui/wildey")
+	killicon.Add( "ha_wildey", "vgui/killicons/wildey", Color(255, 120, 40, 0))
 	
 	SWEP.MuzzleEffect = "muzzleflash_ak74"
 	SWEP.PosBasedMuz = false
@@ -151,7 +151,7 @@ SWEP.ShootWhileProne = true
 SWEP.HolsterOnLadder = true
 SWEP.SprintingEnabled = true
 
-SWEP.ReloadSpeed = 1.1
+SWEP.ReloadSpeed = 1.15
 SWEP.ReloadTime = 2.2
 SWEP.ReloadHalt = 2.7
 SWEP.ReloadTime_Empty = 2.2

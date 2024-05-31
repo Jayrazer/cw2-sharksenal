@@ -11,7 +11,7 @@ att.statModifiers = {
 	}
 
 if CLIENT then
-	att.displayIcon = surface.GetTextureID("atts/cz75_auto")
+	att.displayIcon = surface.GetTextureID("atts/wildey_longbarrel")
 	att.description = {}
 end
 
