@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	$basetexture	"models/weapons/cw2_shark/crowbar/zmb_crowbar_d"
+	$bumpmap	"models/weapons/cw2_shark/crowbar/zmb_crowbar_n"
+	$phongexponenttexture	"models/weapons/cw2_shark/crowbar/zmb_crowbar_s"
+
+	$phong	"1"
+	$phongboost	"3"
+	$phongfresnelranges	"[.78 .9 1]"
+
+	$envmap	"env_cubemap"
+	$envmaptint	"[.125 .125 .125]"
+	$normalmapalphaenvmapmask	"1"
+	$envmapfresnel	"1"
+
+	$rimlight	"1"
+	$rimmask	"1"
+	$rimlightboost	"1"
+	$rimlightexponent	"2"
+
+}
