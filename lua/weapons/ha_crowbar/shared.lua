@@ -7,6 +7,9 @@ if CLIENT then
 	
 	SWEP.DisableSprintViewSimulation = true
 	
+	SWEP.SwimPos = Vector(5, -2.1053, -5)
+	SWEP.SwimAng = Vector(-75.8947, -3.7895, -46.5263)
+	
 	SWEP.DrawTraditionalWorldModel = false
 	SWEP.WM = "models/weapons/cw2_shark/w_crowbar.mdl"
 	SWEP.WMPos = Vector(2, 3, -10)
@@ -24,24 +27,18 @@ SWEP.Animations = {
 }
 
 SWEP.Sounds = {
-	swing_1 = {{time = 0.05, sound = "Weapon_Crowbar.Single"}},
-	swing_2 = {{time = 0.05, sound = "Weapon_Crowbar.Single"}},
-	stab = {{time = 0.1, sound = "CW_KNIFE_SLASH"}},
-	draw = {{time = 0.1, sound = "CW_KNIFE_DRAW"}},
+	swing_1 = {{time = 0.05, sound = "weapons/cw2_shark/melees/crowbar/swing.wav"}},
+	swing_2 = {{time = 0.05, sound = "weapons/cw2_shark/melees/crowbar/swing2.wav"}},
+	stab = {{time = 0.1, sound = "weapons/cw2_shark/melees/crowbar/swing2.wav"}},
+	draw = {{time = 0.1, sound = "weapons/cw2_shark/melees/crowbar/deploy"}},
 }
 
 SWEP.PlayerHitSounds = {
-"physics/flesh/flesh_impact_bullet1.wav",
-"physics/flesh/flesh_impact_bullet2.wav",
-"physics/flesh/flesh_impact_bullet3.wav",
-"physics/flesh/flesh_impact_bullet4.wav",
-"physics/flesh/flesh_impact_bullet5.wav",
+"weapons/cw2_shark/melees/crowbar/impactflesh.wav",
+"weapons/cw2_shark/melees/crowbar/impactflesh2.wav",
 }
 SWEP.MiscHitSounds = {
-"physics/concrete/concrete_impact_bullet1.wav",
-"physics/concrete/concrete_impact_bullet2.wav",
-"physics/concrete/concrete_impact_bullet3.wav",
-"physics/concrete/concrete_impact_bullet4.wav",
+"weapons/cw2_shark/melees/crowbar/impactworld.wav",
 }
 
 SWEP.DrawSpeed = 1.5
