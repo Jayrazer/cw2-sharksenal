@@ -1,5 +1,10 @@
 AddCSLuaFile()
 
+CustomizableWeaponry:addFireSound("CROWBAR_SWIGGY", {
+	"weapons/cw2_shark/melees/crowbar/swing.wav",
+	"weapons/cw2_shark/melees/crowbar/swing2.wav",
+	}, 95, 100, CHAN_STATIC)
+
 if CLIENT then
 	SWEP.DrawCrosshair = false
 	SWEP.PrintName = "Crowbar"
@@ -27,10 +32,10 @@ SWEP.Animations = {
 }
 
 SWEP.Sounds = {
-	swing_1 = {{time = 0.05, sound = "weapons/cw2_shark/melees/crowbar/swing.wav"}},
-	swing_2 = {{time = 0.05, sound = "weapons/cw2_shark/melees/crowbar/swing2.wav"}},
-	stab = {{time = 0.1, sound = "weapons/cw2_shark/melees/crowbar/swing2.wav"}},
-	draw = {{time = 0.1, sound = "weapons/cw2_shark/melees/crowbar/deploy"}},
+	swing_1 = {{time = 0.01, sound = "CROWBAR_SWIGGY"}},
+	swing_2 = {{time = 0.01, sound = "CROWBAR_SWIGGY"}},
+	stab = {{time = 0.01, sound = "CROWBAR_SWIGGY"}},
+	draw = {{time = 0.05, sound = "weapons/cw2_shark/melees/crowbar/deploy.wav"}},
 }
 
 SWEP.PlayerHitSounds = {
@@ -81,7 +86,7 @@ SWEP.PrimaryAttackRange = 50
 SWEP.HolsterTime = 0.4
 SWEP.DeployTime = 0.6
 
-SWEP.PrimaryAttackImpactTime = 0.1
+SWEP.PrimaryAttackImpactTime = 0.15
 SWEP.PrimaryAttackDamageWindow = 0.1
 
 SWEP.SecondaryAttackImpactTime = 0.3
