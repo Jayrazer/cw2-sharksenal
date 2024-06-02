@@ -9,14 +9,14 @@ OverallMouseSensMult = -0.1}
 
 if CLIENT then
 	att.displayIcon = surface.GetTextureID("atts/mp34_extmag")
-	att.description = {[1] = {t = "Extended 32 round magazine.", c = CustomizableWeaponry.textColors.POSITIVE}}
+	att.description = {[1] = {t = "Extended 45 round magazine.", c = CustomizableWeaponry.textColors.POSITIVE}}
 end
 
 function att:attachFunc()
 	self:setBodygroup(self.MagBGs.main, self.MagBGs.ext)
 	self:unloadWeapon()
-	self.Primary.ClipSize = 32
-	self.Primary.ClipSize_Orig = 32
+	self.Primary.ClipSize = 45
+	self.Primary.ClipSize_Orig = 45
 end
 
 function att:detachFunc()

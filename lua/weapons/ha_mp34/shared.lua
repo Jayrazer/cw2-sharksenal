@@ -82,7 +82,7 @@ SWEP.Attachments = {
 
 	--[1] = {header = "Muzzle", offset = {-250, -250}, atts = {"md_pbs1"}},
 	--[2] = {header = "Sight", offset = {1000, -250}, atts = {"md_kobra", "md_pso1"}},
-	[1] = {header = "Magazine", offset = {550, -350}, atts = {"ha_mp34_extmag"}},
+	--[1] = {header = "Magazine", offset = {550, -350}, atts = {"ha_mp34_extmag"}},
 	["+reload"] = {header = "Ammo", offset = {-100, 450}, atts = {"am_magnum", "am_matchgrade"}}
 
 }
@@ -132,8 +132,8 @@ SWEP.RVBPitchMod = 1.5
 SWEP.RVBYawMod = 1.5
 SWEP.RVBRollMod = 1
 
-SWEP.Primary.ClipSize		= 20
-SWEP.Primary.DefaultClip	= 40
+SWEP.Primary.ClipSize		= 32
+SWEP.Primary.DefaultClip	= 64
 SWEP.Primary.Automatic		= true
 
 SWEP.Primary.Ammo			= "9x23mm Steyr"
