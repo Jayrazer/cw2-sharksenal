@@ -1,5 +1,10 @@
 # Credits
 
+## Crowbar
+Assets by Infinity Ward (Modern Warfare 2019)
+Originally compiled by Jade
+Animated by speedonerd
+
 ## CZ 75
 Assets by Arby26 and Rafael De Jongh
 Originally compiled by YanKy700
@@ -30,6 +35,11 @@ Animated by Milspecy
 Assets by New World Interactive (Insurgency: Sandstorm)
 Originally compiled by ArachnitCZ
 Animated by speedonerd
+
+## Ruger 10/22
+Assets by 8siandude on Sketchfab
+Originally compiled by Moon
+Animations by speedonerd
 
 ## Stakeout
 Assets by Tripwire Interactive & Antimatter Games (Rising Storm 2: Vietnam)

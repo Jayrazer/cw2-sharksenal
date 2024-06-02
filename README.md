@@ -1,7 +1,7 @@
 # cw2-sharksenal
 
 ## Melee:
-- Crowbar
+- Crowbar (speedonerd) (done)
 - Bowie Knife
 
 ## Pistols:
