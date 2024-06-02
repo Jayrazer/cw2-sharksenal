@@ -45,7 +45,7 @@ if CLIENT then
 	SWEP.SprintPos = Vector(4.2, -2.5, -4)
 	SWEP.SprintAng = Vector(-8.443, 37.99, -23.216)
 	
-	SWEP.CustomizePos = Vector(8.843, -2.707, -2.619)
+	SWEP.CustomizePos = Vector(8.843, -4.707, -2.619)
 	SWEP.CustomizeAng = Vector(17.587, 41.507, 3.517)
 	
 	SWEP.AlternativePos = Vector(-1.2, 0.5, -0.2)
@@ -62,7 +62,7 @@ if CLIENT then
 	SWEP.DisableSprintViewSimulation = false
 	
 	SWEP.OverallMouseSens = .85
-	SWEP.CustomizationMenuScale = 0.024
+	SWEP.CustomizationMenuScale = 0.018
 	
 	SWEP.AttachmentModelsVM = {
 	
@@ -75,6 +75,8 @@ if CLIENT then
 end
 
 SWEP.MagBGs = {main = 1, regular = 0, ext = 1}
+SWEP.DongBGs = {main = 2, regular = 0, dong = 1}
+--SWEP.RailBGs = {main = 3, regular = 0, rail = 1}
 
 SWEP.MuzzleVelocity = 820
 
@@ -85,13 +87,13 @@ SWEP.CanRestOnObjects = true
 
 SWEP.Attachments = {
 
-	[1] = {header = "Muzzle", offset = {-250, -250}, atts = {"md_pbs1"}},
-	[2] = {header = "Sight", offset = {1000, -250}, atts = {"md_kobra", "md_pso1"}},
-	--[3] = {header = "Magazine", offset = {0, 350}, atts = {"ha_akm_extmag"}},
-	["+reload"] = {header = "Ammo", offset = {700, 450}, atts = {"am_magnum", "am_matchgrade"}}
+	[1] = {header = "Muzzle", offset = {-350, -250}, atts = {"md_pbs1"}},
+	[2] = {header = "Sight", offset = {1000, -350}, atts = {"md_kobra", "md_pso1"}},
+	[3] = {header = "Magazine", offset = {0, 375}, atts = {"ha_akm_extmag"}},
+	[4] = {header = "Foregrip", offset = {250, -450}, atts = {"ha_akm_foregrip"}},
+	["+reload"] = {header = "Ammo", offset = {800, 475}, atts = {"am_magnum", "am_matchgrade"}}
 
 }
-	
 
 SWEP.ForeGripHoldPos = {
 	["ValveBiped.Bip01_L_Finger41"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(0, -21.112, 0) },
@@ -139,8 +141,6 @@ SWEP.ViewModel		= "models/weapons/cw2_shark/v_akm.mdl"
 SWEP.WorldModel		= "models/weapons/cw2_shark/w_akm.mdl"
 
 
-
-
 SWEP.Spawnable			= true
 SWEP.AdminSpawnable		= true
 SWEP.ReloadViewBobEnabled = false
@@ -158,8 +158,8 @@ SWEP.FireMoveMod = 0
 SWEP.FireDelay = 60/600
 SWEP.FireSound = "AKM_FIRE"
 SWEP.FireSoundSuppressed = "AKM_FIRE_SUPP"
-SWEP.Recoil = 1.35
-SWEP.FOVPerShot = .45
+SWEP.Recoil = 1.5
+SWEP.FOVPerShot = .6
 
 SWEP.HipSpread = 0.04
 SWEP.AimSpread = 0.002
