@@ -2,10 +2,6 @@ local att = {}
 att.name = "cz75_auto"
 att.displayName = "CZ 75 Automatic"
 att.displayNameShort = "AUTO"
-att.aimPos = {"AutoPos", "AutoAng"}
-
-att.isSight = true
-att.withoutRail = true
 
 att.statModifiers = {
 
@@ -13,7 +9,6 @@ att.statModifiers = {
 	ReloadSpeedMult = -0.05,
 	SpreadPerShotMult = 0.1,
 	FireDelayMult = -.45
-
 	
 }
 
