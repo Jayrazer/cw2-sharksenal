@@ -394,7 +394,7 @@ function SWEP:PrimaryAttack()
 		local phys = missile:GetPhysicsObject()
 		
 		if IsValid(phys) then
-			phys:SetVelocity(forward * 7000)
+			phys:SetVelocity(forward * 6000)
 		end
 end
 		
@@ -422,7 +422,7 @@ end
 		local phys = missile:GetPhysicsObject()
 		
 		if IsValid(phys) then
-			phys:SetVelocity(forward * 10000)
+			phys:SetVelocity(forward * 9000)
 		end
 end
 
@@ -436,7 +436,7 @@ end
 		local phys = missile:GetPhysicsObject()
 		
 		if IsValid(phys) then
-			phys:SetVelocity(forward * 6000)
+			phys:SetVelocity(forward * 5000)
 		end
 end
 	
