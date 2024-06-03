@@ -1,0 +1,42 @@
+"Vertexlitgeneric"
+{
+	"$basetexture"                "models/weapons/cw2_shark/cz75sp01/czub_cz75_sp01_bullet_d"
+	"$bumpmap"                    "models/weapons/cw2_shark/cz75sp01/czub_cz75_sp01_bullet_n"
+	"$phongexponenttexture"       "models/weapons/cw2_shark/cz75sp01/czub_cz75_sp01_bullet_s"
+	"$blendtintbybasealpha"		  "1"
+	"$nocull" 		              "1"
+
+	"$phong"                      "1"
+	"$phongboost"                 "5"
+	"$phongfresnelranges"         "[5 10 10]"
+    "$phongtint"                  "[3.5 2.5 1.5]"
+	"$phongalbedotint"		      "1"
+	"$phongalbedoboost" 	      "48"
+	"$phongwarptexture"           "phongwarp_iron"
+
+	"$envmap"                     "env_cubemap"
+	"$envmaptint"				  "[.7 .5 .2]"
+	"$envmapfresnel"              "1"
+	"$basetexturealphaenvmapmask" "1"
+	"$normalmapalphaphongmask"    "1"
+	"$halflambert"			      "1"
+
+	"$rimlight"                   "1"
+	"$rimlighboost"               "0.1"
+	"$rimlightexponent"           "100"	
+	"$rimmask"                    "1"
+	
+    "$ambientocclusion"           "1"
+	
+	"Proxies"
+	{
+		"MwEnvMapTint"
+		{
+		    "color" "[2.5 1.5 1.2]"
+			"min" "0"
+			"max" "0.05"
+		}
+		
+		"MwCamo" {}
+	}
+}

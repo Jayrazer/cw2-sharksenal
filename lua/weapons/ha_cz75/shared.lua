@@ -11,7 +11,7 @@ include("sh_soundscript.lua")
 
 if CLIENT then
 	SWEP.DrawCrosshair = false
-	SWEP.PrintName = "CZ 75"
+	SWEP.PrintName = "CZ 75 SP-01"
 	SWEP.CSMuzzleFlashes = true
 	SWEP.UseHands = true
 	
@@ -33,7 +33,7 @@ if CLIENT then
 	SWEP.ForeGripOffsetCycle_Reload_Empty = 1
 	
 	SWEP.IronsightPos = Vector(-2.56, 2, 2.06)
-	SWEP.IronsightAng = Vector(0, -0, 3.5)
+	SWEP.IronsightAng = Vector(0.05, -0, 3.5)
 	
 	SWEP.AutoPos = Vector(-2.56, 2, 2.06)
 	SWEP.AutoAng = Vector(0, -0, 3.5)
@@ -58,7 +58,7 @@ if CLIENT then
 	SWEP.DisableSprintViewSimulation = false
 	
 	SWEP.OverallMouseSens = 1
-	SWEP.CustomizationMenuScale = 0.013
+	SWEP.CustomizationMenuScale = 0.015
 	
 	SWEP.AttachmentModelsVM = {
 		["md_saker"] = {type = "Model", model = "models/cw2/attachments/556suppressor.mdl", bone = "cz75_barrel", pos = Vector(-0.038, -2.43, -7.2), angle = Angle(180, 0, 90), size = Vector(0.65, 0.65, 0.65)},
@@ -67,7 +67,7 @@ if CLIENT then
 
 end
 
-SWEP.FrameBGs = {main = 1, semi = 0, auto = 1}
+--SWEP.FrameBGs = {main = 1, semi = 0, auto = 1}
 
 SWEP.MuzzleVelocity = 250
 
@@ -78,9 +78,9 @@ SWEP.CanRestOnObjects = true
 
 SWEP.Attachments = {
 
-[1] = {header = "Muzzle", offset = {-700, -250}, atts = {"md_saker"}},
-[2] = {header = "Receiver", offset = {100, -500}, atts = {"cz75_auto"}},
-["+reload"] = {header = "Ammo", offset = {-650, 300}, atts = {"am_magnum", "am_matchgrade"}}
+[1] = {header = "Muzzle", offset = {400, -350}, atts = {"md_saker"}},
+--[2] = {header = "Receiver", offset = {100, -500}, atts = {"cz75_auto"}},
+["+reload"] = {header = "Ammo", offset = {-450, 300}, atts = {"am_magnum", "am_matchgrade"}}
 
 }
 
@@ -127,8 +127,8 @@ SWEP.NearWallEnabled = false
 SWEP.ViewModelFOV	= 70
 SWEP.AimViewModelFOV = 70
 SWEP.ViewModelFlip	= false
-SWEP.ViewModel		= "models/weapons/cw2_shark/v_cz75.mdl"
-SWEP.WorldModel		= "models/weapons/cw2_shark/w_cz75.mdl"
+SWEP.ViewModel		= "models/weapons/cw2_shark/v_cz75sp01.mdl"
+SWEP.WorldModel		= "models/weapons/cw2_shark/w_cz75sp01.mdl"
 
 
 SWEP.Spawnable			= true
@@ -138,8 +138,8 @@ SWEP.RVBPitchMod = 1.5
 SWEP.RVBYawMod = 1.5
 SWEP.RVBRollMod = 1
 
-SWEP.Primary.ClipSize		= 16
-SWEP.Primary.DefaultClip	= 32
+SWEP.Primary.ClipSize		= 19
+SWEP.Primary.DefaultClip	= 38
 SWEP.Primary.Automatic		= false
 SWEP.Chamberable			= true
 
