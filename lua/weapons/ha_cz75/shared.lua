@@ -148,7 +148,7 @@ SWEP.Primary.Ammo			= "9x19mm"
 SWEP.FireMoveMod = 0
 SWEP.FireDelay = 60/600
 SWEP.FireSound = "CZ75_FIRE"
-SWEP.FireSoundSuppressed = "AKM_FIRE_SUPP"
+SWEP.FireSoundSuppressed = "CZ75_FIRE_SUPP"
 SWEP.Recoil = 1
 SWEP.FOVPerShot = 0
 
