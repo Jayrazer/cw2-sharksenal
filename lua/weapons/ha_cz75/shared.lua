@@ -4,10 +4,10 @@ AddCSLuaFile("sh_soundscript.lua")
 include("sh_sounds.lua")
 include("sh_soundscript.lua")
 
-	SWEP.magType = "pistolMag"
+		SWEP.magType = "pistolMag"
 		
-	SWEP.EffectiveRange_Orig = 127 * 39.37
-	SWEP.DamageFallOff_Orig = .30
+		SWEP.EffectiveRange_Orig = 278 * 39.37
+		SWEP.DamageFallOff_Orig = .28
 
 if CLIENT then
 	SWEP.DrawCrosshair = false
@@ -20,17 +20,18 @@ if CLIENT then
 	
 	SWEP.MuzzleEffect = "muzzleflash_smg"
 	SWEP.PosBasedMuz = false
+	SWEP.SnapToGrip = true
 	SWEP.SightWithRail = true
 	
 	SWEP.Shell = "smallshell"
 	SWEP.ShellScale = .5
 	SWEP.ShellDelay = 0
 	SWEP.ShellOffsetMul = 1
-	SWEP.ShellPosOffset = {x = 0, y = 0, z = 0}
+	SWEP.ShellPosOffset = {x = 1.4, y = -2.25, z = 0}
 	SWEP.ForeGripOffsetCycle_Draw = 0
-	SWEP.ForeGripOffsetCycle_Reload = .85
-	SWEP.ForeGripOffsetCycle_Reload_Empty = .8
-
+	SWEP.ForeGripOffsetCycle_Reload = 1
+	SWEP.ForeGripOffsetCycle_Reload_Empty = 1
+	
 	SWEP.IronsightPos = Vector(-2.56, 2, 2.06)
 	SWEP.IronsightAng = Vector(0, -0, 3.5)
 	
@@ -49,16 +50,20 @@ if CLIENT then
 	SWEP.SwimPos = Vector(0.5, -2.1053, -0.5)
 	SWEP.SwimAng = Vector(-50.8947, -3.7895, -46.5263)
 	
+	SWEP.PronePos = Vector(0, 0, -3.1579)
+	SWEP.ProneAng = Vector(-2, 22.7368, -28.9474)
+	
 	SWEP.MoveType = 1
 	SWEP.ViewModelMovementScale = 1
 	SWEP.DisableSprintViewSimulation = false
 	
-	SWEP.LuaVMRecoilAxisMod = {vert = .45, hor = 0, roll = 0, forward = .15, pitch = -.25}
+	SWEP.OverallMouseSens = 1
 	SWEP.CustomizationMenuScale = 0.013
 	
 	SWEP.AttachmentModelsVM = {
 		["md_saker"] = {type = "Model", model = "models/cw2/attachments/556suppressor.mdl", bone = "cz75_barrel", pos = Vector(-0.038, -2.43, -7.2), angle = Angle(180, 0, 90), size = Vector(0.65, 0.65, 0.65)},
 	}
+	
 
 end
 
@@ -69,13 +74,26 @@ SWEP.MuzzleVelocity = 250
 SWEP.LuaViewmodelRecoil = true
 SWEP.LuaViewmodelRecoilOverride = true
 SWEP.FullAimViewmodelRecoil = false
-
-SWEP.FOVPerShot = 0
+SWEP.CanRestOnObjects = true
 
 SWEP.Attachments = {
+
 [1] = {header = "Muzzle", offset = {-700, -250}, atts = {"md_saker"}},
 [2] = {header = "Receiver", offset = {100, -500}, atts = {"cz75_auto"}},
 ["+reload"] = {header = "Ammo", offset = {-650, 300}, atts = {"am_magnum", "am_matchgrade"}}
+
+}
+
+SWEP.ForeGripHoldPos = {
+	["ValveBiped.Bip01_L_Finger41"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(0, -21.112, 0) },
+	["ValveBiped.Bip01_L_Finger21"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(0, -32.223, 0) },
+	["ValveBiped.Bip01_L_Finger11"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(0, -34.445, 0) },
+	["ValveBiped.Bip01_L_Clavicle"] = { scale = Vector(1, 1, 1), pos = Vector(-1.201, -0.101, 0.185), angle = Angle(-3.333, 12.222, 0) },
+	["ValveBiped.Bip01_L_Finger31"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(0, -30, 0) },
+	["ValveBiped.Bip01_L_Finger22"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(0, -32.223, 0) },
+	["ValveBiped.Bip01_L_Hand"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(-41.112, 16.666, 50) },
+	["ValveBiped.Bip01_L_Finger02"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(14.444, 65.555, -1.111) },
+	["ValveBiped.Bip01_L_Finger0"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(25.555, 16.666, 5.556) }
 }
 
 SWEP.Animations = {
@@ -89,7 +107,7 @@ SWEP.Animations = {
 	idle = "idle",
 	draw = "draw"
 }
-	
+
 SWEP.SpeedDec = 5
 
 SWEP.Slot = 1
@@ -108,19 +126,17 @@ SWEP.NearWallEnabled = false
 
 SWEP.ViewModelFOV	= 70
 SWEP.AimViewModelFOV = 70
-SWEP.ZoomAmount = 10
 SWEP.ViewModelFlip	= false
 SWEP.ViewModel		= "models/weapons/cw2_shark/v_cz75.mdl"
 SWEP.WorldModel		= "models/weapons/cw2_shark/w_cz75.mdl"
 
 
-
 SWEP.Spawnable			= true
 SWEP.AdminSpawnable		= true
 SWEP.ReloadViewBobEnabled = false
-SWEP.RVBPitchMod = 0.25
-SWEP.RVBYawMod = 0.25
-SWEP.RVBRollMod = 0.5
+SWEP.RVBPitchMod = 1.5
+SWEP.RVBYawMod = 1.5
+SWEP.RVBRollMod = 1
 
 SWEP.Primary.ClipSize		= 16
 SWEP.Primary.DefaultClip	= 32
@@ -129,10 +145,12 @@ SWEP.Chamberable			= true
 
 SWEP.Primary.Ammo			= "9x19mm"
 
-SWEP.FireDelay = 60/500
+SWEP.FireMoveMod = 0
+SWEP.FireDelay = 60/600
 SWEP.FireSound = "CZ75_FIRE"
-SWEP.FireSoundSuppressed = "FPSERIES70_FIRESUP"
+SWEP.FireSoundSuppressed = "AKM_FIRE_SUPP"
 SWEP.Recoil = 1
+SWEP.FOVPerShot = 0
 
 SWEP.HipSpread = 0.04
 SWEP.AimSpread = 0.01
@@ -142,13 +160,15 @@ SWEP.SpreadPerShot = 0.004
 SWEP.SpreadCooldown = 0.2
 SWEP.Shots = 1
 SWEP.Damage = 24
-SWEP.DeployTime = .1
-SWEP.HolsterTime = .1
+SWEP.DeployTime = 0.2
+SWEP.HolsterTime = 0.1
 
 SWEP.ADSFireAnim = true
 SWEP.ShootWhileProne = true
 SWEP.HolsterOnLadder = true
 SWEP.SprintingEnabled = true
+
+--SWEP.RecoilToSpread = 0.25
 
 SWEP.ReloadSpeed = 0.9
 SWEP.ReloadTime = 1.2
