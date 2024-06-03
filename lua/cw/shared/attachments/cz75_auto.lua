@@ -8,7 +8,7 @@ att.statModifiers = {
 	RecoilMult = .1,
 	ReloadSpeedMult = -0.05,
 	SpreadPerShotMult = 0.1,
-	FireDelayMult = -.45
+	FireDelayMult = -.5
 	
 }
 

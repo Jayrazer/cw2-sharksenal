@@ -146,7 +146,7 @@ SWEP.Chamberable			= true
 SWEP.Primary.Ammo			= "9x19mm"
 
 SWEP.FireMoveMod = 0
-SWEP.FireDelay = 60/600
+SWEP.FireDelay = 60/500
 SWEP.FireSound = "CZ75_FIRE"
 SWEP.FireSoundSuppressed = "CZ75_FIRE_SUPP"
 SWEP.Recoil = 1
@@ -192,10 +192,6 @@ function SWEP:IndividualThink()
 	if self.ActiveAttachments.am_fp_matchammo then 
 	self.EffectiveRange = ((self.EffectiveRange + 25 * 39.37))
 	self.DamageFallOff = ((self.DamageFallOff - .045))
-	end
-	
-	if self.ActiveAttachments.cz75_auto then
-	self.FireDelay = 60/1000
 	end
 	
 end
