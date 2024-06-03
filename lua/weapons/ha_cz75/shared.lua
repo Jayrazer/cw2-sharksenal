@@ -33,7 +33,7 @@ if CLIENT then
 	SWEP.ForeGripOffsetCycle_Reload_Empty = 1
 	
 	SWEP.IronsightPos = Vector(-2.56, 2, 2.06)
-	SWEP.IronsightAng = Vector(0.05, -0, 3.5)
+	SWEP.IronsightAng = Vector(0.15, -0, 3.5)
 	
 	SWEP.AutoPos = Vector(-2.56, 2, 2.06)
 	SWEP.AutoAng = Vector(0, -0, 3.5)
@@ -41,7 +41,7 @@ if CLIENT then
 	SWEP.SprintPos = Vector(3.25, -12.9318, -8.5227)
 	SWEP.SprintAng = Vector(59.3182, -2.0455, 3)
 	
-	SWEP.CustomizePos = Vector(8, -4, -1)
+	SWEP.CustomizePos = Vector(8, -4, 0)
 	SWEP.CustomizeAng = Vector(18, 28, 20)
 
 	SWEP.AlternativePos = Vector(.5, 0, -.8)
@@ -124,8 +124,8 @@ SWEP.Purpose		= ""
 SWEP.Instructions	= ""
 SWEP.NearWallEnabled = false
 
-SWEP.ViewModelFOV	= 70
-SWEP.AimViewModelFOV = 70
+SWEP.ViewModelFOV	= 68
+SWEP.AimViewModelFOV = 65
 SWEP.ViewModelFlip	= false
 SWEP.ViewModel		= "models/weapons/cw2_shark/v_cz75sp01.mdl"
 SWEP.WorldModel		= "models/weapons/cw2_shark/w_cz75sp01.mdl"
