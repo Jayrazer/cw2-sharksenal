@@ -29,10 +29,11 @@ SWEP.Sounds = {
 	},
 	
 	reload = {
-		{time = 1/31.5, sound = "CZ75_MAGOUT"},
+		{time = 2/30, sound = "CW_FOLEY_MEDIUM"},
+		{time = 15/31.5, sound = "CZ75_MAGOUT"},
 		{time = 30/31.5, sound = "CZ75_MAGIN"},
-		{time = 33/31.5, sound = "CZ75_MAGIN2"},
-		{time = 38/30, sound = "CW_FOLEY_MEDIUM"},
+		{time = 36/31.5, sound = "CZ75_MAGIN2"},
+		{time = 45/30, sound = "CW_FOLEY_MEDIUM"},
 	},
 
 	reload_empty = {
