@@ -61,7 +61,7 @@ if CLIENT then
 	SWEP.CustomizationMenuScale = 0.015
 	
 	SWEP.AttachmentModelsVM = {
-		["md_saker"] = {type = "Model", model = "models/cw2/attachments/556suppressor.mdl", bone = "cz75_barrel", pos = Vector(-0.038, -2.43, -7.2), angle = Angle(180, 0, 90), size = Vector(0.5, 0.5, 0.5)},
+		["md_saker"] = {type = "Model", model = "models/cw2/attachments/556suppressor.mdl", bone = "cz75_barrel", pos = Vector(-0.038, -2.43, -7.2), angle = Angle(180, 0, 90), size = Vector(0.65, 0.65, 0.65)},
 		["ha_surefire"] = {type = "Model", model = "models/weapons/cw2_shark/attachments/surefirex400.mdl", bone = "cz75_root", pos = Vector(-0.038, -0.5, 5.6), angle = Angle(90, 0, -90), size = Vector(1.2, 1.2, 1.2)},
 	}
 
