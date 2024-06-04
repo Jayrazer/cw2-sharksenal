@@ -62,8 +62,11 @@ if CLIENT then
 	
 	SWEP.AttachmentModelsVM = {
 		["md_saker"] = {type = "Model", model = "models/cw2/attachments/556suppressor.mdl", bone = "cz75_barrel", pos = Vector(-0.038, -2.43, -7.2), angle = Angle(180, 0, 90), size = Vector(0.65, 0.65, 0.65)},
+		["md_anpeq15"] = {type = "Model", model = "models/weapons/cw2_shark/attachments/surefirex400.mdl", bone = "cz75_root", pos = Vector(-0.038, -0.5, 5.6), angle = Angle(90, 0, -90), size = Vector(1.2, 1.2, 1.2)},
 	}
-	
+
+	SWEP.LaserPosAdjust = Vector(0, -5, -1.7)
+	SWEP.LaserAngAdjust = Angle(0, 0, 0) 
 
 end
 
@@ -78,8 +81,8 @@ SWEP.CanRestOnObjects = false
 
 SWEP.Attachments = {
 
-[1] = {header = "Muzzle", offset = {400, -350}, atts = {"md_saker"}},
---[2] = {header = "Receiver", offset = {100, -500}, atts = {"cz75_auto"}},
+[1] = {header = "Muzzle", offset = {-500, -250}, atts = {"md_saker"}},
+[2] = {header = "Rail", offset = {200, -350}, atts = {"md_anpeq15"}},
 ["+reload"] = {header = "Ammo", offset = {-450, 300}, atts = {"am_magnum", "am_matchgrade"}}
 
 }

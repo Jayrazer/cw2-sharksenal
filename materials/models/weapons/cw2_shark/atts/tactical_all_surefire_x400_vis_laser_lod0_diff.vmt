@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/weapons/cw2_shark/atts/tactical_all_surefire_x400_vis_laser_LOD0_diff"
+	"$bumpmap" "models/weapons/cw2_shark/atts/tactical_all_surefire_x400_vis_laser_LOD0_nrm"
+	"$phongexponenttexture" "models/weapons/cw2_shark/atts/tactical_all_surefire_x400_vis_laser_LOD0_exponent"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .075 .075 .075 ]"
+	"$envmapfresnel" ".5"
+	"$basemapalphaenvmapmask" "1"
+
+	"$phong" "1"
+	"$phongalbedotint" "1"
+
+	"$phongboost" "24"
+	"$phongexponent" "48"
+	"$phongfresnelranges" "[1 5 22.5]"
+}
