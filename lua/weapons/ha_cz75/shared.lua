@@ -146,7 +146,7 @@ SWEP.Chamberable			= true
 SWEP.Primary.Ammo			= "9x19mm"
 
 SWEP.FireMoveMod = 0
-SWEP.FireDelay = 60/500
+SWEP.FireDelay = 60/600
 SWEP.FireSound = "CZ75_FIRE"
 SWEP.FireSoundSuppressed = "CZ75_FIRE_SUPP"
 SWEP.Recoil = 1
