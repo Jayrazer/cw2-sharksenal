@@ -97,8 +97,8 @@ SWEP.CanRestOnObjects = true
 
 SWEP.Attachments = {
 	[1] = {header = "Optic", offset = {1200, -250}, atts = {"k31_scope"}},
-	["+attack"] = {header = "Reload", offset = {-150, 150}, atts = {"k31_sgload"}},
-	["+reload"] = {header = "Ammo", offset = {650, 350}, atts = {"am_magnum", "am_matchgrade"}}
+	--["+attack"] = {header = "Reload", offset = {-150, 150}, atts = {"k31_sgload"}},
+	["+reload"] = {header = "Ammo", offset = {250, 350}, atts = {"am_magnum", "am_matchgrade"}}
 }
 
 SWEP.Animations = {
