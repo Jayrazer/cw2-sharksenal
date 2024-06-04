@@ -14,7 +14,7 @@
 	"$phongalbedoboost" 	      "48"
 	"$phongwarptexture"           "phongwarp_iron"
 
-	"$envmap"                     "env_cubemap"
+	//"$envmap"                     "env_cubemap"
 	"$envmaptint"				  "[.7 .5 .2]"
 	"$envmapfresnel"              "1"
 	"$basetexturealphaenvmapmask" "1"
