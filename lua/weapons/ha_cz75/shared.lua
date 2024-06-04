@@ -74,7 +74,7 @@ SWEP.MuzzleVelocity = 250
 SWEP.LuaViewmodelRecoil = true
 SWEP.LuaViewmodelRecoilOverride = true
 SWEP.FullAimViewmodelRecoil = false
-SWEP.CanRestOnObjects = true
+SWEP.CanRestOnObjects = false
 
 SWEP.Attachments = {
 
@@ -82,18 +82,6 @@ SWEP.Attachments = {
 --[2] = {header = "Receiver", offset = {100, -500}, atts = {"cz75_auto"}},
 ["+reload"] = {header = "Ammo", offset = {-450, 300}, atts = {"am_magnum", "am_matchgrade"}}
 
-}
-
-SWEP.ForeGripHoldPos = {
-	["ValveBiped.Bip01_L_Finger41"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(0, -21.112, 0) },
-	["ValveBiped.Bip01_L_Finger21"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(0, -32.223, 0) },
-	["ValveBiped.Bip01_L_Finger11"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(0, -34.445, 0) },
-	["ValveBiped.Bip01_L_Clavicle"] = { scale = Vector(1, 1, 1), pos = Vector(-1.201, -0.101, 0.185), angle = Angle(-3.333, 12.222, 0) },
-	["ValveBiped.Bip01_L_Finger31"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(0, -30, 0) },
-	["ValveBiped.Bip01_L_Finger22"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(0, -32.223, 0) },
-	["ValveBiped.Bip01_L_Hand"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(-41.112, 16.666, 50) },
-	["ValveBiped.Bip01_L_Finger02"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(14.444, 65.555, -1.111) },
-	["ValveBiped.Bip01_L_Finger0"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(25.555, 16.666, 5.556) }
 }
 
 SWEP.Animations = {
@@ -179,20 +167,6 @@ SWEP.ReloadHalt_Empty = 2.3
 function SWEP:IndividualThink()
 	self.EffectiveRange = 127 * 39.37
 	self.DamageFallOff = .30
-	
-	if CustomizableWeaponry_khrcw2_groundcontroldmgenabled then
-	self.EffectiveRange = ((self.EffectiveRange + 50 * 39.37))
-	end
-	
-	if self.ActiveAttachments.fp_22tcm then 
-	self.EffectiveRange = ((self.EffectiveRange + 19 * 39.37))
-	self.DamageFallOff = ((self.DamageFallOff + .1))
-	end
-	
-	if self.ActiveAttachments.am_fp_matchammo then 
-	self.EffectiveRange = ((self.EffectiveRange + 25 * 39.37))
-	self.DamageFallOff = ((self.DamageFallOff - .045))
-	end
 	
 end
 

@@ -8,8 +8,6 @@ include("sh_soundscript.lua")
 		
 		SWEP.EffectiveRange_Orig = 278 * 39.37
 		SWEP.DamageFallOff_Orig = .28
-			
-		CustomizableWeaponry.shells:addNew("sfkm308", "models/weapons/khrcw2/shells/308shell.mdl", "CW_SHELL_MAIN")
 
 if CLIENT then
 	SWEP.DrawCrosshair = false
@@ -188,25 +186,6 @@ SWEP.SnapToIdlePostReload = false
 function SWEP:IndividualThink()
 	self.EffectiveRange = 278 * 39.37
 	self.DamageFallOff = .28
-	
-	if CustomizableWeaponry_khrcw2_groundcontroldmgenabled then
-	self.EffectiveRange = ((self.EffectiveRange + 240 * 39.37))
-	end
-	
-	if self.dt.BipodDeployed then
-		self.MaxSpreadInc = 0.01
-		self.ForegripOverride = true
-		self.ForegripParent = "bipod"
-	else
-		self.MaxSpreadInc = 0.045
-		self.ForegripOverride = true
-		self.ForegripParent = "none"
-	end
-	
-	if self.ActiveAttachments.am_fp_matchammo then
-	self.EffectiveRange = ((self.EffectiveRange + 27 * 39.37))
-	self.DamageFallOff = ((self.DamageFallOff - .028))
-	end
 end
 
 function SWEP:fireAnimFunc()

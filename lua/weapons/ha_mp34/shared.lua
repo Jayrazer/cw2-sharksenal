@@ -4,7 +4,7 @@ AddCSLuaFile("sh_soundscript.lua")
 include("sh_sounds.lua")
 include("sh_soundscript.lua")
 
-		SWEP.magType = "brMag"
+		SWEP.magType = "smgMag"
 		
 		SWEP.EffectiveRange_Orig = 278 * 39.37
 		SWEP.DamageFallOff_Orig = .28
@@ -20,7 +20,7 @@ if CLIENT then
 	SWEP.SelectIcon = surface.GetTextureID("vgui/mp34")
 	killicon.Add( "ha_mp34", "vgui/killicons/mp34", Color(255, 120, 40, 0))
 	
-	SWEP.MuzzleEffect = "muzzleflash_ak47"
+	SWEP.MuzzleEffect = "muzzleflash_smg"
 	SWEP.PosBasedMuz = false
 	SWEP.SnapToGrip = true
 	SWEP.SightWithRail = true
@@ -121,9 +121,6 @@ SWEP.ViewModelFlip	= false
 SWEP.ViewModel		= "models/weapons/cw2_shark/v_mp34.mdl"
 SWEP.WorldModel		= "models/weapons/cw2_shark/w_mp34.mdl"
 
-
-
-
 SWEP.Spawnable			= true
 SWEP.AdminSpawnable		= true
 SWEP.ReloadViewBobEnabled = false
@@ -171,25 +168,6 @@ SWEP.SnapToIdlePostReload = false
 function SWEP:IndividualThink()
 	self.EffectiveRange = 278 * 39.37
 	self.DamageFallOff = .28
-	
-	if CustomizableWeaponry_khrcw2_groundcontroldmgenabled then
-	self.EffectiveRange = ((self.EffectiveRange + 240 * 39.37))
-	end
-	
-	if self.dt.BipodDeployed then
-		self.MaxSpreadInc = 0.01
-		self.ForegripOverride = true
-		self.ForegripParent = "bipod"
-	else
-		self.MaxSpreadInc = 0.045
-		self.ForegripOverride = true
-		self.ForegripParent = "none"
-	end
-	
-	if self.ActiveAttachments.am_fp_matchammo then
-	self.EffectiveRange = ((self.EffectiveRange + 27 * 39.37))
-	self.DamageFallOff = ((self.DamageFallOff - .028))
-	end
 end
 
 function SWEP:fireAnimFunc()

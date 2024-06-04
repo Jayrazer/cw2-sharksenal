@@ -83,10 +83,6 @@ if CLIENT then
 	
 	SWEP.LuaVMRecoilAxisMod = {vert = 1, hor = 2, roll = 4, forward = 2, pitch = .25}
 	
-	SWEP.ForeGripHoldPos = {
-	["ValveBiped.Bip01_L_Clavicle"] = { scale = Vector(1, 1, 1), pos = Vector(-0.556, 3, -0.556), angle = Angle(0, 0, 0) },
-	["ValveBiped.Bip01_L_Hand"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(-30, 21.111, 32.222) }
-}
 end
 
 SWEP.SightBGs = {main = 1, off = 0, none = 1}
@@ -206,16 +202,6 @@ SWEP.MinimumBreathPercentage = 0.5
 function SWEP:IndividualThink()
 	self.EffectiveRange = 341.2 * 39.37
 	self.DamageFallOff = .21
-	
-	if CustomizableWeaponry_khrcw2_groundcontroldmgenabled then
-	self.EffectiveRange = ((self.EffectiveRange + 200 * 39.37))
-	end
-	
-	if self.ActiveAttachments.am_fp_matchammo then
-	self.EffectiveRange = ((self.EffectiveRange + 34.1 * 39.37))
-	self.DamageFallOff = ((self.DamageFallOff - .021))
-	end
-	
 end
 
 

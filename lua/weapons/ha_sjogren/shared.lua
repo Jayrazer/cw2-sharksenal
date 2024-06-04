@@ -75,7 +75,6 @@ SWEP.Attachments = {
 }
 
 SWEP.AttachmentExclusions = {
-	["am_minibuck"] = {"fp_auto8", "fp_autocompact"},
 }
 
 SWEP.Animations = {
