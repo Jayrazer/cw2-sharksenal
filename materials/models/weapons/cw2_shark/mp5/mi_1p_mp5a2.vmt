@@ -14,7 +14,7 @@
 
 //Phong
 	"$Phong"				    "1"
-	"$PhongBoost"               "0.4" 	//< Change as needed
+	"$PhongBoost"               "0.75" 	//< Change as needed
 //	"$PhongExponent"            "15" 	//< $PhongExponent overrides $PhongExponentTexture !!!
 	"$PhongFresnelRanges"	    "[0.3 1 4]"
 	"$PhongAlbedoTint"          "0"
@@ -27,7 +27,7 @@
 
 //Other
 	"$Model"                    "1"
-	"$HalfLambert" 			    "0"
+	"$HalfLambert" 			    "1"
 	"$NoDecal" 				    "0"
 	"$AmbientOcclusion" 	    "1"
 	"$NoCull" 				    "1"
