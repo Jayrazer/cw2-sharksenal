@@ -6,12 +6,12 @@
 
 ## Pistols:
 - CZ 75 (speedonerd) (done)
-- Wildey Hunter (speedonerd) 
+- Wildey Hunter (speedonerd) (done)
 
 ## SMGs:
 - MP 34 (speedonerd) (done)
 - P90 (milspecy)
-- MP5A2 (early model)
+- MP5A2 (speedonerd (don)
 
 ## Rifles:
 - Swiss K31 (speedonerd) (done)

@@ -15,6 +15,11 @@ Assets by Capcom (Resident Evil: Village)
 Originally compiled by 8siandude
 Animated by speedonerd
 
+## MP5
+Assets by New World Interactive (Insurgency: Sandstorm)
+Originally compiled by ArachnitCZ
+Animated by speedonerd
+
 ## MP 34
 Assets by Offworld Industries and Mercury Arts (Squad 44, a.k.a. Post Scriptum)
 Originally compiled by Moon & Stained Soldier

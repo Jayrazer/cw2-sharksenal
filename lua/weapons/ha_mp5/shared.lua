@@ -15,8 +15,8 @@ if CLIENT then
 	SWEP.CSMuzzleFlashes = true
 	SWEP.UseHands = true
 	
-	SWEP.SelectIcon = surface.GetTextureID("vgui/mp34")
-	killicon.Add( "ha_mp34", "vgui/killicons/mp34", Color(255, 120, 40, 0))
+	SWEP.SelectIcon = surface.GetTextureID("vgui/hamp5")
+	killicon.Add( "ha_mp5", "vgui/killicons/hamp5", Color(255, 120, 40, 0))
 	
 	SWEP.MuzzleEffect = "muzzleflash_smg"
 	SWEP.PosBasedMuz = false
@@ -24,10 +24,10 @@ if CLIENT then
 	SWEP.SightWithRail = true
 	
 	SWEP.Shell = "smallshell"
-	SWEP.ShellScale = .8
+	SWEP.ShellScale = .5
 	SWEP.ShellDelay = 0
 	SWEP.ShellOffsetMul = 1
-	SWEP.ShellPosOffset = {x = 1.4, y = -2.25, z = 0}
+	SWEP.ShellPosOffset = {x = 0, y = 0, z = 0}
 	SWEP.ForeGripOffsetCycle_Draw = 0
 	SWEP.ForeGripOffsetCycle_Reload = 0.8
 	SWEP.ForeGripOffsetCycle_Reload_Empty = 0.75
@@ -80,11 +80,11 @@ SWEP.CanRestOnObjects = true
 
 SWEP.Attachments = {
 
-	[5] = {header = "Stock", offset = {1550, -150}, atts = {"ha_mp5_foldstock"}},
-	[4] = {header = "Magazine", offset = {550, 350}, atts = {"ha_akm_extmag"}},
-	[3] = {header = "Foregrip", offset = {-150, 400}, atts = {"md_foregrip"}},
-	[1] = {header = "Muzzle", offset = {-150, -500}, atts = {"md_saker"}},
-	["+reload"] = {header = "Ammo", offset = {-300, 0}, atts = {"am_magnum", "am_matchgrade"}}
+	[4] = {header = "Stock", offset = {1250, -150}, atts = {"ha_mp5_foldstock"}},
+	[3] = {header = "Magazine", offset = {550, 350}, atts = {"ha_akm_extmag"}},
+	[2] = {header = "Foregrip", offset = {-150, 300}, atts = {"md_foregrip"}},
+	[1] = {header = "Muzzle", offset = {150, -400}, atts = {"md_saker"}},
+	["+reload"] = {header = "Ammo", offset = {-350, -100}, atts = {"am_magnum", "am_matchgrade"}}
 
 }
 
@@ -131,7 +131,7 @@ SWEP.ViewModelFOV	= 70
 SWEP.AimViewModelFOV = 65
 SWEP.ViewModelFlip	= false
 SWEP.ViewModel		= "models/weapons/cw2_shark/v_mp5.mdl"
-SWEP.WorldModel		= "models/weapons/cw2_shark/w_mp34.mdl"
+SWEP.WorldModel		= "models/weapons/cw2_shark/w_mp5.mdl"
 
 SWEP.Spawnable			= true
 SWEP.AdminSpawnable		= true
@@ -173,8 +173,8 @@ SWEP.BipodInstalled = false
 SWEP.ReloadSpeed = 1.32
 SWEP.ReloadTime = 2.2
 SWEP.ReloadHalt = 3.5
-SWEP.ReloadTime_Empty = 2.9
-SWEP.ReloadHalt_Empty = 4.7
+SWEP.ReloadTime_Empty = 2.7
+SWEP.ReloadHalt_Empty = 4.55
 SWEP.SnapToIdlePostReload = false
 
 function SWEP:IndividualThink()
