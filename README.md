@@ -1,5 +1,9 @@
 # cw2-sharksenal
 
+A pack of quality weapons for CW2, featuring original animations and c_hands.
+
+# Weapon List:
+
 ## Melee:
 - Crowbar (speedonerd) (done)
 - Bowie Knife
