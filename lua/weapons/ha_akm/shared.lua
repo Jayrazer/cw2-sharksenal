@@ -60,7 +60,7 @@ if CLIENT then
 	SWEP.DisableSprintViewSimulation = false
 	
 	SWEP.OverallMouseSens = .85
-	SWEP.CustomizationMenuScale = 0.018
+	SWEP.CustomizationMenuScale = 0.015
 	
 	SWEP.AttachmentModelsVM = {
 	
@@ -85,11 +85,11 @@ SWEP.CanRestOnObjects = true
 
 SWEP.Attachments = {
 
-	[1] = {header = "Muzzle", offset = {-350, -250}, atts = {"md_pbs1"}},
-	[2] = {header = "Sight", offset = {1000, -350}, atts = {"md_kobra", "md_pso1"}},
-	[3] = {header = "Magazine", offset = {0, 375}, atts = {"ha_akm_extmag"}},
+	[1] = {header = "Muzzle", offset = {-450, -150}, atts = {"md_pbs1"}},
+	[2] = {header = "Sight", offset = {1200, -550}, atts = {"md_kobra", "md_pso1"}},
+	[3] = {header = "Magazine", offset = {100, 475}, atts = {"ha_akm_extmag"}},
 	[4] = {header = "Foregrip", offset = {250, -450}, atts = {"ha_akm_foregrip"}},
-	["+reload"] = {header = "Ammo", offset = {800, 475}, atts = {"am_magnum", "am_matchgrade"}}
+	["+reload"] = {header = "Ammo", offset = {900, 475}, atts = {"am_magnum", "am_matchgrade"}}
 
 }
 

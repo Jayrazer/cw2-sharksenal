@@ -82,7 +82,7 @@ SWEP.Attachments = {
 
 	--[1] = {header = "Muzzle", offset = {-250, -250}, atts = {"md_pbs1"}},
 	--[1] = {header = "Magazine", offset = {550, -350}, atts = {"ha_mp34_extmag"}},
-	["+reload"] = {header = "Ammo", offset = {-100, 450}, atts = {"am_magnum", "am_matchgrade"}}
+	["+reload"] = {header = "Ammo", offset = {700, -300}, atts = {"am_magnum", "am_matchgrade"}}
 
 }
 

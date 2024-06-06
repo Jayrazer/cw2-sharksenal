@@ -58,7 +58,7 @@ if CLIENT then
 	SWEP.DisableSprintViewSimulation = false
 	
 	SWEP.OverallMouseSens = 1
-	SWEP.CustomizationMenuScale = 0.015
+	SWEP.CustomizationMenuScale = 0.013
 	
 	SWEP.AttachmentModelsVM = {
 		["md_saker"] = {type = "Model", model = "models/cw2/attachments/556suppressor.mdl", bone = "cz75_barrel", pos = Vector(-0.038, -2.43, -7.2), angle = Angle(180, 0, 90), size = Vector(0.65, 0.65, 0.65)},
@@ -81,8 +81,8 @@ SWEP.CanRestOnObjects = false
 
 SWEP.Attachments = {
 
-[1] = {header = "Muzzle", offset = {-500, -250}, atts = {"md_saker"}},
-[2] = {header = "Rail", offset = {200, -350}, atts = {"ha_surefire"}},
+[1] = {header = "Muzzle", offset = {-750, -250}, atts = {"md_saker"}},
+[2] = {header = "Rail", offset = {300, -450}, atts = {"ha_surefire"}},
 ["+reload"] = {header = "Ammo", offset = {-450, 300}, atts = {"am_magnum", "am_matchgrade"}}
 
 }
