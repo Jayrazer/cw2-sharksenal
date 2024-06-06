@@ -15,7 +15,7 @@ A pack of quality weapons for CW2, featuring original animations and c_hands.
 ## SMGs:
 - MP 34 (speedonerd) (done)
 - P90 (milspecy)
-- MP5A2 (speedonerd (don)
+- MP5A2 (speedonerd) (done)
 
 ## Rifles:
 - Swiss K31 (speedonerd) (done)

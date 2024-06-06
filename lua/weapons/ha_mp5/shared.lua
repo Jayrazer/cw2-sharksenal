@@ -32,8 +32,17 @@ if CLIENT then
 	SWEP.ForeGripOffsetCycle_Reload = 0.8
 	SWEP.ForeGripOffsetCycle_Reload_Empty = 0.75
 	
-	SWEP.IronsightPos = Vector(-3.21, 0, 1)
-	SWEP.IronsightAng = Vector(-0.1, -0.42, 3)
+	SWEP.IronsightPos = Vector(-3.5, 0, 1)
+	SWEP.IronsightAng = Vector(-0.1, -0.42, 0)
+	
+	SWEP.EoTechPos = Vector(-3.5, -1, -0.15)
+	SWEP.EoTechAng = Vector(-0.1, -0.42, 0)
+	
+	SWEP.AimpointPos = Vector(-3.48, -1, 0.09)
+	SWEP.AimpointAng = Vector(-0.05, -0.42, 0)
+	
+	SWEP.ACOGPos = Vector(-3.45, -5, -0.3)
+	SWEP.ACOGAng = Vector(-0.1, -0.42, 0)
 	
 	SWEP.SprintPos = Vector(4.2, -2.5, -4)
 	SWEP.SprintAng = Vector(-8.443, 37.99, -23.216)
@@ -55,20 +64,28 @@ if CLIENT then
 	SWEP.DisableSprintViewSimulation = false
 	
 	SWEP.OverallMouseSens = .85
-	SWEP.CustomizationMenuScale = 0.019
+	SWEP.CustomizationMenuScale = 0.015
 	
 	SWEP.AttachmentModelsVM = {
 	
 		["md_foregrip"] = {model = "models/wystan/attachments/foregrip1.mdl", pos = Vector(0.5, 0, 23.2), angle = Angle(0, -180, 90), size = Vector(0.85, 0.85, 0.85), bone = "mp5_root"},
+		["md_eotech"] = { type = "Model", model = "models/wystan/attachments/2otech557sight.mdl", bone = "mp5_root", rel = "", pos = Vector(0.4, 11.3, -13.65), angle = Angle(90, 0, -90), size = Vector(1.5, 1.5, 1.5), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {} },
+		["md_aimpoint"] = { type = "Model", model = "models/wystan/attachments/aimpoint.mdl", bone = "mp5_root", rel = "", pos = Vector(-0.25, 1.2, -4.25), angle = Angle(0, 0, -90), size = Vector(1.1, 1.1, 1.1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {} },
+		["md_acog"] = { type = "Model", model = "models/wystan/attachments/2cog.mdl", bone = "mp5_root", rel = "", pos = Vector(-0.4, 1.8, -4.25), angle = Angle(0, 0, -90), size = Vector(1.2, 1.2, 1.2), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {} },
 		["md_saker"] = {model = "models/cw2/attachments/556suppressor.mdl", pos = Vector(0, -1, 36), angle = Angle(0, -180, 90), size = Vector(0.75, 0.75, 0.75), bone = "mp5_root"},
 	
 	}
-
+	
+	SWEP.BackupSights = {
+	
+		["md_acog"] = {Vector(-3.5, -2, -1.75), Vector(0, -0.429, 0)},
+	}
+	
 end
 
 SWEP.MagBGs = {main = 1, regular = 0, ext = 1}
 SWEP.StockBGs = {main = 2, regular = 0, fold = 1}
-SWEP.RailBGs = {main = 4, regular = 0, yeah = 1}
+SWEP.SightBGs = {main = 4, off = 0, none = 1}
 --SWEP.BottomRailBGs = {main = 3, regular = 0, yeah = 1}
 
 SWEP.MuzzleVelocity = 820
@@ -80,11 +97,12 @@ SWEP.CanRestOnObjects = true
 
 SWEP.Attachments = {
 
-	[4] = {header = "Stock", offset = {1250, -150}, atts = {"ha_mp5_foldstock"}},
-	[3] = {header = "Magazine", offset = {550, 350}, atts = {"ha_akm_extmag"}},
-	[2] = {header = "Foregrip", offset = {-150, 300}, atts = {"md_foregrip"}},
-	[1] = {header = "Muzzle", offset = {150, -400}, atts = {"md_saker"}},
-	["+reload"] = {header = "Ammo", offset = {-350, -100}, atts = {"am_magnum", "am_matchgrade"}}
+	[5] = {header = "Stock", offset = {1650, -150}, atts = {"ha_mp5_foldstock"}},
+	[4] = {header = "Magazine", offset = {650, 550}, atts = {"ha_akm_extmag"}},
+	[3] = {header = "Foregrip", offset = {-150, 300}, atts = {"md_foregrip"}},
+	[2] = {header = "Sight", offset = {700, -750}, atts = {"md_aimpoint", "md_eotech", "md_acog"}},
+	[1] = {header = "Muzzle", offset = {-100, -600}, atts = {"md_saker"}},
+	["+reload"] = {header = "Ammo", offset = {-550, -100}, atts = {"am_magnum", "am_matchgrade"}}
 
 }
 
