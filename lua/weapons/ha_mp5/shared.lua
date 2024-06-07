@@ -41,7 +41,7 @@ if CLIENT then
 	SWEP.AimpointPos = Vector(-3.48, -1, 0.09)
 	SWEP.AimpointAng = Vector(-0.05, -0.42, 0)
 	
-	SWEP.ACOGPos = Vector(-3.45, -5, -0.3)
+	SWEP.ACOGPos = Vector(-3.45, -6.25, -0.3)
 	SWEP.ACOGAng = Vector(-0.1, -0.42, 0)
 	
 	SWEP.SprintPos = Vector(4.2, -2.5, -4)
