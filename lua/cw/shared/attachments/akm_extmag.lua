@@ -5,7 +5,7 @@ att.displayNameShort = "EXTMAG"
 att.isBG = true
 
 att.statModifiers = {
-ReloadSpeedMult = -0.1,
+ReloadSpeedMult = -0.15,
 OverallMouseSensMult = -0.1
 }
 
@@ -16,7 +16,6 @@ end
 
 function att:attachFunc()
 	self:setBodygroup(self.MagBGs.main, self.MagBGs.ext)
-	self:unloadWeapon()
 	self.Primary.ClipSize = 40
 	self.Primary.ClipSize_Orig = 40
 end
