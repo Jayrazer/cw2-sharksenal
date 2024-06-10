@@ -31,8 +31,8 @@ if CLIENT then
 	SWEP.ForeGripOffsetCycle_Reload = 1
 	SWEP.ForeGripOffsetCycle_Reload_Empty = 1
 	
-	SWEP.IronsightPos = Vector(-2.98, -5, 0.69)
-	SWEP.IronsightAng = Vector(0.12, -0.05, 3.5)
+	SWEP.IronsightPos = Vector(-2.99, -5, 0.69)
+	SWEP.IronsightAng = Vector(0.18, -0.05, 3.5)
 	
 	SWEP.KobraPos = Vector(-2.92, -5, -0.6)
 	SWEP.KobraAng = Vector(1, 0, 4)

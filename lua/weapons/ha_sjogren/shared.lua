@@ -32,7 +32,7 @@ if CLIENT then
 	SWEP.DamageFallOff_Orig = .48
 
 	SWEP.IronsightPos = Vector(-3.8, -7, 1.3)
-	SWEP.IronsightAng = Vector(0, 0, 0)
+	SWEP.IronsightAng = Vector(0.15, 0, 0)
 	
 	SWEP.SprintPos = Vector(4.44, 0, -1.211)
 	SWEP.SprintAng = Vector(-11.256, 28.141, -18.996)

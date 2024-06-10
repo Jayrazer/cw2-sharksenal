@@ -34,7 +34,7 @@ if CLIENT then
 	SWEP.ShellPosOffset = {x = 4, y = 0, z = 0}
 	
 	SWEP.IronsightPos = Vector(-3.75, -8, 1.65)
-	SWEP.IronsightAng = Vector(0.4, 0, 0)
+	SWEP.IronsightAng = Vector(0.4, -0.01, 0)
 	
 	SWEP.SprintPos = Vector(4.44, 0, -1.211)
 	SWEP.SprintAng = Vector(-11.256, 28.141, -18.996)

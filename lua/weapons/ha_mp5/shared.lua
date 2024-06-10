@@ -33,7 +33,7 @@ if CLIENT then
 	SWEP.ForeGripOffsetCycle_Reload_Empty = 0.75
 	
 	SWEP.IronsightPos = Vector(-3.5, 0, 1)
-	SWEP.IronsightAng = Vector(-0.1, -0.42, 0)
+	SWEP.IronsightAng = Vector(-0.1, -0.45, 0)
 	
 	SWEP.EoTechPos = Vector(-3.5, -1, -0.15)
 	SWEP.EoTechAng = Vector(-0.1, -0.42, 0)
