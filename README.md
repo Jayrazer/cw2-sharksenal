@@ -5,33 +5,32 @@ A pack of quality weapons for CW2, featuring original animations and c_hands.
 # Weapon List:
 
 ## Melee:
-- Crowbar (speedonerd) (done)
+- Crowbar 
 - Bowie Knife
 
 ## Pistols:
-- CZ 75 (speedonerd) (done)
-- Wildey Hunter (speedonerd) (done)
+- CZ 75 
+- Wildey Hunter 
 
 ## SMGs:
-- MP 34 (speedonerd) (done)
-- P90 (milspecy)
-- MP5A2 (speedonerd) (done)
+- MP 34 
+- P90 
+- MP5A2 
 
 ## Rifles:
-- Swiss K31 (speedonerd) (done)
-- Bofors Ak 5c (milspecy)
-- CETME Model C (milspecy)
-- AKM (speedonerd) (done)
+- Swiss K31 
+- Bofors Ak 5c 
+- CETME Model C 
+- AKM 
 - Ruger 10/22 Carbine
 - MAS FR F2
 
 ## Shotguns:
-- Ithaca Model 37 Stakeout (milspecy)
-- Sjogren (speedonerd) (done)
-- Double-Barrel of some sort
+- Ithaca Model 37 Stakeout 
+- Sjogren
 
 ## Machine Guns:
-- CETME Ameli (milspecy)
+- CETME Ameli
 
 ## Launchers:
-- Carl Gustaf M3 (speedonerd) (done)
+- Carl Gustaf M3
