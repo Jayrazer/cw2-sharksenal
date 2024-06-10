@@ -72,7 +72,7 @@ if CLIENT then
 		["md_eotech"] = { type = "Model", model = "models/wystan/attachments/2otech557sight.mdl", bone = "mp5_root", rel = "", pos = Vector(0.4, 11.3, -13.65), angle = Angle(90, 0, -90), size = Vector(1.5, 1.5, 1.5), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {} },
 		["md_aimpoint"] = { type = "Model", model = "models/wystan/attachments/aimpoint.mdl", bone = "mp5_root", rel = "", pos = Vector(-0.25, 1.2, -4.25), angle = Angle(0, 0, -90), size = Vector(1.1, 1.1, 1.1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {} },
 		["md_acog"] = { type = "Model", model = "models/wystan/attachments/2cog.mdl", bone = "mp5_root", rel = "", pos = Vector(-0.4, 1.8, -4.25), angle = Angle(0, 0, -90), size = Vector(1.2, 1.2, 1.2), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {} },
-		["md_saker"] = {model = "models/cw2/attachments/556suppressor.mdl", pos = Vector(0, -1, 36), angle = Angle(0, -180, 90), size = Vector(0.75, 0.75, 0.75), bone = "mp5_root"},
+		["md_tundra9mm"] = {model = "models/cw2/attachments/556suppressor.mdl", pos = Vector(0, -1, 36), angle = Angle(0, -180, 90), size = Vector(0.75, 0.75, 0.75), bone = "mp5_root"},
 	
 	}
 	
@@ -101,7 +101,7 @@ SWEP.Attachments = {
 	--[4] = {header = "Magazine", offset = {650, 550}, atts = {"ha_akm_extmag"}},
 	[3] = {header = "Foregrip", offset = {-150, 300}, atts = {"md_foregrip"}},
 	[2] = {header = "Sight", offset = {700, -750}, atts = {"md_aimpoint", "md_eotech", "md_acog"}},
-	[1] = {header = "Muzzle", offset = {-100, -600}, atts = {"md_saker"}},
+	[1] = {header = "Muzzle", offset = {-100, -600}, atts = {"md_tundra9mm"}},
 	["+reload"] = {header = "Ammo", offset = {-550, -100}, atts = {"am_magnum", "am_matchgrade"}}
 
 }

@@ -61,7 +61,7 @@ if CLIENT then
 	SWEP.CustomizationMenuScale = 0.013
 	
 	SWEP.AttachmentModelsVM = {
-		["md_saker"] = {type = "Model", model = "models/cw2/attachments/556suppressor.mdl", bone = "cz75_barrel", pos = Vector(-0.038, -2.43, -7.2), angle = Angle(180, 0, 90), size = Vector(0.65, 0.65, 0.65)},
+		["md_tundra9mm"] = {type = "Model", model = "models/cw2/attachments/556suppressor.mdl", bone = "cz75_barrel", pos = Vector(-0.038, -2.43, -7.2), angle = Angle(180, 0, 90), size = Vector(0.65, 0.65, 0.65)},
 		["ha_surefire"] = {type = "Model", model = "models/weapons/cw2_shark/attachments/surefirex400.mdl", bone = "cz75_root", pos = Vector(-0.038, -0.5, 5.6), angle = Angle(90, 0, -90), size = Vector(1.2, 1.2, 1.2)},
 	}
 
@@ -81,7 +81,7 @@ SWEP.CanRestOnObjects = false
 
 SWEP.Attachments = {
 
-[1] = {header = "Muzzle", offset = {-750, -250}, atts = {"md_saker"}},
+[1] = {header = "Muzzle", offset = {-750, -250}, atts = {"md_tundra9mm"}},
 [2] = {header = "Rail", offset = {300, -450}, atts = {"ha_surefire"}},
 ["+reload"] = {header = "Ammo", offset = {-450, 300}, atts = {"am_magnum", "am_matchgrade"}}
 
