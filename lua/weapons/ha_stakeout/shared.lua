@@ -56,7 +56,7 @@ if CLIENT then
 	
 	SWEP.LuaVMRecoilAxisMod = {vert = .6, hor = 1, roll = .6, forward = 2, pitch = .5}
 	SWEP.OverallMouseSens = .8
-	SWEP.CustomizationMenuScale = 0.035
+	SWEP.CustomizationMenuScale = 0.025
 	
 end
 
@@ -69,7 +69,7 @@ SWEP.CanRestOnObjects = true
 
 SWEP.Attachments = {
 
-["+reload"] = {header = "Ammo", offset = {1000, -150}, atts = {"am_slugrounds", "am_flechetterounds"}}
+["+reload"] = {header = "Ammo", offset = {600, -220}, atts = {"am_slugrounds", "am_flechetterounds"}}
 
 }
 
@@ -104,7 +104,7 @@ SWEP.Purpose		= ""
 SWEP.Instructions	= ""
 SWEP.NearWallEnabled = false
 
-SWEP.ViewModelFOV	= 60
+SWEP.ViewModelFOV	= 64
 SWEP.AimViewModelFOV = 60
 SWEP.ZoomAmount = 5
 SWEP.FOVPerShot = 1.1
@@ -128,7 +128,7 @@ SWEP.Primary.Automatic		= true
 SWEP.Primary.Ammo			= "12 Gauge"
 
 
-SWEP.FireDelay = 60/80
+SWEP.FireDelay = 60/85
 SWEP.FireSound = "STAKEOUT_FIRE"
 SWEP.Recoil = 5
 
