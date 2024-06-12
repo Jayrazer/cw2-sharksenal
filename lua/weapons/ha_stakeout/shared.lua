@@ -5,8 +5,6 @@ include("sh_sounds.lua")
 include("sh_soundscript.lua")
 
 	--SWEP.magType = "NONE"
-	
-	CustomizableWeaponry.shells:addNew("sg_brass_shell", "models/weapons/cw2_shark/shells/sg_brass.mdl", "CW_SHELL_MAIN")
 	CustomizableWeaponry.firemodes:registerFiremode("stakeoutslamfire", "SLAM FIRE", false, 0, 1)
 
 if CLIENT then
@@ -23,11 +21,11 @@ if CLIENT then
 	SWEP.SightWithRail = true
 	
 	SWEP.FireMoveMod = 0
-	SWEP.Shell = "sg_brass_shell"
-	SWEP.ShellScale = 1.5
-	SWEP.ShellDelay = 0
+	SWEP.Shell = "shotshell"
+	SWEP.ShellScale = 0.75
+	SWEP.ShellDelay = 0.45
 	SWEP.ShellOffsetMul = 1
-	SWEP.ShellPosOffset = {x = 8, y = 0, z = 2}
+	SWEP.ShellPosOffset = {x = 2, y = 1, z = 0}
 	
 	SWEP.EffectiveRange_Orig = 75 * 39.37
 	SWEP.DamageFallOff_Orig = .48
