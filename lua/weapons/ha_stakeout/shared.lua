@@ -13,8 +13,8 @@ if CLIENT then
 	SWEP.CSMuzzleFlashes = true
 	SWEP.UseHands = true
 	
-	SWEP.SelectIcon = surface.GetTextureID("vgui/sjogren")
-	killicon.Add( "ha_sjogren", "vgui/killicons/sjogren", Color(255, 120, 40, 0))
+	SWEP.SelectIcon = surface.GetTextureID("vgui/stakeout")
+	killicon.Add( "ha_stakeout", "vgui/killicons/stakeout", Color(255, 120, 40, 0))
 	
 	SWEP.MuzzleEffect = "muzzleflash_m3"
 	SWEP.PosBasedMuz = false
@@ -92,7 +92,7 @@ SWEP.SpeedDec = 25
 
 SWEP.Slot = 3
 SWEP.SlotPos = 0
-SWEP.NormalHoldType = "rpg"
+SWEP.NormalHoldType = "shotgun"
 SWEP.RunHoldType = "passive"
 SWEP.FireModes = {"stakeoutslamfire"}
 SWEP.Base = "cw_base"
@@ -110,8 +110,12 @@ SWEP.ZoomAmount = 5
 SWEP.FOVPerShot = 1.1
 SWEP.ViewModelFlip	= false
 SWEP.ViewModel		= "models/weapons/cw2_shark/v_m37.mdl"
-SWEP.WorldModel		= "models/weapons/cw2_shark/w_sjogren.mdl"
+SWEP.WorldModel		= "models/weapons/cw2_shark/w_m37.mdl"
 
+SWEP.DrawTraditionalWorldModel = false
+SWEP.WM = "models/weapons/cw2_shark/w_m37.mdl"
+SWEP.WMPos = Vector(-2, 12.5, -2.7)
+SWEP.WMAng = Vector(-12, 5, 180)
 
 SWEP.Spawnable			= true
 SWEP.AdminSpawnable		= true
