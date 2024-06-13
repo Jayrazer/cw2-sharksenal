@@ -38,8 +38,8 @@ SWEP.Sounds = {
 	{time = 0.7, sound = "AKM_MAGREL"},
 	{time = 0.8, sound = "AKM_MAGOUT"},
 	{time = 1.1, sound = "CW_FOLEY_MEDIUM"},
-	{time = 1.51, sound = "AKM_MAGREL"},
-	{time = 1.55, sound = "AKM_MAGIN"},
+	{time = 1.53, sound = "AKM_MAGREL"},
+	{time = 1.57, sound = "AKM_MAGIN"},
 	{time = 2.1, sound = "CW_FOLEY_MEDIUM"},
 	
 	},
@@ -50,8 +50,8 @@ SWEP.Sounds = {
 	{time = 0.7, sound = "AKM_MAGREL"},
 	{time = 0.8, sound = "AKM_MAGOUT"},
 	{time = 1.1, sound = "CW_FOLEY_MEDIUM"},
-	{time = 1.51, sound = "AKM_MAGREL"},
-	{time = 1.55, sound = "AKM_MAGIN"},
+	{time = 1.53, sound = "AKM_MAGREL"},
+	{time = 1.57, sound = "AKM_MAGIN"},
 	{time = 2.1, sound = "CW_FOLEY_MEDIUM"},
 	
 	},

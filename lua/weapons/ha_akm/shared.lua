@@ -132,8 +132,8 @@ SWEP.Purpose		= ""
 SWEP.Instructions	= ""
 SWEP.NearWallEnabled = false
 
-SWEP.ViewModelFOV	= 62
-SWEP.AimViewModelFOV = 60
+SWEP.ViewModelFOV	= 64
+SWEP.AimViewModelFOV = 62
 SWEP.ViewModelFlip	= false
 SWEP.ViewModel		= "models/weapons/cw2_shark/v_akm.mdl"
 SWEP.WorldModel		= "models/weapons/cw2_shark/w_akm.mdl"
@@ -176,7 +176,7 @@ SWEP.BipodInstalled = false
 
 --SWEP.RecoilToSpread = 0.25
 
-SWEP.ReloadSpeed = 1.2
+SWEP.ReloadSpeed = 1.15
 SWEP.ReloadTime = 1.8
 SWEP.ReloadHalt = 3.3
 SWEP.ReloadTime_Empty = 2.1

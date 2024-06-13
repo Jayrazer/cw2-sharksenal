@@ -33,7 +33,7 @@ if CLIENT then
 	SWEP.IronsightPos = Vector(-3.37, -7, 1.2)
 	SWEP.IronsightAng = Vector(0.1, 0, 0)
 	
-	SWEP.SprintPos = Vector(4.44, 0, -1.211)
+	SWEP.SprintPos = Vector(3.44, -2, -1.211)
 	SWEP.SprintAng = Vector(-11.256, 28.141, -18.996)
 	
 	SWEP.CustomizePos = Vector(9.649, -6.814, -2.701)
