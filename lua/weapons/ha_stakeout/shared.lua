@@ -56,9 +56,11 @@ if CLIENT then
 	
 	SWEP.LuaVMRecoilAxisMod = {vert = .6, hor = 1, roll = .6, forward = 2, pitch = .5}
 	SWEP.OverallMouseSens = .8
-	SWEP.CustomizationMenuScale = 0.025
+	SWEP.CustomizationMenuScale = 0.015
 	
 end
+
+SWEP.BarrelBGs = {main = 1, regular = 0, short = 1}
 
 SWEP.MuzzleVelocity = 340
 
@@ -69,7 +71,8 @@ SWEP.CanRestOnObjects = true
 
 SWEP.Attachments = {
 
-["+reload"] = {header = "Ammo", offset = {600, -220}, atts = {"am_slugrounds", "am_flechetterounds"}}
+["+reload"] = {header = "Ammo", offset = {1100, -200}, atts = {"am_slugrounds", "am_flechetterounds"}},
+[1] = {header = "Barrel", offset = {-300, -550}, atts = {"ha_ithaca_barrel"}}
 
 }
 
