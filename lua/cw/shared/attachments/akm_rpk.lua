@@ -12,7 +12,7 @@ RecoilMult = -0.25,
 OverallMouseSensMult = -0.1,
 AimSpreadMult = -0.1,
 HipSpreadMult = -0.15,
-FireDelayMult = 0.1
+FireDelayMult = 0.05
 
 }
 

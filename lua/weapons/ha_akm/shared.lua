@@ -37,8 +37,8 @@ if CLIENT then
 	SWEP.KrinkPos = Vector(-3.26, -5, 0.88)
 	SWEP.KrinkAng = Vector(-0.73, 0, 0)
 	
-	SWEP.RPKPos = Vector(-3.26, -5, 0.68)
-	SWEP.RPKAng = Vector(0.16, 0, 0)
+	SWEP.RPKPos = Vector(-3.265, -5, 0.68)
+	SWEP.RPKAng = Vector(0.16, -0.1, 0)
 	
 	SWEP.KobraPos = Vector(-3.265, -5, -0.6)
 	SWEP.KobraAng = Vector(1, 0, 0)
@@ -86,7 +86,7 @@ end
 SWEP.MagBGs = {main = 1, regular = 0, ext = 1}
 SWEP.DongBGs = {main = 2, regular = 0, dong = 1, heavy = 2}
 SWEP.BarrelBGs = {main = 3, regular = 0, light = 1, heavy = 2}
-SWEP.StockBGs = {main = 4, regular = 0, light = 1, heavy = 2}
+SWEP.StockBGs = {main = 4, regular = 0, light = 1, heavy = 2, none = 3}
 --SWEP.RailBGs = {main = 3, regular = 0, rail = 1}
 
 SWEP.MuzzleVelocity = 820
@@ -103,14 +103,11 @@ SWEP.Attachments = {
 	[3] = {header = "Sight", offset = {1100, -726}, atts = {"md_kobra", "md_pso1"}},
 	[4] = {header = "Magazine", offset = {100, 675}, atts = {"ha_akm_extmag"}},
 	[5] = {header = "Foregrip", offset = {350, -750}, atts = {"ha_akm_foregrip"}},
-	[6] = {header = "Stock", offset = {1950, -350}, atts = {"ha_akm_rpkstock", "ha_akm_foldstock"}},
+	[6] = {header = "Stock", offset = {1950, -350}, atts = {"ha_akm_rpkstock", "ha_akm_foldstock", "ha_akm_nostock"}},
 	["+reload"] = {header = "Ammo", offset = {1000, 675}, atts = {"am_magnum", "am_matchgrade"}}
 
 }
 
-SWEP.AttachmentExclusions = {
-	--["ha_akm_foregrip"] = {"ha_akm_rpkbar"},
-}
 
 SWEP.ForeGripHoldPos = {
 	["ValveBiped.Bip01_L_Finger41"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(0, -21.112, 0) },

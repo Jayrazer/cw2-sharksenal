@@ -1,7 +1,7 @@
 local att = {}
 att.name = "ha_akm_foldstock"
-att.displayName = "Folding Stock"
-att.displayNameShort = "FOLD"
+att.displayName = "Light Stock"
+att.displayNameShort = "LIGHT"
 att.isBG = true
 att.SpeedDec = -3
 

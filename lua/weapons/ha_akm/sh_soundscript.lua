@@ -67,7 +67,7 @@ SWEP.Sounds = {
 	{time = 3, sound = "AKM_BOLTBACK1"},
 	{time = 3.25, sound = "AKM_BOLTFORWARD"},
 	
-	},	
+	},
 	
 	reload_empty_dong = {
 	
