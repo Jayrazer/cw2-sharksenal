@@ -13,7 +13,7 @@ OverallMouseSensMult = 0.4
 }
 
 if CLIENT then
-	att.displayIcon = surface.GetTextureID("atts/akm_dong")
+	att.displayIcon = surface.GetTextureID("atts/extremelyloudincorrectbuzzer")
 	att.description = {
 		[1] = {t = "Are you a madman?", c = CustomizableWeaponry.textColors.COSMETIC},
 		}

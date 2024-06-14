@@ -15,7 +15,7 @@ RecoilMult = 0.2
 }
 
 if CLIENT then
-	att.displayIcon = surface.GetTextureID("atts/rpkmag")
+	att.displayIcon = surface.GetTextureID("atts/stakeout_barrel")
 	att.description = {[1] = {t = "Short barrel & magazine tube.", c = CustomizableWeaponry.textColors.NEUTRAL}}
 end
 

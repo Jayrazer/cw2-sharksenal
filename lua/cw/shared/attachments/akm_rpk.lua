@@ -17,7 +17,7 @@ FireDelayMult = 0.05
 }
 
 if CLIENT then
-	att.displayIcon = surface.GetTextureID("atts/akm_dong")
+	att.displayIcon = surface.GetTextureID("atts/akm_rpk")
 	att.description = {
 		[1] = {t = "Enables bipod functionality", c = CustomizableWeaponry.textColors.COSMETIC},
 		}

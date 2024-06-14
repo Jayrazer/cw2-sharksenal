@@ -13,7 +13,7 @@ OverallMouseSensMult = 0.15
 }
 
 if CLIENT then
-	att.displayIcon = surface.GetTextureID("atts/akm_dong")
+	att.displayIcon = surface.GetTextureID("atts/akm_foldstock")
 	att.description = {}
 end
 
