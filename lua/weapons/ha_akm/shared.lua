@@ -31,13 +31,13 @@ if CLIENT then
 	SWEP.ForeGripOffsetCycle_Reload = 1
 	SWEP.ForeGripOffsetCycle_Reload_Empty = 1
 	
-	SWEP.IronsightPos = Vector(-2.99, -5, 0.69)
-	SWEP.IronsightAng = Vector(0.18, -0.05, 3.5)
+	SWEP.IronsightPos = Vector(-3.27, -5, 0.66)
+	SWEP.IronsightAng = Vector(0.16, 0, 0)
 	
-	SWEP.KobraPos = Vector(-2.92, -5, -0.6)
-	SWEP.KobraAng = Vector(1, 0, 4)
+	SWEP.KobraPos = Vector(-3.265, -5, -0.6)
+	SWEP.KobraAng = Vector(1, 0, 0)
 	
-	SWEP.PSOPos = Vector(-2.83, 0.6, -0.03)
+	SWEP.PSOPos = Vector(-2.79, 0.6, 0.35)
 	SWEP.PSOAng = Vector(0, 0, 0)
 	
 	SWEP.SprintPos = Vector(4.2, -2.5, -4)
@@ -65,7 +65,7 @@ if CLIENT then
 	SWEP.AttachmentModelsVM = {
 	
 	["md_pbs1"] = {model = "models/cw2/attachments/pbs1.mdl", pos = Vector(-0.25, -1.1, 28.7), angle = Angle(0, -180, 90), size = Vector(1.1, 1.1, 1.1), bone = "akm_root"},
-	["md_pso1"] = {model = "models/cw2/attachments/pso.mdl", pos = Vector(0.1, -0.2, -5.2), angle = Angle(0, -176, 90), size = Vector(1, 1, 1), bone = "akm_root"},
+	["md_pso1"] = {model = "models/cw2/attachments/pso.mdl", pos = Vector(0.1, -0.1, -4.6), angle = Angle(0, -180, 90), size = Vector(0.95, 0.95, 0.95), bone = "akm_root"},
 	["md_kobra"] = {type = "Model", model = "models/cw2/attachments/kobra.mdl", pos = Vector(0.45, 0.9, 1.6), angle = Angle(0, -180, 90), size = Vector(0.9, 0.9, 0.9), bone = "akm_root"},
 	
 	}
