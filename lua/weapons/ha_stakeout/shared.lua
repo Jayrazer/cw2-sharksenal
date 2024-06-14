@@ -54,6 +54,10 @@ if CLIENT then
 	
 	SWEP.ShellBGs = {}
 	
+	SWEP.AttachmentModelsVM = {
+		["md_foregrip"] = {model = "models/wystan/attachments/foregrip1.mdl", pos = Vector(0.3, 2, 30), angle = Angle(0, -180, 90), size = Vector(0.85, 0.85, 0.85), bone = "m37_pumpmeharderdaddy"}
+	}
+	
 	SWEP.LuaVMRecoilAxisMod = {vert = .6, hor = 1, roll = .6, forward = 2, pitch = .5}
 	SWEP.OverallMouseSens = .8
 	SWEP.CustomizationMenuScale = 0.015
@@ -72,8 +76,21 @@ SWEP.CanRestOnObjects = true
 SWEP.Attachments = {
 
 ["+reload"] = {header = "Ammo", offset = {1100, -200}, atts = {"am_slugrounds", "am_flechetterounds"}},
-[1] = {header = "Barrel", offset = {-300, -550}, atts = {"ha_ithaca_barrel"}}
+[1] = {header = "Barrel", offset = {-300, -550}, atts = {"ha_ithaca_barrel"}},
+--[2] = {header = "Foregrip", offset = {400, -550}, atts = {"md_foregrip"}}
 
+}
+
+SWEP.ForeGripHoldPos = {
+	["ValveBiped.Bip01_L_Finger41"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(30, -39.112, 0) },
+	["ValveBiped.Bip01_L_Finger21"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(0, -32.223, 0) },
+	["ValveBiped.Bip01_L_Finger11"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(0, -34.445, 0) },
+	["ValveBiped.Bip01_L_Clavicle"] = { scale = Vector(1, 1, 1), pos = Vector(-1, 1, 1.585), angle = Angle(-3.333, 15.222, 0) },
+	["ValveBiped.Bip01_L_Finger31"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(0, -30, 0) },
+	["ValveBiped.Bip01_L_Finger22"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(0, -32.223, 0) },
+	["ValveBiped.Bip01_L_Hand"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(-35.112, 12.666, 60) },
+	["ValveBiped.Bip01_L_Finger02"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(14.444, 65.555, -1.111) },
+	["ValveBiped.Bip01_L_Finger0"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(45.555, 16.666, 5.556) }
 }
 
 SWEP.AttachmentExclusions = {

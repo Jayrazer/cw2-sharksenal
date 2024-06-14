@@ -6,7 +6,7 @@ att.isBG = true
 att.SpeedDec = 2
 
 att.statModifiers = {
-ReloadSpeedMult = -0.15,
+ReloadSpeedMult = -0.1,
 OverallMouseSensMult = -0.1
 }
 
