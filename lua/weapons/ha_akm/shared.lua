@@ -178,9 +178,9 @@ SWEP.BipodInstalled = false
 
 SWEP.ReloadSpeed = 1.15
 SWEP.ReloadTime = 1.8
-SWEP.ReloadHalt = 3.3
+SWEP.ReloadHalt = 3.4
 SWEP.ReloadTime_Empty = 2.1
-SWEP.ReloadHalt_Empty = 4.25
+SWEP.ReloadHalt_Empty = 4.2
 SWEP.SnapToIdlePostReload = false
 
 function SWEP:IndividualThink()
