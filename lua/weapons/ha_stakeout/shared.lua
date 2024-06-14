@@ -176,7 +176,7 @@ SWEP.ReloadStartTime = 0.65
 SWEP.ReloadStartTime_Empty = 2.3
 SWEP.ReloadFinishTime = 0.8
 SWEP.InsertShellTime = 1
-SWEP.ReloadFinishWait = 1.1
+SWEP.ReloadFinishWait = 0.8
 
 function SWEP:fireAnimFunc()
 	clip = self:Clip1()
