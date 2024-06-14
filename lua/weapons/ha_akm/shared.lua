@@ -31,8 +31,11 @@ if CLIENT then
 	SWEP.ForeGripOffsetCycle_Reload = 1
 	SWEP.ForeGripOffsetCycle_Reload_Empty = 1
 	
-	SWEP.IronsightPos = Vector(-3.27, -5, 0.66)
+	SWEP.IronsightPos = Vector(-3.27, -5, 0.68)
 	SWEP.IronsightAng = Vector(0.16, 0, 0)
+	
+	SWEP.KrinkPos = Vector(-3.26, -5, 0.88)
+	SWEP.KrinkAng = Vector(-0.73, 0, 0)
 	
 	SWEP.KobraPos = Vector(-3.265, -5, -0.6)
 	SWEP.KobraAng = Vector(1, 0, 0)
@@ -60,7 +63,7 @@ if CLIENT then
 	SWEP.DisableSprintViewSimulation = false
 	
 	SWEP.OverallMouseSens = .85
-	SWEP.CustomizationMenuScale = 0.015
+	SWEP.CustomizationMenuScale = 0.013
 	
 	SWEP.AttachmentModelsVM = {
 	
@@ -69,11 +72,18 @@ if CLIENT then
 	["md_kobra"] = {type = "Model", model = "models/cw2/attachments/kobra.mdl", pos = Vector(0.45, 0.9, 1.6), angle = Angle(0, -180, 90), size = Vector(0.9, 0.9, 0.9), bone = "akm_root"},
 	
 	}
+	
+	SWEP.AttachmentPosDependency = {
+		["md_pbs1"] = {["ha_akm_shortbar"] = Vector(-0.25, -1.1, 20.5)}
+			
+	}
 
 end
 
 SWEP.MagBGs = {main = 1, regular = 0, ext = 1}
 SWEP.DongBGs = {main = 2, regular = 0, dong = 1}
+SWEP.BarrelBGs = {main = 3, regular = 0, light = 1, heavy = 2}
+SWEP.StockBGs = {main = 4, regular = 0, light = 1, heavy = 2}
 --SWEP.RailBGs = {main = 3, regular = 0, rail = 1}
 
 SWEP.MuzzleVelocity = 820
@@ -85,11 +95,13 @@ SWEP.CanRestOnObjects = true
 
 SWEP.Attachments = {
 
-	[1] = {header = "Muzzle", offset = {-450, -150}, atts = {"md_pbs1"}},
-	[2] = {header = "Sight", offset = {1200, -550}, atts = {"md_kobra", "md_pso1"}},
-	[3] = {header = "Magazine", offset = {100, 475}, atts = {"ha_akm_extmag"}},
-	[4] = {header = "Foregrip", offset = {250, -450}, atts = {"ha_akm_foregrip"}},
-	["+reload"] = {header = "Ammo", offset = {900, 475}, atts = {"am_magnum", "am_matchgrade"}}
+	[1] = {header = "Muzzle", offset = {-750, 50}, atts = {"md_pbs1"}},
+	[2] = {header = "Barrel", offset = {-350, -550}, atts = {"ha_akm_shortbar"}},
+	[3] = {header = "Sight", offset = {1100, -726}, atts = {"md_kobra", "md_pso1"}},
+	[4] = {header = "Magazine", offset = {100, 675}, atts = {"ha_akm_extmag"}},
+	[5] = {header = "Foregrip", offset = {350, -750}, atts = {"ha_akm_foregrip"}},
+	[6] = {header = "Stock", offset = {1950, -350}, atts = {"ha_akm_foldstock"}},
+	["+reload"] = {header = "Ammo", offset = {1000, 675}, atts = {"am_magnum", "am_matchgrade"}}
 
 }
 

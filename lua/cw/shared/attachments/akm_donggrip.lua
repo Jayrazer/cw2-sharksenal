@@ -3,6 +3,7 @@ att.name = "ha_akm_foregrip"
 att.displayName = "Foregrip"
 att.displayNameShort = "FORE"
 att.isBG = true
+att.SpeedDec = 1
 
 att.statModifiers = {
 

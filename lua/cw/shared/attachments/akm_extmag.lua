@@ -3,6 +3,7 @@ att.name = "ha_akm_extmag"
 att.displayName = "Extended Magazine"
 att.displayNameShort = "EXTMAG"
 att.isBG = true
+att.SpeedDec = 2
 
 att.statModifiers = {
 ReloadSpeedMult = -0.15,
