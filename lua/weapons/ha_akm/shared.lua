@@ -103,7 +103,7 @@ SWEP.Attachments = {
 	[3] = {header = "Sight", offset = {1100, -726}, atts = {"md_kobra", "md_pso1"}},
 	[4] = {header = "Magazine", offset = {100, 675}, atts = {"ha_akm_extmag"}},
 	[5] = {header = "Foregrip", offset = {350, -750}, atts = {"ha_akm_foregrip"}},
-	[6] = {header = "Stock", offset = {1950, -350}, atts = {"ha_akm_rpkstock", "ha_akm_foldstock", "ha_akm_nostock"}},
+	["+attack2"] = {header = "Stock", offset = {1950, -350}, atts = {"ha_akm_rpkstock", "ha_akm_foldstock", "ha_akm_nostock"}},
 	["+reload"] = {header = "Ammo", offset = {1000, 675}, atts = {"am_magnum", "am_matchgrade"}}
 
 }
