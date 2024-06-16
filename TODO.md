@@ -5,28 +5,25 @@
 - P90
 - Ak 5
 - Model C
-- Ruger 10/22
 - FR F2
-- Ithaca
 - Ameli
 
 
 ## Optic Attachments
-- Trijicon MRO
-- CompM4
-- EoTech
-- Kobra
-- OKP-7
-- Short Dot
-- ACOG
-- PSO-1
-- Sniper Scope
+- Trijicon MRO (model & lua)
+- CompM4 (model)
+- EoTech (model)
+- Kobra (model)
+- OKP-7 (model & lua)
+- Short Dot (model & lua)
+- ACOG (model)
+- PSO-1 (model)
+- Sniper Scope (model & lua)
 
 ## Muzzle Attachments
-- Pistol/SMG Suppressor
-- Rifle Suppressor
 - Shotgun Suppressor
 
 ## Other
-- Unique foregrip model
-- Match, AP and +P rounds
+- Unique foregrip models
+- Uniqe Match, AP and +P rounds
+- Other unique ammo attachments

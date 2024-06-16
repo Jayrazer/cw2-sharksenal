@@ -22,7 +22,6 @@ A pack of quality weapons for CW2, featuring original animations and c_hands.
 - Bofors Ak 5c 
 - CETME Model C 
 - AKM 
-- Ruger 10/22 Carbine
 - MAS FR F2
 
 ## Shotguns:
