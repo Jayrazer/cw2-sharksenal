@@ -1,5 +1,21 @@
-
 SWEP.Sounds = {
+
+	fire_1 = {
+		{time = 0, sound = "MP5_MAGREL"}
+	},
+	
+	fire_2 = {
+		{time = 0, sound = "MP5_MAGREL"}
+	},
+	
+	fire_3 = {
+		{time = 0, sound = "MP5_MAGREL"}
+	},
+	
+	fire_aim = {
+		{time = 0, sound = "MP5_MAGREL"}
+	},
+
 	draw = {
 		{time = 0/31, sound = "CW_FOLEY_MEDIUM"},
 	},
@@ -9,6 +25,7 @@ SWEP.Sounds = {
 	{time = 0.2, sound = "MP5_MAGREL"},
 	{time = 0.5, sound = "MP5_MAGOUT"},
 	{time = 1.2, sound = "CW_FOLEY_MEDIUM"},
+	{time = 1.87, sound = "MP5_MAGREL"},
 	{time = 1.98, sound = "MP5_MAGIN"},
 	{time = 2.4, sound = "MP5_MAGTAP"},
 	{time = 2.9, sound = "CW_FOLEY_MEDIUM"},
