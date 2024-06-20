@@ -97,7 +97,7 @@ SWEP.CanRestOnObjects = true
 
 SWEP.Attachments = {
 
-	[4] = {header = "Stock", offset = {1650, -150}, atts = {"ha_mp5_foldstock"}},
+	["+attack2"] = {header = "Stock", offset = {1650, -150}, atts = {"ha_mp5_foldstock"}},
 	--[4] = {header = "Magazine", offset = {650, 550}, atts = {"ha_akm_extmag"}},
 	[3] = {header = "Foregrip", offset = {-150, 300}, atts = {"md_foregrip"}},
 	[2] = {header = "Sight", offset = {700, -750}, atts = {"md_aimpoint", "md_eotech", "md_acog"}},
