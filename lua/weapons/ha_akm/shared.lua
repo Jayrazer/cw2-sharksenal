@@ -43,7 +43,7 @@ if CLIENT then
 	SWEP.KobraPos = Vector(-3.265, -5, -0.6)
 	SWEP.KobraAng = Vector(1, 0, 0)
 	
-	SWEP.PSOPos = Vector(-2.79, 0.6, 0.35)
+	SWEP.PSOPos = Vector(-2.79, -0.5, 0.35)
 	SWEP.PSOAng = Vector(0, 0, 0)
 	
 	SWEP.SprintPos = Vector(4.2, -2.5, -4)

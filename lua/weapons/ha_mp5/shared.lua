@@ -188,7 +188,7 @@ SWEP.BipodInstalled = false
 
 --SWEP.RecoilToSpread = 0.25
 
-SWEP.ReloadSpeed = 1.2
+SWEP.ReloadSpeed = 1.3
 SWEP.ReloadTime = 2.2
 SWEP.ReloadHalt = 3.5
 SWEP.ReloadTime_Empty = 2.2

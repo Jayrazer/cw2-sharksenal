@@ -161,7 +161,7 @@ SWEP.SprintingEnabled = true
 
 --SWEP.RecoilToSpread = 0.25
 
-SWEP.ReloadSpeed = 0.9
+SWEP.ReloadSpeed = 1
 SWEP.ReloadTime = 1.25
 SWEP.ReloadHalt = 1.95
 SWEP.ReloadTime_Empty = 1.3
