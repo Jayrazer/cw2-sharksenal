@@ -173,10 +173,10 @@ SWEP.CrosshairParts = {left = true, right = true, upper = false, lower = true}
 SWEP.SnapToIdle = false
 SWEP.ReloadSpeed = 1.3
 SWEP.ReloadStartTime = 0.65
-SWEP.ReloadStartTime_Empty = 2.3
+SWEP.ReloadStartTime_Empty = 2.1
 SWEP.ReloadFinishTime = 0.8
 SWEP.InsertShellTime = 1
-SWEP.ReloadFinishWait = 0.8
+SWEP.ReloadFinishWait = 0.7
 
 function SWEP:fireAnimFunc()
 	clip = self:Clip1()

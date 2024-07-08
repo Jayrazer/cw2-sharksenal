@@ -24,10 +24,10 @@ SWEP.Sounds = {
 	
 	reload_start_empty = {
 		{time = 2/42, sound = "STAKEOUT_DEPLOY"},
-		{time = 37/42, sound = "STAKEOUT_INSERT1"},
-		{time = 40/42, sound = "STAKEOUT_INSERT2"},
-		{time = 62/42, sound = "STAKEOUT_BOLTBACK"},
-		{time = 75/42, sound = "STAKEOUT_BOLTFORWARD"},
+		{time = 31/42, sound = "STAKEOUT_INSERT1"},
+		{time = 34/42, sound = "STAKEOUT_INSERT2"},
+		{time = 56/42, sound = "STAKEOUT_BOLTBACK"},
+		{time = 69/42, sound = "STAKEOUT_BOLTFORWARD"},
 	},
 
 	reload_insert = {
