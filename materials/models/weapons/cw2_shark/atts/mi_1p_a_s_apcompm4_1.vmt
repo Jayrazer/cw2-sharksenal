@@ -18,7 +18,7 @@
 //	"$PhongExponent"            "15" 	//< $PhongExponent overrides $PhongExponentTexture !!!
 	"$PhongFresnelRanges"	    "[0.3 1 4]"
 	"$PhongAlbedoTint"          "1"
-	"$PhongDisableHalfLambert"  "1"
+	"$PhongDisableHalfLambert"  "0"
 	"$NormalmapAlphaPhongMask"  "1"
 
 //Rimlight
