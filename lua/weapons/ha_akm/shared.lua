@@ -148,7 +148,7 @@ SWEP.Purpose		= ""
 SWEP.Instructions	= ""
 SWEP.NearWallEnabled = false
 
-SWEP.ViewModelFOV	= 64
+SWEP.ViewModelFOV	= 62
 SWEP.AimViewModelFOV = 62
 SWEP.ViewModelFlip	= false
 SWEP.ViewModel		= "models/weapons/cw2_shark/v_akm.mdl"
