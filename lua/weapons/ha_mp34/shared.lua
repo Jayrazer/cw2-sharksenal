@@ -57,15 +57,13 @@ if CLIENT then
 	SWEP.DisableSprintViewSimulation = false
 	
 	SWEP.OverallMouseSens = .85
-	SWEP.CustomizationMenuScale = 0.024
+	SWEP.CustomizationMenuScale = 0.018
 	
-	--SWEP.AttachmentModelsVM = {
+	SWEP.AttachmentModelsVM = {
 	
-	--["md_pbs1"] = {model = "models/cw2/attachments/pbs1.mdl", pos = Vector(-0.25, -1.1, 28.7), angle = Angle(0, -180, 90), size = Vector(1.1, 1.1, 1.1), bone = "akm_root"},
-	--["md_pso1"] = {model = "models/cw2/attachments/pso.mdl", pos = Vector(0.1, -0.2, -5.2), angle = Angle(0, -176, 90), size = Vector(1, 1, 1), bone = "akm_root"},
-	--["md_kobra"] = {type = "Model", model = "models/cw2/attachments/kobra.mdl", pos = Vector(0.45, 0.9, 1.6), angle = Angle(0, -180, 90), size = Vector(0.9, 0.9, 0.9), bone = "akm_root"},
+	["md_tundra9mm"] = {model = "models/cw2/attachments/9mmsuppressor.mdl", pos = Vector(0, -0.35, 24.7), angle = Angle(0, -180, 90), size = Vector(1.1, 1.1, 1.1), bone = "mp34_root"},
 	
-	--}
+	}
 
 end
 
@@ -80,7 +78,7 @@ SWEP.CanRestOnObjects = true
 
 SWEP.Attachments = {
 
-	--[1] = {header = "Muzzle", offset = {-250, -250}, atts = {"md_pbs1"}},
+	[1] = {header = "Muzzle", offset = {-100, -600}, atts = {"md_tundra9mm"}},
 	--[1] = {header = "Magazine", offset = {550, -350}, atts = {"ha_mp34_extmag"}},
 	["+reload"] = {header = "Ammo", offset = {700, -300}, atts = {"am_magnum", "am_matchgrade"}}
 
@@ -137,7 +135,7 @@ SWEP.Primary.Ammo			= "9x23mm Steyr"
 SWEP.FireMoveMod = 0
 SWEP.FireDelay = 60/600
 SWEP.FireSound = "MP34_FIRE"
-SWEP.FireSoundSuppressed = "AKM_FIRE_SUPP"
+SWEP.FireSoundSuppressed = "MP5_FIRE_SUPP"
 SWEP.Recoil = 0.9
 SWEP.FOVPerShot = .45
 
