@@ -42,7 +42,7 @@ SWEP.Sounds = {
 	{time = 1.95, sound = "MP5_MAGREL"},
 	{time = 2.1, sound = "MP5_MAGIN"},
 	{time = 2.16, sound = "MP5_MAGTAP"},
-	{time = 3, sound = "MP5_SLAP"},
+	{time = 2.98, sound = "MP5_SLAP"},
 	
 	},
 }
