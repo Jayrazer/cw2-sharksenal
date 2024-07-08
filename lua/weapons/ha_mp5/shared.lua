@@ -41,9 +41,6 @@ if CLIENT then
 	SWEP.AimpointPos = Vector(-3.44, -1, -0.41)
 	SWEP.AimpointAng = Vector(-0.05, -0.42, 0)	
 	
-	SWEP.MROPos = Vector(-3.44, 1, -0.41)
-	SWEP.MROAng = Vector(-0.05, -0.42, 0)
-	
 	SWEP.ACOGPos = Vector(-3.45, -6.25, -0.3)
 	SWEP.ACOGAng = Vector(-0.1, -0.42, 0)
 	
@@ -74,16 +71,15 @@ if CLIENT then
 		["md_foregrip"] = {model = "models/wystan/attachments/foregrip1.mdl", pos = Vector(0.5, 0, 23.2), angle = Angle(0, -180, 90), size = Vector(0.85, 0.85, 0.85), bone = "mp5_root"},
 		["md_eotech"] = { type = "Model", model = "models/wystan/attachments/2otech557sight.mdl", bone = "mp5_root", rel = "", pos = Vector(0.4, 11.3, -13.65), angle = Angle(90, 0, -90), size = Vector(1.5, 1.5, 1.5), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {} },
 		["md_aimpoint"] = { type = "Model", model = "models/weapons/cw2_shark/attachments/insscompm4.mdl", bone = "mp5_root", rel = "", pos = Vector(0.05, 6.5, 3), angle = Angle(90, -90, 0), size = Vector(1, 1, 1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {} },
-		["ha_mro"] = { type = "Model", model = "models/weapons/cw2_shark/attachments/inssmro.mdl", bone = "mp5_root", rel = "", pos = Vector(0.05, 6.5, 3), angle = Angle(90, -90, 0), size = Vector(1, 1, 1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {} },
-		["md_acog"] = { type = "Model", model = "models/wystan/attachments/2cog.mdl", bone = "mp5_root", rel = "", pos = Vector(-0.4, 1.8, -4.25), angle = Angle(0, 0, -90), size = Vector(1.2, 1.2, 1.2), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {} },
+		["ha_acogta31"] = { type = "Model", model = "models/weapons/cw2_shark/attachments/inssta31.mdl", bone = "mp5_root", rel = "", pos = Vector(0.05, 6.5, 3.4), angle = Angle(90, -90, 0), size = Vector(1, 1, 1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {} },
 		["md_tundra9mm"] = {model = "models/cw2/attachments/9mmsuppressor.mdl", pos = Vector(0.03, -1.92, 18.8), angle = Angle(0, -180, 90), size = Vector(0.9, 0.9, 0.9), bone = "mp5_root"},
 	
 	}
 	
-	SWEP.BackupSights = {
+	--SWEP.BackupSights = {
 	
-		["md_acog"] = {Vector(-3.5, -2, -1.75), Vector(0, -0.429, 0)},
-	}
+		--["md_acog"] = {Vector(-3.5, -2, -1.75), Vector(0, -0.429, 0)},
+	--}
 	
 end
 
@@ -104,7 +100,7 @@ SWEP.Attachments = {
 	["+attack2"] = {header = "Stock", offset = {1650, -150}, atts = {"ha_mp5_foldstock"}},
 	--[4] = {header = "Magazine", offset = {650, 550}, atts = {"ha_akm_extmag"}},
 	[3] = {header = "Foregrip", offset = {-150, 300}, atts = {"md_foregrip"}},
-	[2] = {header = "Sight", offset = {700, -750}, atts = {"md_aimpoint", "md_eotech", "md_acog"}},
+	[2] = {header = "Sight", offset = {700, -750}, atts = {"md_aimpoint", "md_eotech", "ha_acogta31"}},
 	[1] = {header = "Muzzle", offset = {-100, -600}, atts = {"md_tundra9mm"}},
 	["+reload"] = {header = "Ammo", offset = {-550, -100}, atts = {"am_magnum", "am_matchgrade"}}
 
