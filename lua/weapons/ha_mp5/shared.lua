@@ -72,7 +72,7 @@ if CLIENT then
 		["md_eotech"] = { type = "Model", model = "models/wystan/attachments/2otech557sight.mdl", bone = "mp5_root", rel = "", pos = Vector(0.4, 11.3, -13.65), angle = Angle(90, 0, -90), size = Vector(1.5, 1.5, 1.5), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {} },
 		["md_aimpoint"] = { type = "Model", model = "models/wystan/attachments/aimpoint.mdl", bone = "mp5_root", rel = "", pos = Vector(-0.25, 1.2, -4.25), angle = Angle(0, 0, -90), size = Vector(1.1, 1.1, 1.1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {} },
 		["md_acog"] = { type = "Model", model = "models/wystan/attachments/2cog.mdl", bone = "mp5_root", rel = "", pos = Vector(-0.4, 1.8, -4.25), angle = Angle(0, 0, -90), size = Vector(1.2, 1.2, 1.2), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {} },
-		["md_tundra9mm"] = {model = "models/cw2/attachments/9mmsuppressor.mdl", pos = Vector(0.03, -1.92, 19), angle = Angle(0, -180, 90), size = Vector(0.9, 0.9, 0.9), bone = "mp5_root"},
+		["md_tundra9mm"] = {model = "models/cw2/attachments/9mmsuppressor.mdl", pos = Vector(0.03, -1.92, 18.8), angle = Angle(0, -180, 90), size = Vector(0.9, 0.9, 0.9), bone = "mp5_root"},
 	
 	}
 	
