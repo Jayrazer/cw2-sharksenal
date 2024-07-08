@@ -38,7 +38,7 @@ if CLIENT then
 	SWEP.EoTechPos = Vector(-3.5, -1, -0.15)
 	SWEP.EoTechAng = Vector(-0.1, -0.42, 0)
 	
-	SWEP.AimpointPos = Vector(-3.48, -1, 0.09)
+	SWEP.AimpointPos = Vector(-3.44, -1, -0.41)
 	SWEP.AimpointAng = Vector(-0.05, -0.42, 0)
 	
 	SWEP.ACOGPos = Vector(-3.45, -6.25, -0.3)
@@ -70,7 +70,7 @@ if CLIENT then
 	
 		["md_foregrip"] = {model = "models/wystan/attachments/foregrip1.mdl", pos = Vector(0.5, 0, 23.2), angle = Angle(0, -180, 90), size = Vector(0.85, 0.85, 0.85), bone = "mp5_root"},
 		["md_eotech"] = { type = "Model", model = "models/wystan/attachments/2otech557sight.mdl", bone = "mp5_root", rel = "", pos = Vector(0.4, 11.3, -13.65), angle = Angle(90, 0, -90), size = Vector(1.5, 1.5, 1.5), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {} },
-		["md_aimpoint"] = { type = "Model", model = "models/wystan/attachments/aimpoint.mdl", bone = "mp5_root", rel = "", pos = Vector(-0.25, 1.2, -4.25), angle = Angle(0, 0, -90), size = Vector(1.1, 1.1, 1.1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {} },
+		["md_aimpoint"] = { type = "Model", model = "models/weapons/cw2_shark/attachments/insscompm4.mdl", bone = "mp5_root", rel = "", pos = Vector(0.05, 6.5, 3), angle = Angle(90, -90, 0), size = Vector(1, 1, 1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {} },
 		["md_acog"] = { type = "Model", model = "models/wystan/attachments/2cog.mdl", bone = "mp5_root", rel = "", pos = Vector(-0.4, 1.8, -4.25), angle = Angle(0, 0, -90), size = Vector(1.2, 1.2, 1.2), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {} },
 		["md_tundra9mm"] = {model = "models/cw2/attachments/9mmsuppressor.mdl", pos = Vector(0.03, -1.92, 18.8), angle = Angle(0, -180, 90), size = Vector(0.9, 0.9, 0.9), bone = "mp5_root"},
 	
