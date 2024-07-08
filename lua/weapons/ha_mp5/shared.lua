@@ -107,10 +107,11 @@ SWEP.Attachments = {
 }
 
 SWEP.ForeGripHoldPos = {
-	["ValveBiped.Bip01_L_Finger41"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(30, -39.112, 0) },
+	["ValveBiped.Bip01_L_Finger41"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(15, -40.112, 0) },
 	["ValveBiped.Bip01_L_Finger21"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(0, -32.223, 0) },
 	["ValveBiped.Bip01_L_Finger11"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(0, -34.445, 0) },
-	["ValveBiped.Bip01_L_Clavicle"] = { scale = Vector(1, 1, 1), pos = Vector(-0.4, 2.6, 0.185), angle = Angle(-3.333, 12.222, 0) },
+	["ValveBiped.Bip01_L_Clavicle"] = { scale = Vector(1, 1, 1), pos = Vector(-0.4, 0, -2.2), angle = Angle(-0.333, 15.222, 0) },
+	["ValveBiped.Bip01_L_Forearm"] = { scale = Vector(1, 1, 1), pos = Vector(0.2, 0, 0), angle = Angle(-10, 2.5, 2) },
 	["ValveBiped.Bip01_L_Finger31"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(0, -30, 0) },
 	["ValveBiped.Bip01_L_Finger22"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(0, -32.223, 0) },
 	["ValveBiped.Bip01_L_Hand"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(-25.112, 16.666, 10) },
@@ -145,7 +146,7 @@ SWEP.Purpose		= ""
 SWEP.Instructions	= ""
 SWEP.NearWallEnabled = false
 
-SWEP.ViewModelFOV	= 70
+SWEP.ViewModelFOV	= 65
 SWEP.AimViewModelFOV = 65
 SWEP.ViewModelFlip	= false
 SWEP.ViewModel		= "models/weapons/cw2_shark/v_mp5.mdl"
