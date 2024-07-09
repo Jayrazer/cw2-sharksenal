@@ -41,19 +41,9 @@ Assets by New World Interactive (Insurgency: Sandstorm)
 Originally compiled by ArachnitCZ
 Animated by speedonerd
 
-## Ruger 10/22
-Assets by 8siandude on Sketchfab
-Originally compiled by Moon
-Animations by speedonerd
-
 ## Stakeout
 Assets by Tripwire Interactive & Antimatter Games (Rising Storm 2: Vietnam)
 Originally compiled by Commzard
-Animated by Milspecy
-
-## Sjogren
-Assets by DICE (Battlefield 1)
-Originally compiled by Moon
 Animated by speedonerd
 
 ## Carl Gustaf M3
