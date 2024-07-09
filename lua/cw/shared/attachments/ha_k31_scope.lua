@@ -1,19 +1,18 @@
 local att = {}
 att.name = "k31_scope"
 att.displayName = "K31 Scope"
-att.displayNameShort = "SNIPER"
+att.displayNameShort = "K31"
 att.aimPos = {"ScopePos", "ScopeAng"}
-att.FOVModifier = 20
+att.FOVModifier = 15
 att.isSight = true
+att.SpeedDec = 2
 
-att.statModifiers = {OverallMouseSensMult = -0.2}
+att.statModifiers = {OverallMouseSensMult = -0.15}
 
 if CLIENT then
 	att.displayIcon = surface.GetTextureID("atts/k31_scope")
-	att.description = {
-	[1] = {t = "Long-range sniper optic", c = CustomizableWeaponry.textColors.POSITIVE},
-	[2] = {t = "6 - 12x magnification", c = CustomizableWeaponry.textColors.COSMETIC}
-	}
+	att.description = {[1] = {t = "Provides 6-8x magnification.", c = CustomizableWeaponry.textColors.POSITIVE},
+	[2] = {t = "Narrow scope reduces spatial awareness.", c = CustomizableWeaponry.textColors.NEGATIVE}}
 
 	local old, x, y, ang
 	local reticle = surface.GetTextureID("reticles/k31_cross")
@@ -21,17 +20,14 @@ if CLIENT then
 	att.zoomTextures = {[1] = {tex = reticle, offset = {0, 1}}}
 	
 	att.telescopicsFOVRange = {
-		12,
-		10,
-		8,
-		6
+		7.5,
+		5
 	}
 	
 	att.newTelescopicsFOV = true
 	att.simpleTelescopicsFOVRange = {
-		16,
-		10,
-		8
+		9,
+		6.7
 	}
 
 	local lens = surface.GetTextureID("cw2/gui/lense")

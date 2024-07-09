@@ -16,7 +16,7 @@ RecoilMult = 0.2
 
 if CLIENT then
 	att.displayIcon = surface.GetTextureID("atts/stakeout_barrel")
-	att.description = {[1] = {t = "Short barrel & magazine tube.", c = CustomizableWeaponry.textColors.NEUTRAL}}
+	att.description = {[1] = {t = "Short barrel & magazine tube.", c = CustomizableWeaponry.textColors.COSMETIC}}
 end
 
 function att:attachFunc()

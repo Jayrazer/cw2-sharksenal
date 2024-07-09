@@ -1,6 +1,6 @@
 local att = {}
 att.name = "ha_acogta31"
-att.displayName = "Trijicon ACOG"
+att.displayName = "TA31 ACOG"
 att.displayNameShort = "ACOG"
 att.aimPos = {"ACOGPos", "ACOGAng"}
 att.FOVModifier = 15
