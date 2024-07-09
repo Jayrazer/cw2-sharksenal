@@ -54,11 +54,17 @@ if CLIENT then
 	SWEP.ScopePos = Vector(-3.75, -6, 0.45)
 	SWEP.ScopeAng = Vector(0.4, 0, 0)
 	
-	SWEP.EoTechPos = Vector(-3.79, -13.5, -0.13)
-	SWEP.EoTechAng = Vector(0.4, 0, 0)
+	SWEP.LeupoldPos = Vector(-3.78, -5, -0.13)
+	SWEP.LeupoldAng = Vector(0.4, 0, 0)
 	
-	SWEP.ShortDotPos = Vector(-3.75, -12, -0.05)
-	SWEP.ShortDotAng = Vector(0.4, 0, 0)
+	SWEP.ACOGPos = Vector(-3.8, -10, -0.43)
+	SWEP.ACOGAng = Vector(0.4, 0, 0)
+	
+	SWEP.AimpointPos = Vector(-3.77, -5, -0.525)
+	SWEP.AimpointAng = Vector(0.4, 0, 0)
+	
+	SWEP.EoTechPos = Vector(-3.77, -7, -0.61)
+	SWEP.EoTechAng = Vector(0.4, 0, 0)
 	
 	SWEP.MoveType = 1
 	SWEP.ViewModelMovementScale = 1
@@ -70,8 +76,10 @@ if CLIENT then
 	SWEP.AttachmentModelsVM = {
 	
 	["k31_scope"] = { type = "Model", model = "models/weapons/cw2_shark/attachments/k31_scope.mdl", bone = "k31_root", rel = "", pos = Vector(0, -4.15, 6.3), angle = Angle(90, -90, 0), size = Vector(1.149, 1.149, 1.149), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {} },
-	["md_eotech"] = { type = "Model", model = "models/wystan/attachments/2otech557sight.mdl", bone = "k31_root", rel = "", pos = Vector(0.3, 8.6, -5), angle = Angle(90, 0, -90), size = Vector(1.149, 1.149, 1.149), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {} },
-	["md_schmidt_shortdot"] = { type = "Model", model = "models/cw2/attachments/schmidt.mdl", bone = "k31_root", rel = "", pos = Vector(-0.36, 2.8, 0.85), angle = Angle(90, 0, -90), size = Vector(1.149, 1.149, 1.149), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {} },
+	["ha_leupold"] = { type = "Model", model = "models/weapons/cw2_shark/attachments/inssm3a.mdl", bone = "k31_root", rel = "", pos = Vector(0, -3.6, 5), angle = Angle(90, -90, 0), size = Vector(0.95, 0.95, 0.95), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {} },
+	["ha_acogta31"] = { type = "Model", model = "models/weapons/cw2_shark/attachments/inssta31.mdl", bone = "k31_root", rel = "", pos = Vector(0, 7.85, 7.2), angle = Angle(90, 0, -90), size = Vector(1, 1, 1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {} },
+	["md_aimpoint"] = { type = "Model", model = "models/weapons/cw2_shark/attachments/insscompm4.mdl", bone = "k31_root", rel = "", pos = Vector(0, 7.85, 7.2), angle = Angle(90, 0, -90), size = Vector(1, 1, 1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {} },
+	["md_eotech"] = { type = "Model", model = "models/weapons/cw2_shark/attachments/insseotech.mdl", bone = "k31_root", rel = "", pos = Vector(0, 7.85, 7), angle = Angle(90, 0, -90), size = Vector(1, 1, 1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {} },
 	
 	}
 	
@@ -96,7 +104,7 @@ SWEP.CanRestOnObjects = true
 
 
 SWEP.Attachments = {
-	[1] = {header = "Optic", offset = {1100, -450}, atts = {"k31_scope"}},
+	[1] = {header = "Optic", offset = {1100, -450}, atts = {"md_aimpoint", "md_eotech", "ha_acogta31", "k31_scope", "ha_leupold"}},
 	--["+attack"] = {header = "Reload", offset = {-150, 150}, atts = {"k31_sgload"}},
 	["+reload"] = {header = "Ammo", offset = {150, 300}, atts = {"am_magnum", "am_matchgrade"}}
 }

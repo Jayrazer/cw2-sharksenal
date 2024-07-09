@@ -40,11 +40,20 @@ if CLIENT then
 	SWEP.RPKPos = Vector(-3.265, -5, 0.68)
 	SWEP.RPKAng = Vector(0.16, -0.1, 0)
 	
-	SWEP.KobraPos = Vector(-3.265, -5, -0.6)
+	SWEP.AimpointPos = Vector(-3.37, -2, -1.65)
+	SWEP.AimpointAng = Vector(1, 0, 0)	
+	
+	SWEP.EoTechPos = Vector(-3.37, -2, -1.75)
+	SWEP.EoTechAng = Vector(1, 0, 0)	
+	
+	SWEP.KobraPos = Vector(-3.4, -3, -1.68)
 	SWEP.KobraAng = Vector(1, 0, 0)
 	
-	SWEP.PSOPos = Vector(-2.79, -0.5, 0.35)
-	SWEP.PSOAng = Vector(0, 0, 0)
+	SWEP.PSOPos = Vector(-3, -0.5, 0.35)
+	SWEP.PSOAng = Vector(0, 0, 0)	
+	
+	SWEP.LeupoldPos = Vector(-3.38, -2.5, -1.18)
+	SWEP.LeupoldAng = Vector(0, 0, 0)
 	
 	SWEP.SprintPos = Vector(4.2, -2.5, -4)
 	SWEP.SprintAng = Vector(-8.443, 37.99, -23.216)
@@ -70,9 +79,13 @@ if CLIENT then
 	
 	SWEP.AttachmentModelsVM = {
 	
+	["md_rail"] = {model = "models/weapons/cw2_shark/attachments/v_ak_opticrail.mdl", pos = Vector(3.05, -5.5, -11), angle = Angle(90, -180, 90), size = Vector(1, 1, 1), bone = "akm_root"},
 	["md_pbs1"] = {model = "models/cw2/attachments/pbs1.mdl", pos = Vector(-0.25, -1.1, 28.7), angle = Angle(0, -180, 90), size = Vector(1.1, 1.1, 1.1), bone = "akm_root"},
-	["md_pso1"] = {model = "models/cw2/attachments/pso.mdl", pos = Vector(0.1, -0.1, -4.6), angle = Angle(0, -180, 90), size = Vector(0.95, 0.95, 0.95), bone = "akm_root"},
-	["md_kobra"] = {type = "Model", model = "models/cw2/attachments/kobra.mdl", pos = Vector(0.45, 0.9, 1.6), angle = Angle(0, -180, 90), size = Vector(0.9, 0.9, 0.9), bone = "akm_root"},
+	["md_pso1"] = {type = "Model", model = "models/weapons/cw2_shark/attachments/insspso1.mdl", pos = Vector(-0.35, 7.6, 0.3), angle = Angle(90, 0, -90), size = Vector(1, 1, 1), bone = "akm_root"},
+	["ha_leupold"] = {type = "Model", model = "models/weapons/cw2_shark/attachments/inssm3a.mdl", pos = Vector(-0.35, -5.15, 2.7), angle = Angle(90, 0, -90), size = Vector(0.95, 0.95, 0.95), bone = "akm_root"},
+	["ha_kobra"] = {type = "Model", model = "models/weapons/cw2_shark/attachments/insskobra.mdl", pos = Vector(-0.35, 6.5, 2), angle = Angle(90, 0, -90), size = Vector(1, 1, 1), bone = "akm_root"},
+	["md_aimpoint"] = { type = "Model", model = "models/weapons/cw2_shark/attachments/insscompm4.mdl", bone = "akm_root", rel = "", pos = Vector(-0.35, 6.35, 2), angle = Angle(90, 0, -90), size = Vector(1, 1, 1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {} },
+	["md_eotech"] = { type = "Model", model = "models/weapons/cw2_shark/attachments/insseotech.mdl", bone = "akm_root", rel = "", pos = Vector(-0.35, 6.35, 2), angle = Angle(90, 0, -90), size = Vector(1, 1, 1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {} },
 	
 	}
 	
@@ -87,7 +100,7 @@ SWEP.MagBGs = {main = 1, regular = 0, ext = 1}
 SWEP.DongBGs = {main = 2, regular = 0, dong = 1, heavy = 2}
 SWEP.BarrelBGs = {main = 3, regular = 0, light = 1, heavy = 2}
 SWEP.StockBGs = {main = 4, regular = 0, light = 1, heavy = 2, none = 3}
---SWEP.RailBGs = {main = 3, regular = 0, rail = 1}
+--SWEP.SightBGs = {main = 5, off = 0, none = 1}
 
 SWEP.MuzzleVelocity = 820
 
@@ -100,7 +113,7 @@ SWEP.Attachments = {
 
 	[1] = {header = "Muzzle", offset = {-750, 50}, atts = {"md_pbs1"}},
 	[2] = {header = "Barrel", offset = {-350, -550}, atts = {"ha_akm_rpkbar", "ha_akm_shortbar"}},
-	[3] = {header = "Sight", offset = {1100, -726}, atts = {"md_kobra", "md_pso1"}},
+	[3] = {header = "Sight", offset = {1100, -726}, atts = {"ha_kobra", "md_eotech", "md_aimpoint", "md_pso1", "ha_leupold"}},
 	[4] = {header = "Magazine", offset = {100, 675}, atts = {"ha_akm_extmag"}},
 	[5] = {header = "Foregrip", offset = {350, -750}, atts = {"ha_akm_foregrip"}},
 	["+attack2"] = {header = "Stock", offset = {1950, -350}, atts = {"ha_akm_rpkstock", "ha_akm_foldstock", "ha_akm_nostock"}},
