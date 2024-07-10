@@ -15,7 +15,7 @@ SWEP.Sounds = {
 	reload = {
 		{time = 0.2, sound = "WILDEY_MAGRELEASE"},
 		{time = 0.4, sound = "WILDEY_MAGOUT"},
-		{time = 1.55, sound = "WILDEY_MAGIN"},
+		{time = 1.6, sound = "WILDEY_MAGIN"},
 	},
 
 	reload_empty = {

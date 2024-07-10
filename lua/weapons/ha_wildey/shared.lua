@@ -155,7 +155,7 @@ SWEP.SprintingEnabled = true
 
 SWEP.ReloadSpeed = 1.1
 SWEP.ReloadTime = 1.85
-SWEP.ReloadHalt = 2.4
+SWEP.ReloadHalt = 2.35
 SWEP.ReloadTime_Empty = 1.85
 SWEP.ReloadHalt_Empty = 2.65
 
