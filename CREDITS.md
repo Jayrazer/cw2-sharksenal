@@ -1,10 +1,5 @@
 # Credits
 
-## Crowbar
-Assets by Infinity Ward (Modern Warfare 2019)
-Originally compiled by Jade
-Animated by speedonerd
-
 ## CZ 75 SP-01
 Assets by DICE (Battlefield 4)
 Originally compiled by Farengar

@@ -10,12 +10,7 @@
 
 
 ## Optic Attachments
-- EoTech (model)
-- Kobra (model)
-- OKP-7 (model & lua)
 - Short Dot (model & lua)
-- PSO-1 (model)
-- Sniper Scope (model & lua)
 
 ## Muzzle Attachments
 - Shotgun Suppressor
